@@ -1,0 +1,1001 @@
+Nombre,Barcode,Categoria,FechaVencimiento,Marca,Precio,Stock
+Aceite Vegetal 1L,1000001,Abarrotes,2026-08-05,1-2-3,35.50,100
+Arroz Blanco 1kg,1000002,Granos,2027-01-20,Verde Valle,22.10,200
+Atun en Agua 140g,1000003,Enlatados,2028-05-15,Dolores,18.50,500
+Azucar Blanca 1kg,1000004,Abarrotes,2027-03-10,Zulka,28.00,150
+Cafe Soluble 200g,1000005,Bebidas,2027-11-20,Nescafe,105.00,80
+Cereal de Maiz,1000006,Desayuno,2026-12-01,Kelloggs,45.90,60
+Detergente Polvo 1kg,1000007,Limpieza,2029-01-01,Ace,32.50,120
+Frijol Negro 1kg,1000008,Granos,2026-10-15,Isadora,34.00,300
+Galletas Maria 170g,1000009,Galletas,2026-06-30,Gamesa,15.50,400
+Leche Entera 1L,1000010,Lacteos,2026-05-12,Lala,26.00,250
+Pan de Caja Large,1000011,Panaderia,2026-04-05,Bimbo,42.00,90
+Papel Higienico 4pzs,1000012,Limpieza,2030-01-01,Regio,25.00,600
+Pasta Spaguetti 200g,1000013,Pastas,2027-08-20,Barilla,12.50,180
+Refresco Cola 600ml,1000014,Bebidas,2026-10-10,Coca-Cola,17.00,1000
+Shampoo Anticaspa,1000015,Cuidado Personal,2027-02-28,Head & Shoulders,65.00,75
+Yogurt Bebible,1000016,Lacteos,2026-04-20,Danone,14.50,120
+Jabon de Barra,1000017,Cuidado Personal,2028-12-31,Zest,11.00,300
+Lentejas 500g,1000018,Granos,2027-05-05,Verde Valle,19.00,140
+Mayonesa 400g,1000019,Abarrotes,2026-09-15,McCormick,48.00,85
+Mermelada Fresa,1000020,Abarrotes,2027-01-01,McCormick,36.50,70
+Harina de Trigo,1000021,Harinas,2026-12-15,Maseca,14.00,220
+Sal de Mesa 500g,1000022,Abarrotes,2030-01-01,Fina,8.50,400
+Ketchup 380g,1000023,Salsas,2026-11-20,Heinz,24.00,95
+Mostaza 200g,1000024,Salsas,2026-10-05,McCormick,18.50,60
+Sardinas en Tomate,1000025,Enlatados,2028-04-12,Pescador,29.00,45
+Chocolate en Barra,1000026,Dulces,2026-09-30,Hershey,12.00,300
+Gomitas de Fruta,1000027,Dulces,2026-07-20,Panditas,10.00,150
+Papas Fritas 100g,1000028,Snacks,2026-03-15,Sabritas,16.00,80
+Nachos de Maiz,1000029,Snacks,2026-04-10,Doritos,17.50,110
+Cacahuates Salados,1000030,Snacks,2026-05-25,Mafer,14.00,130
+Helado Vainilla 1L,1000031,Congelados,2026-02-15,Holanda,55.00,40
+Pizza Congelada,1000032,Congelados,2026-03-20,Fud,85.00,25
+Verduras Mixtas,1000033,Congelados,2026-06-10,La Huerta,22.00,60
+Servilletas 100pzs,1000034,Limpieza,2029-12-31,Pétalo,19.00,180
+Suavizante Telas,1000035,Limpieza,2027-10-10,Downy,48.00,70
+Limpiador Multiusos,1000036,Limpieza,2028-05-05,Fabuloso,22.50,110
+Cloro 1L,1000037,Limpieza,2027-12-01,Cloralex,15.00,200
+Pasta de Dientes,1000038,Cuidado Personal,2027-04-15,Colgate,32.00,140
+Desodorante Spray,1000039,Cuidado Personal,2028-01-20,Rexona,55.00,90
+Jabon Liquido Manos,1000040,Cuidado Personal,2027-09-30,Dial,28.00,120
+Crema Corporal,1000041,Cuidado Personal,2027-11-15,Nivea,75.00,55
+Mantequilla 90g,1000042,Lacteos,2026-03-25,Primavera,16.00,80
+Huevo Blanco 12pzs,1000043,Lacteos,2026-04-02,San Juan,38.00,150
+Queso Panela 400g,1000044,Lacteos,2026-04-10,Nochebuena,65.00,40
+Salchicha de Pavo,1000045,Embutidos,2026-03-28,Fud,32.00,100
+Jamon de Pierna,1000046,Embutidos,2026-04-05,Zwan,45.00,70
+Tostadas de Maiz,1000047,Abarrotes,2026-08-30,Milpa Real,28.00,120
+Canela Molida,1000048,Especias,2028-01-01,McCormick,12.00,50
+Pimienta Negra,1000049,Especias,2028-05-20,McCormick,15.00,45
+Vinagre Blanco,1000050,Abarrotes,2029-01-01,Clemente Jacques,11.50,100
+Avena en Hojuelas,1000051,Desayuno,2027-02-10,Quaker,24.50,180
+Granola con Miel,1000052,Desayuno,2026-11-05,Kelloggs,42.00,90
+Barra de Multicereal,1000053,Snacks,2026-09-15,Stila,8.50,300
+Té Verde 20 pzs,1000054,Bebidas,2027-12-20,Lipton,19.00,120
+Té de Manzanilla,1000055,Bebidas,2027-10-10,McCormick,15.50,150
+Café de Grano 1kg,1000056,Bebidas,2027-04-05,Starbucks,280.00,30
+Sustituto de Crema,1000057,Bebidas,2027-01-30,CofeeMate,45.00,100
+Chocolate en Polvo,1000058,Bebidas,2027-08-12,Chocomilk,38.00,140
+Leche de Almendra,1000059,Lacteos,2026-06-20,Silk,48.00,60
+Leche de Soya,1000060,Lacteos,2026-05-15,Ades,32.00,85
+Yogurt Griego Nat,1000061,Lacteos,2026-04-18,Chobani,22.00,45
+Gelatina de Fresa,1000062,Dulces,2027-03-10,Jell-O,10.50,200
+Flan Instantaneo,1000063,Dulces,2027-05-25,Pronto,12.00,110
+Jarabe de Chocolate,1000064,Dulces,2026-12-31,Hershey,55.00,50
+Miel de Abeja,1000065,Abarrotes,2028-01-01,Carlota,85.00,40
+Miel de Maple,1000066,Abarrotes,2027-09-15,AuntJemima,62.00,35
+Harina para Hotcakes,1000067,Harinas,2027-02-20,Gamesa,34.00,120
+Pan Molido 250g,1000068,Panaderia,2026-10-10,Bimbo,18.00,160
+Pan Tostado Doble,1000069,Panaderia,2026-11-25,Bimbo,32.00,95
+Tortillas de Harina,1000070,Abarrotes,2026-04-30,TiaRosa,22.50,140
+Tostadas Horneadas,1000071,Abarrotes,2026-08-20,Salmas,28.00,200
+Palomitas Naturales,1000072,Snacks,2027-01-15,ACTII,12.50,300
+Papas Onduladas,1000073,Snacks,2026-05-10,Ruffles,18.00,120
+Chicharrón de Cerdo,1000074,Snacks,2026-06-05,Sabritas,22.00,80
+Salsa Picante 370ml,1000075,Salsas,2028-04-12,Valentina,15.50,400
+Salsa Verde Casera,1000076,Salsas,2026-07-20,Herdez,24.00,90
+Chiles en Vinagre,1000077,Enlatados,2028-10-30,LaCosteña,19.50,150
+Elote en Grano,1000078,Enlatados,2028-02-15,Herdez,16.50,220
+Champiñones Trozo,1000079,Enlatados,2027-11-01,Monteblanco,25.00,110
+Aceitunas Rellenas,1000080,Abarrotes,2027-05-10,Bufalo,38.00,60
+Alimento para Perro,1000081,Mascotas,2026-12-15,Pedigree,145.00,40
+Alimento para Gato,1000082,Mascotas,2026-11-20,Whiskas,132.00,35
+Arena para Gato,1000083,Mascotas,2029-01-01,ScoopFree,180.00,20
+Shampoo de Bebé,1000084,Cuidado Personal,2027-06-30,Johnson,55.00,70
+Jabón de Tocador,1000085,Cuidado Personal,2028-03-15,Dove,18.50,250
+Cepillo de Dientes,1000086,Cuidado Personal,2030-01-01,Oral-B,45.00,100
+Enjuague Bucal,1000087,Cuidado Personal,2027-09-10,Listerine,85.00,65
+Hilo Dental 50m,1000088,Cuidado Personal,2030-12-31,Colgate,32.00,150
+Crema de Afeitar,1000089,Cuidado Personal,2027-02-25,Gillette,62.00,50
+Rastrillos 4 pzs,1000090,Cuidado Personal,2030-05-20,Gillette,95.00,80
+Toallas Femeninas,1000091,Cuidado Personal,2028-11-15,Saba,48.00,120
+Protectores Diarios,1000092,Cuidado Personal,2028-10-10,Kotex,35.00,140
+Pañales Etapa 3,1000093,Cuidado Personal,2027-08-30,Huggies,240.00,25
+Toallitas Húmedas,1000094,Cuidado Personal,2026-06-25,Pampers,45.00,90
+Bloqueador Solar,1000095,Cuidado Personal,2026-03-15,HawaiianTropic,195.00,30
+Repelente Insectos,1000096,Cuidado Personal,2027-04-10,Off!,82.00,45
+Detergente Líquido,1000097,Limpieza,2028-01-20,Persil,165.00,40
+Lavatrastes Líquido,1000098,Limpieza,2027-12-31,Salvo,32.50,110
+Esponja de Fibra,1000099,Limpieza,2030-01-01,ScotchBrite,14.00,200
+Limpiador de Vidrios,1000100,Limpieza,2028-05-15,Windex,38.00,85
+Desinfectante Spray,1000101,Limpieza,2027-10-25,Lysol,92.00,60
+Pastilla Inodoro,1000102,Limpieza,2029-06-30,Harpic,22.00,140
+Insecticida Casa,1000103,Limpieza,2027-03-18,Raid,68.00,75
+Bolsas para Basura,1000104,Limpieza,2030-01-01,Glad,42.00,120
+Papel Aluminio,1000105,Hogar,2030-12-31,Reynolds,35.00,110
+Película Plástica,1000106,Hogar,2029-11-20,Glad,28.50,90
+Servitoallas 2 pzs,1000107,Limpieza,2030-01-01,Regio,45.00,130
+Pilas Alcalinas AA,1000108,Electronica,2031-12-31,Duracell,120.00,50
+Pilas Alcalinas AAA,1000109,Electronica,2031-10-20,Energizer,120.00,50
+Foco LED 10W,1000110,Hogar,2028-05-05,Philips,45.00,100
+Extension Electrica,1000111,Hogar,2035-01-01,Volteck,85.00,30
+Cinta Adhesiva,1000112,Hogar,2030-12-31,Scotch,22.00,150
+Pegamento Blanco,1000113,Hogar,2028-09-15,Resistol,25.00,80
+Cuaderno Profesional,1000114,Papeleria,2035-01-01,Scribe,32.00,200
+Pluma Tinta Negra,1000115,Papeleria,2030-01-01,Bic,8.50,500
+Lápiz del No. 2,1000116,Papeleria,2035-01-01,Dixon,6.00,400
+Borrador Blanco,1000117,Papeleria,2035-01-01,Pelikan,10.00,150
+Sacapuntas Metal,1000118,Papeleria,2035-01-01,Maped,12.00,100
+Marcador Permanente,1000119,Papeleria,2028-12-31,Sharpie,25.00,120
+Resaltador Amarillo,1000120,Papeleria,2028-10-10,Berol,18.00,90
+Pasta Penne 500g,1000121,Pastas,2027-05-20,LaModerna,14.50,180
+Puré de Tomate,1000122,Abarrotes,2026-11-30,DelFuerte,9.00,250
+Caldo de Pollo pzs,1000123,Abarrotes,2027-08-15,Knorr,15.00,300
+Aceitunas con Pimi,1000124,Abarrotes,2027-04-20,Carbonell,42.00,55
+Vinagre de Manzana,1000125,Abarrotes,2028-12-01,Barrilito,22.50,80
+Salsa Soya 150ml,1000126,Salsas,2027-09-30,Kikkoman,45.00,60
+Salsa Inglesa,1000127,Salsas,2027-10-10,Crosse,38.00,50
+Jugo de Limón,1000128,Bebidas,2026-08-25,Peñafiel,18.00,120
+Bebida Energética,1000129,Bebidas,2026-12-01,RedBull,45.00,200
+Suero Hidratante,1000130,Bebidas,2026-11-15,Electrolit,28.50,180
+Refresco de Lima,1000131,Bebidas,2026-05-20,Sprite,17.00,300
+Agua Purificada 5L,1000132,Bebidas,2026-10-10,Ciel,32.00,90
+Jugo de Manzana,1000133,Bebidas,2026-09-05,DelValle,22.00,140
+Néctar de Durazno,1000134,Bebidas,2026-08-18,Jumex,12.50,200
+Cerveza Clara 6pzs,1000135,Bebidas,2026-07-20,Corona,95.00,100
+Cerveza Obscura,1000136,Bebidas,2026-06-30,Victoria,98.00,100
+Vino Tinto 750ml,1000137,Bebidas,2030-01-01,ConchaYtoro,180.00,20
+Tequila Reposado,1000138,Bebidas,2035-01-01,JoseCuervo,350.00,15
+Mezcal Joven,1000139,Bebidas,2035-01-01,400Conejos,550.00,10
+Whisky 750ml,1000140,Bebidas,2035-01-01,JohnnieWalker,650.00,12
+Ron Añejo 750ml,1000141,Bebidas,2035-01-01,Bacardi,220.00,25
+Ginebra 750ml,1000142,Bebidas,2035-01-01,Tanqueray,480.00,8
+Vodka 750ml,1000143,Bebidas,2035-01-01,Absolut,290.00,18
+Hielo en Bolsa 5kg,1000144,Hogar,2026-04-10,Iglú,25.00,100
+Vela Aromática,1000145,Hogar,2030-01-01,Glade,65.00,45
+Incienso de Lavanda,1000146,Hogar,2028-12-31,HEM,22.00,80
+Fósforos Caja pzs,1000147,Hogar,2035-01-01,LaCentral,10.00,300
+Encendedor Manual,1000148,Hogar,2030-01-01,Bic,25.00,150
+Carbón Vegetal 3kg,1000149,Hogar,2035-01-01,Oxxo,85.00,40
+Líquido Encendido,1000150,Hogar,2028-06-15,Zippo,45.00,30
+Bombilla Halogena,1000151,Ferreteria,2029-01-01,GE,15.00,100
+Martillo de Acero,1000152,Ferreteria,2035-01-01,Truper,85.00,40
+Destornillador Ph,1000153,Ferreteria,2035-01-01,Stanley,32.00,60
+Flexometro 5m,1000154,Ferreteria,2035-01-01,Lufkin,55.00,45
+Pinzas de Corte,1000155,Ferreteria,2035-01-01,Urrea,120.00,30
+Llave Ajustable,1000156,Ferreteria,2035-01-01,Crescent,110.00,25
+Cinta de Aislar,1000157,Ferreteria,2030-12-31,3M,18.00,200
+Teflon para Rosca,1000158,Ferreteria,2030-12-31,Sayer,12.00,150
+Pegamento PVC,1000159,Ferreteria,2027-05-15,Oatey,45.00,80
+Cerradura Puerta,1000160,Ferreteria,2035-01-01,Yale,250.00,20
+Candado de Laton,1000161,Ferreteria,2035-01-01,MasterLock,95.00,50
+Brocha 2 pulgadas,1000162,Ferreteria,2035-01-01,Exito,22.00,120
+Rodillo para Pintar,1000163,Ferreteria,2035-01-01,Behr,48.00,70
+Thinner 1L,1000164,Ferreteria,2028-01-01,Aguarrás,35.00,60
+Manguera Jardin,1000165,Ferreteria,2030-01-01,Pretul,180.00,15
+Pala Cuadrada,1000166,Ferreteria,2035-01-01,Surtek,210.00,10
+Malla de Alambre,1000167,Ferreteria,2035-01-01,Deacero,15.00,300
+Clavos 2 pulgadas,1000168,Ferreteria,2035-01-01,Fiero,45.00,500
+Tornillo Madera,1000169,Ferreteria,2035-01-01,Hillman,0.50,1000
+Taquetes Plasticos,1000170,Ferreteria,2035-01-01,Fischer,25.00,400
+Lija de Agua 220,1000171,Ferreteria,2030-01-01,Fandeli,10.00,200
+Silicon Sellador,1000172,Ferreteria,2027-10-10,Sista,65.00,40
+Alcohol Etilico,1000173,Farmacia,2028-12-31,Zuum,22.00,150
+Agua Oxigenada,1000174,Farmacia,2027-05-20,Curit,15.00,100
+Algodon en Bolas,1000175,Farmacia,2030-01-01,Protec,18.00,200
+Curitas 20 pzs,1000176,Farmacia,2029-12-31,BandAid,32.00,180
+Gasa Esteril,1000177,Farmacia,2028-06-15,J&J,12.00,250
+Venda Elastica,1000178,Farmacia,2030-01-01,LeRoy,25.00,120
+Termometro Digital,1000179,Farmacia,2031-12-31,Omron,145.00,40
+Cubrebocas 50 pzs,1000180,Farmacia,2028-10-10,3M,120.00,60
+Gel Antibacterial,1000181,Farmacia,2027-09-15,Escudo,35.00,140
+Paracetamol 500mg,1000182,Farmacia,2028-01-01,Tylenol,45.00,200
+Ibuprofeno 400mg,1000183,Farmacia,2027-11-30,Advil,62.00,150
+Antigripal Caja,1000184,Farmacia,2027-05-20,XL3,55.00,100
+Jarabe Tos Adulto,1000185,Farmacia,2027-03-15,Vick,85.00,80
+Pastillas Garganta,1000186,Farmacia,2027-12-31,Strepsils,32.00,250
+Antiacido Tabletas,1000187,Farmacia,2028-08-10,Tums,48.00,120
+Electrolitos Polvo,1000188,Farmacia,2027-09-30,Pedialyte,25.00,180
+Vitaminas Multi,1000189,Farmacia,2028-04-12,Centrum,210.00,50
+Suplemento Vit C,1000190,Farmacia,2028-06-25,Redoxon,110.00,70
+Crema Antimicotica,1000191,Farmacia,2027-10-10,Lotrimin,85.00,40
+Pomada Labial,1000192,Farmacia,2027-12-31,Chapstick,22.00,150
+Gotas Ojos 15ml,1000193,Farmacia,2027-02-15,Visine,68.00,90
+Bloqueador Labial,1000194,Farmacia,2027-01-01,Nivea,42.00,110
+Playera Blanca CH,1000195,Ropa,2035-01-01,FruitOfTheLoom,65.00,200
+Playera Negra M,1000196,Ropa,2035-01-01,Hanes,65.00,180
+Calcetines 3 pares,1000197,Ropa,2035-01-01,Wilson,85.00,150
+Interior Caballero,1000198,Ropa,2035-01-01,Gildan,120.00,100
+Gorra Deportiva,1000199,Ropa,2035-01-01,Adidas,250.00,40
+Cinturon de Cuero,1000200,Ropa,2035-01-01,Levis,320.00,30
+Agujetas Tenis,1000201,Ropa,2035-01-01,Kiwi,25.00,100
+Sandalias Baño,1000202,Ropa,2035-01-01,Puma,150.00,60
+Pañuelos Nariz,1000203,Ropa,2035-01-01,Kleenex,15.00,400
+Bolsa de Tela,1000204,Ropa,2035-01-01,EcoBag,22.00,300
+Cable USB C 1m,1000205,Electronica,2028-12-31,Belkin,145.00,80
+Cargador Pared 20W,1000206,Electronica,2028-05-15,Apple,450.00,40
+Audifonos In Ear,1000207,Electronica,2028-10-10,Sony,320.00,100
+Mouse Pad Negro,1000208,Electronica,2035-01-01,Logitech,85.00,120
+Memoria USB 64GB,1000209,Electronica,2030-01-01,Kingston,180.00,90
+Micro SD 128GB,1000210,Electronica,2030-01-01,SanDisk,280.00,75
+Cable HDMI 2m,1000211,Electronica,2030-01-01,Monster,120.00,60
+Adaptador de Luz,1000212,Electronica,2035-01-01,Steren,45.00,150
+Protector Pantalla,1000213,Electronica,2035-01-01,Zagg,110.00,200
+Funda Celular Uni,1000214,Electronica,2035-01-01,Otterbox,280.00,100
+Bateria Portatil,1000215,Electronica,2028-06-30,Anker,550.00,35
+Bocina Bluetooth,1000216,Electronica,2028-04-12,JBL,850.00,25
+Teclado Numerico,1000217,Electronica,2030-01-01,Microsoft,320.00,40
+Ventilador Laptop,1000218,Electronica,2030-01-01,CoolerMaster,240.00,50
+Lampara USB,1000219,Electronica,2030-01-01,Xiaomi,95.00,110
+Hub USB 4 puertos,1000220,Electronica,2030-01-01,TP-Link,380.00,60
+Queso Oaxaca 500g,1000221,Lacteos,2026-04-15,Lala,85.00,60
+Queso Manchego,1000222,Lacteos,2026-05-10,Nochebuena,92.00,55
+Yogurt Frutas 1kg,1000223,Lacteos,2026-03-20,Danone,42.00,80
+Crema Acidificada,1000224,Lacteos,2026-04-12,Alpura,18.50,150
+Leche Evaporada,1000225,Lacteos,2027-10-10,Carnation,19.00,240
+Leche Condensada,1000226,Lacteos,2027-12-31,LaLechera,25.00,200
+Media Crema 250ml,1000227,Lacteos,2027-05-15,Nestle,14.00,300
+Queso Crema 190g,1000228,Lacteos,2026-06-30,Philadelphia,35.00,140
+Mantequilla Con Sal,1000229,Lacteos,2026-05-25,Lala,18.00,120
+Mantequilla Sin Sal,1000230,Lacteos,2026-05-25,Alpura,18.00,110
+Yogurt para Beber,1000231,Lacteos,2026-03-15,Yoplait,12.50,200
+Gelatina de Leche,1000232,Lacteos,2026-04-05,Dany,9.50,180
+Arroz Integral 1kg,1000233,Granos,2027-08-20,SOS,38.00,100
+Frijol Bayo 1kg,1000234,Granos,2026-12-31,VerdeValle,34.00,250
+Garbanzo Seco 500g,1000235,Granos,2027-04-12,Schettino,22.00,150
+Maiz Palomero 500g,1000236,Granos,2027-10-10,VerdeValle,18.00,200
+Habas Secas 500g,1000237,Granos,2027-01-15,Schettino,28.00,90
+Alpiste Bolsa 1kg,1000238,Granos,2027-05-15,Proteina,25.00,120
+Semilla de Girasol,1000239,Granos,2027-03-25,Bredy,35.00,140
+Chicharo Seco 500g,1000240,Granos,2027-02-18,VerdeValle,19.00,110
+Aceite de Olivo,1000241,Abarrotes,2027-12-31,Carbonell,145.00,60
+Aceite de Coco,1000242,Abarrotes,2027-05-20,Avelina,120.00,45
+Vinagre de Arroz,1000243,Abarrotes,2028-10-30,Nakano,45.00,70
+Salsa de Ostion,1000244,Abarrotes,2027-11-01,LeeKumKee,65.00,50
+Aceite de Sesamo,1000245,Abarrotes,2027-09-15,S&B,85.00,35
+Pasta Miso 500g,1000246,Abarrotes,2027-02-20,Marukome,110.00,25
+Alga Nori 10 pzs,1000247,Abarrotes,2027-04-30,Hime,55.00,100
+Sopa Ramen Instan,1000248,Abarrotes,2027-08-10,Maruchan,12.00,500
+Sopa Udon Instan,1000249,Abarrotes,2027-06-15,Nongshim,28.00,150
+Leche de Coco Can,1000250,Abarrotes,2027-12-31,ThaiKitchen,38.00,120
+Curry en Pasta,1000251,Abarrotes,2027-10-25,MaePloy,52.00,60
+Salsa Sriracha,1000252,Abarrotes,2028-05-05,HuyFong,75.00,80
+Pasta de Achiote,1000253,Abarrotes,2027-03-18,LaSevillana,22.00,140
+Mole Poblano Pasta,1000254,Abarrotes,2027-04-12,DoñaMaria,38.00,200
+Consome Vegetal,1000255,Abarrotes,2027-08-20,Knorr,45.00,150
+Sazonador Fajitas,1000256,Abarrotes,2028-02-15,Badia,22.50,180
+Paprika Ahumada,1000257,Abarrotes,2028-12-01,McCormick,35.00,110
+Ajo en Polvo,1000258,Abarrotes,2028-05-15,Badia,28.00,250
+Cebolla en Polvo,1000259,Abarrotes,2028-05-15,Badia,28.00,240
+Comino Molido,1000260,Abarrotes,2028-05-15,McCormick,28.00,200
+Canela en Rama,1000261,Abarrotes,2028-10-10,Badia,45.00,100
+Clavo de Olor,1000262,Abarrotes,2028-12-31,Badia,22.00,140
+Oregano Seco,1000263,Abarrotes,2028-09-15,Badia,18.00,180
+Hojas de Laurel,1000264,Abarrotes,2028-10-10,Badia,15.00,200
+Pimienta Blanca,1000265,Abarrotes,2028-11-20,McCormick,32.00,90
+Sal de Grano 1kg,1000266,Abarrotes,2030-12-31,SalSol,14.00,300
+Sal Rosada Himalaya,1000267,Abarrotes,2030-12-31,Badia,65.00,85
+Esencia Vainilla,1000268,Abarrotes,2028-05-05,Molina,25.00,150
+Colorante Vegetal,1000269,Abarrotes,2028-09-15,McCormick,18.00,120
+Polvo para Hornear,1000270,Abarrotes,2028-06-15,Royal,22.50,200
+Bicarbonato Sodio,1000271,Abarrotes,2030-12-31,ArmHammer,15.00,300
+Levadura Seca,1000272,Abarrotes,2027-12-31,TradiPan,12.00,180
+Fecula de Maiz,1000273,Abarrotes,2027-10-25,Maizena,18.00,220
+Coco Rallado Seco,1000274,Abarrotes,2027-02-10,Bredy,32.00,90
+Nuez de Castilla,1000275,Abarrotes,2027-04-05,Bredy,110.00,45
+Almendra Fileteada,1000276,Abarrotes,2027-04-12,Bredy,120.00,50
+Cacahuate Natural,1000277,Abarrotes,2027-06-30,Mafer,35.00,120
+Arandano Seco 250g,1000278,Abarrotes,2027-03-15,OceanSpray,48.00,110
+Uva Pasa sin Semilla,1000279,Abarrotes,2027-04-30,SunMaid,38.00,130
+Ciruela Pasa 250g,1000280,Abarrotes,2027-02-15,Sunsweet,55.00,80
+Garrafon Agua 20L,1000281,Bebidas,2026-05-20,Bonafont,45.00,100
+Agua con Gas 1.5L,1000282,Bebidas,2026-10-10,Perrier,42.00,60
+Agua Tonica 600ml,1000283,Bebidas,2026-09-05,Schweppes,22.00,120
+Refresco de Toronja,1000284,Bebidas,2026-08-18,Squirt,17.50,300
+Refresco de Manzana,1000285,Bebidas,2026-07-20,SidralMundet,17.50,250
+Refresco de Naranja,1000286,Bebidas,2026-06-30,Fanta,17.00,300
+Refresco de Sangria,1000287,Bebidas,2026-12-31,Senorial,18.00,150
+Refresco Root Beer,1000288,Bebidas,2026-11-15,A&W,25.00,80
+Ginger Ale 600ml,1000289,Bebidas,2026-10-25,CanadaDry,18.50,110
+Jugo de Piña 1L,1000290,Bebidas,2026-09-15,Jumex,24.00,130
+Jugo de Uva 1L,1000291,Bebidas,2026-08-20,Welchs,65.00,50
+Jugo de Tomate,1000292,Bebidas,2026-07-15,Clamato,32.00,90
+Jugo de Arandano,1000293,Bebidas,2026-06-10,OceanSpray,55.00,75
+Bebida de Sabila,1000294,Bebidas,2026-12-31,OKF,28.00,120
+Bebida de Arroz,1000295,Bebidas,2026-11-20,Ades,32.00,85
+Horchata Concentra,1000296,Bebidas,2026-10-10,Tucan,45.00,100
+Jamaica Flor Seca,1000297,Abarrotes,2027-12-31,Bredy,48.00,150
+Tamari Salsa Soya,1000298,Salsas,2027-05-15,San-J,85.00,40
+Salsa Teriyaki,1000299,Salsas,2027-06-30,Kikkoman,55.00,60
+Salsa Hoisin 200ml,1000300,Salsas,2027-04-12,LeeKumKee,42.00,55
+Vinagre Balsamico,1000301,Abarrotes,2029-01-01,Bertolli,110.00,35
+Aceite Girasol 1L,1000302,Abarrotes,2026-12-31,Nutrioli,38.00,140
+Aceite de Canola,1000303,Abarrotes,2026-11-15,Capullo,42.00,120
+Manteca de Cerdo,1000304,Abarrotes,2026-08-25,Zwan,35.00,80
+Manteca Vegetal,1000305,Abarrotes,2027-03-25,Inca,32.00,110
+Margarina sin Sal,1000306,Lacteos,2026-06-15,Iberia,14.50,180
+Sustituto de Azucar,1000307,Abarrotes,2028-12-31,Splenda,85.00,150
+Stevia en Polvo,1000308,Abarrotes,2028-10-10,Svetia,95.00,120
+Piloncillo pza,1000309,Abarrotes,2030-12-31,Generico,10.00,300
+Jarabe de Agave,1000310,Abarrotes,2028-09-15,Enature,110.00,40
+Crema de Cacahuate,1000311,Abarrotes,2027-05-10,Skippy,65.00,85
+Crema de Avellana,1000312,Abarrotes,2027-06-30,Nutella,92.00,70
+Mantequilla Almend,1000313,Abarrotes,2027-04-12,Barney,165.00,25
+Leche de Cabra 1L,1000314,Lacteos,2026-05-15,Meyenberg,85.00,30
+Queso Azul 100g,1000315,Lacteos,2026-04-10,Castello,75.00,20
+Queso Brie 125g,1000316,Lacteos,2026-04-05,President,95.00,15
+Queso Camembert,1000317,Lacteos,2026-04-05,President,95.00,15
+Queso Parmesano,1000318,Lacteos,2026-09-30,Kraft,110.00,50
+Queso Ricotta 250g,1000319,Lacteos,2026-03-25,Galbani,65.00,35
+Queso Mascarpone,1000320,Lacteos,2026-03-25,Galbani,120.00,20
+Yogurt Liquido Fre,1000321,Lacteos,2026-03-15,Lala,12.50,300
+Yogurt Liquido Dur,1000322,Lacteos,2026-03-15,Alpura,12.50,250
+Yogurt Liquido Nue,1000323,Lacteos,2026-03-15,SantaClara,14.00,200
+Natilla Vainilla,1000324,Lacteos,2026-03-20,Danette,11.00,180
+Natilla Chocolate,1000325,Lacteos,2026-03-20,Danette,11.00,180
+Arroz con Leche pza,1000326,Lacteos,2026-03-15,Lala,14.00,150
+Pay de Queso Indiv,1000327,Lacteos,2026-03-10,Kir,22.00,100
+Huevo Organico 12,1000328,Lacteos,2026-04-02,AiresDeCampo,65.00,40
+Huevo de Codorniz,1000329,Lacteos,2026-04-05,Generico,45.00,25
+Claras de Huevo 1L,1000330,Lacteos,2026-04-15,SanJuan,75.00,50
+Chorizo de Pavo,1000331,Embutidos,2026-04-10,Fud,35.00,120
+Chorizo Español,1000332,Embutidos,2026-05-20,Tangamanga,110.00,40
+Salami Italiano,1000333,Embutidos,2026-06-15,Peñaranda,135.00,30
+Pepperoni Rebanado,1000334,Embutidos,2026-06-30,Hormel,85.00,60
+Tocino Ahumado,1000335,Embutidos,2026-04-12,OscarMayer,95.00,75
+Tocino de Pavo,1000336,Embutidos,2026-04-12,Fud,75.00,80
+Mortadela con Pist,1000337,Embutidos,2026-04-20,Capistrano,55.00,50
+Pastrami Rebanado,1000338,Embutidos,2026-04-05,Tangamanga,145.00,25
+Salchicha Coctel,1000339,Embutidos,2026-05-15,Fud,38.00,100
+Salchicha Alemana,1000340,Embutidos,2026-05-15,Bernina,95.00,40
+Jamon Serrano 100g,1000341,Embutidos,2026-06-15,Navidul,180.00,40
+Jamon Real de Pavo,1000342,Embutidos,2026-04-25,SanRafael,75.00,85
+Paté de Higado,1000343,Embutidos,2027-10-10,Underwood,32.00,60
+Chistorra 200g,1000344,Embutidos,2026-04-30,Peñaranda,85.00,45
+Moronga Embutida,1000345,Embutidos,2026-03-25,Generico,45.00,30
+Nuggets de Pollo,1000346,Congelados,2026-08-30,Tyson,120.00,50
+Hamburguesa de Res,1000347,Congelados,2026-09-15,SuKarne,145.00,40
+Papas Corte Frances,1000348,Congelados,2026-10-10,McCain,95.00,100
+Aros de Cebolla,1000349,Congelados,2026-08-20,McCain,85.00,60
+Filete de Pescado,1000350,Congelados,2026-09-10,Marketside,180.00,35
+Baguette Artesanal,1000351,Panaderia,2026-04-05,MasaMadre,18.00,40
+Pan Integral Granos,1000352,Panaderia,2026-04-06,Bimbo,45.00,100
+Donas Azucaradas 4,1000353,Panaderia,2026-04-04,KrispyKreme,55.00,60
+Concha de Vainilla,1000354,Panaderia,2026-04-04,Esperanza,12.00,150
+Muffin de Arandano,1000355,Panaderia,2026-04-05,Starbucks,32.00,80
+Bolillo de Trigo,1000356,Panaderia,2026-04-03,Generico,2.50,500
+Croissant de Mante,1000357,Panaderia,2026-04-05,Costco,15.00,200
+Pay de Manzana,1000358,Panaderia,2026-04-10,McDonals,22.00,100
+Pastel Chocolate,1000359,Panaderia,2026-04-08,Suspiros,350.00,10
+Galletas Chispas,1000360,Panaderia,2026-05-15,Subway,14.00,300
+Manzana Roja 1kg,1000361,Fruteria,2026-04-15,Campo,45.00,100
+Platano Chiapas,1000362,Fruteria,2026-04-10,Chiquita,22.00,150
+Naranja para Jugo,1000363,Fruteria,2026-04-20,Campo,18.00,200
+Limon con Semilla,1000364,Fruteria,2026-04-15,Colima,35.00,120
+Aguacate Hass 1kg,1000365,Fruteria,2026-04-12,Michoacan,85.00,80
+Jitomate Saladet,1000366,Fruteria,2026-04-14,Sinaloa,32.00,110
+Cebolla Blanca 1kg,1000367,Fruteria,2026-05-01,Campo,28.00,130
+Papa Blanca 1kg,1000368,Fruteria,2026-05-10,Sabritas,38.00,90
+Zanahoria 1kg,1000369,Fruteria,2026-05-05,Campo,15.00,140
+Calabacita Indio,1000370,Fruteria,2026-04-12,Campo,24.00,100
+Cilantro Manojo,1000371,Fruteria,2026-04-08,Campo,8.00,200
+Ajo Bolsa 3pzs,1000372,Fruteria,2026-08-01,Campo,15.00,150
+Chile Jalapeño,1000373,Fruteria,2026-04-20,Sinaloa,22.00,110
+Chile Serrano,1000374,Fruteria,2026-04-20,Campo,28.00,100
+Chile Poblano 1kg,1000375,Fruteria,2026-04-18,Campo,45.00,80
+Sandia Roja pza,1000376,Fruteria,2026-04-15,Campo,65.00,40
+Melon Chino pza,1000377,Fruteria,2026-04-15,Campo,38.00,60
+Piña Miel pza,1000378,Fruteria,2026-04-15,Campo,42.00,70
+Papaya Maradol 1kg,1000379,Fruteria,2026-04-12,Campo,32.00,90
+Uva sin Semilla,1000380,Fruteria,2026-04-10,Sonora,95.00,50
+Fresa Domo 454g,1000381,Fruteria,2026-04-08,Driscolls,65.00,40
+Zarzamora Domo,1000382,Fruteria,2026-04-08,Driscolls,55.00,30
+Frambuesa Domo,1000383,Fruteria,2026-04-08,Driscolls,55.00,30
+Arandano Azul Domo,1000384,Fruteria,2026-04-10,Driscolls,48.00,45
+Pera D Anjou 1kg,1000385,Fruteria,2026-04-20,USA,68.00,50
+Mango Ataulfo 1kg,1000386,Fruteria,2026-04-15,Chiapas,42.00,75
+Kiwi Importado,1000387,Fruteria,2026-04-25,Zespri,85.00,35
+Toronja Roja 1kg,1000388,Fruteria,2026-04-30,Campo,22.00,80
+Guayaba 1kg,1000389,Fruteria,2026-04-15,Michoacan,34.00,60
+Durazno Prisco,1000390,Fruteria,2026-04-15,Campo,65.00,40
+Brócoli pza,1000391,Fruteria,2026-04-12,Campo,22.00,90
+Coliflor pza,1000392,Fruteria,2026-04-12,Campo,35.00,50
+Lechuga Orejona,1000393,Fruteria,2026-04-10,Campo,18.00,120
+Lechuga Romana,1000394,Fruteria,2026-04-10,Eva,22.00,100
+Espinaca Bolsa,1000395,Fruteria,2026-04-10,Popeye,28.00,80
+Champiñon Blanco,1000396,Fruteria,2026-04-08,Monteblanco,35.00,70
+Portobello 2pzs,1000397,Fruteria,2026-04-08,Monteblanco,65.00,30
+Nopal Limpio 1kg,1000398,Fruteria,2026-04-10,MilpaAlta,25.00,150
+Pepino 1kg,1000399,Fruteria,2026-04-15,Campo,22.00,110
+Apio Bolsa,1000400,Fruteria,2026-04-15,Campo,19.00,90
+Betabel 1kg,1000401,Fruteria,2026-04-20,Campo,24.00,60
+Rábano Manojo,1000402,Fruteria,2026-04-12,Campo,12.00,100
+Camote Amarillo,1000403,Fruteria,FechaVencimiento,Campo,28.00,50
+Elote Blanco pza,1000404,Fruteria,2026-04-10,Campo,8.50,250
+Chayote Sin Espina,1000405,Fruteria,2026-04-15,Campo,18.00,120
+Pimiento Rojo pza,1000406,Fruteria,2026-04-20,Campo,25.00,100
+Pimiento Verde pza,1000407,Fruteria,2026-04-20,Campo,22.00,100
+Ejote Verde 500g,1000408,Fruteria,2026-04-15,Campo,28.00,85
+Jicama 1kg,1000409,Fruteria,2026-04-30,Campo,16.00,200
+Garbanzo Verde,1000410,Fruteria,2026-04-15,Campo,35.00,70
+Whisky Escoces 12,1000411,Licores,2035-01-01,Buchanans,850.00,30
+Whisky Etiqueta N,1000412,Licores,2035-01-01,JohnnieWalker,920.00,25
+Whisky Bourbon,1000413,Licores,2035-01-01,JackDaniels,650.00,40
+Cognac VSOP,1000414,Licores,2035-01-01,Hennessy,1200.00,15
+Mezcal Artesanal,1000415,Licores,2035-01-01,Amores,750.00,20
+Tequila Añejo,1000416,Licores,2035-01-01,DonJulio,1100.00,18
+Tequila Cristalino,1000417,Licores,2035-01-01,MaestroDobel,850.00,22
+Vino Rosado 750ml,1000418,Licores,2028-12-31,L.A.Cetto,180.00,50
+Vino Blanco Chardonnay,1000419,Licores,2028-12-31,Casillero,210.00,45
+Champagne Brut,1000420,Licores,2030-01-01,Moet,1450.00,10
+Ginebra Pink,1000421,Licores,2035-01-01,Beefeater,550.00,20
+Vodka Tamarindo,1000422,Licores,2035-01-01,Smirnoff,280.00,60
+Licor de Café,1000423,Licores,2035-01-01,Kahlua,320.00,35
+Licor de Hierbas,1000424,Licores,2035-01-01,Jagermeister,480.00,40
+Ron Blanco 1L,1000425,Licores,2035-01-01,Bacardi,210.00,100
+Ron Especiado,1000426,Licores,2035-01-01,CaptainMorgan,240.00,55
+Brandy Solera,1000427,Licores,2035-01-01,Torres,310.00,40
+Anis Dulce,1000428,Licores,2035-01-01,Chinchon,220.00,25
+Vermouth Rojo,1000429,Licores,2035-01-01,Martini,280.00,30
+Sake 750ml,1000430,Licores,2028-01-01,Gekkeikan,350.00,15
+Carpeta de Argolla,1000431,Papeleria,2035-01-01,WilsonJones,85.00,60
+Separadores 5pzs,1000432,Papeleria,2035-01-01,Avery,25.00,150
+Hojas Blancas 500,1000433,Papeleria,2035-01-01,Scribe,115.00,200
+Hojas Rayadas 100,1000434,Papeleria,2035-01-01,Norma,35.00,180
+Folder Carta 10pzs,1000435,Papeleria,2035-01-01,Oxford,28.00,300
+Clips No. 2 Caja,1000436,Papeleria,2035-01-01,Acco,18.00,400
+Engrapadora Metal,1000437,Papeleria,2035-01-01,Swingline,145.00,50
+Grapas Caja 5000,1000438,Papeleria,2035-01-01,Swingline,45.00,100
+Calculadora Cient,1000439,Papeleria,2035-01-01,Casio,320.00,40
+Corrector Cinta,1000440,Papeleria,2035-01-01,TippEx,35.00,120
+Goma en Barra 36g,1000441,Papeleria,2028-01-01,Pritt,42.00,150
+Tijeras de Oficina,1000442,Papeleria,2035-01-01,Barrilito,55.00,110
+Cinta Canela 50m,1000443,Papeleria,2035-01-01,Tuk,38.00,90
+Cinta Transparente,1000444,Papeleria,2035-01-01,Scotch,15.00,300
+Post-it Notas 3x3,1000445,Papeleria,2035-01-01,3M,48.00,120
+Marcatextos Pastel,1000446,Papeleria,2035-01-01,Stabilo,120.00,80
+Pluma Gel Negra,1000447,Papeleria,2030-01-01,Pentel,45.00,200
+Boligrafo Azul 12,1000448,Papeleria,2030-01-01,Bic,55.00,150
+Sacapuntas Electric,1000449,Papeleria,2030-01-01,Boston,450.00,15
+Regla de Metal 30,1000450,Papeleria,2035-01-01,Staedtler,42.00,100
+Mouse Gamer RGB,1000451,Tecnologia,2030-01-01,Razer,1200.00,25
+Teclado Mecanico,1000452,Tecnologia,2030-01-01,Corsair,2400.00,15
+Monitor 24 pulg,1000453,Tecnologia,2028-01-01,Samsung,3500.00,10
+Laptop Oficina,1000454,Tecnologia,2028-01-01,HP,12500.00,8
+Tablet 10 pulg,1000455,Tecnologia,2028-01-01,Lenovo,4800.00,12
+Smartphone 128GB,1000456,Tecnologia,2028-01-01,Xiaomi,5500.00,20
+Smartwatch Fit,1000457,Tecnologia,2028-01-01,Huawei,1800.00,35
+Audifonos Wireless,1000458,Tecnologia,2028-01-01,Bose,4500.00,15
+Camara Web HD,1000459,Tecnologia,2028-01-01,Logitech,1200.00,25
+Microfono USB Cond,1000460,Tecnologia,2028-01-01,BlueYeti,2800.00,10
+Bocinas 2.1 PC,1000461,Tecnologia,2030-01-01,Sony,1500.00,20
+Disco Duro Ext 2TB,1000462,Tecnologia,2030-01-01,WD,1800.00,30
+Router Wi-Fi 6,1000463,Tecnologia,2030-01-01,TP-Link,2200.00,15
+Repetidor Wi-Fi,1000464,Tecnologia,2030-01-01,Xiaomi,450.00,40
+Power Bank 20000,1000465,Tecnologia,2028-01-01,Adata,850.00,50
+Cargador Inalambri,1000466,Tecnologia,2028-01-01,Samsung,650.00,45
+Cable HDMI 4K,1000467,Tecnologia,2035-01-01,Belkin,380.00,60
+Filtro de Privacid,1000468,Tecnologia,2035-01-01,3M,950.00,20
+Limpiador Pantalla,1000469,Tecnologia,2028-01-01,Steren,120.00,100
+Aire Comprimido,1000470,Tecnologia,2028-01-01,Silimex,145.00,80
+Toallitas Isopropi,1000471,Tecnologia,2028-01-01,Zuum,85.00,150
+Pasta Termica 4g,1000472,Tecnologia,2030-01-01,Arctic,220.00,50
+Ventilador Gabinet,1000473,Tecnologia,2035-01-01,Noctua,450.00,40
+Control Universal,1000474,Tecnologia,2035-01-01,Roku,350.00,60
+Soporte TV 55,1000475,Tecnologia,2035-01-01,Steren,850.00,25
+Pilas Recargables,1000476,Tecnologia,2030-01-01,Eneloop,450.00,40
+Cargador Pilas,1000477,Tecnologia,2030-01-01,Sony,320.00,30
+Lampara Escritorio,1000478,Tecnologia,2035-01-01,Ikea,550.00,35
+Silla Oficina Erg,1000479,Hogar,2035-01-01,HermanMiller,8500.00,5
+Escritorio Elevab,1000480,Hogar,2035-01-01,GAIA,4200.00,10
+Estante Metalico,1000481,Hogar,2035-01-01,HomeDepot,1200.00,20
+Caja Organizadora,1000482,Hogar,2035-01-01,Sterilite,180.00,100
+Cesto de Basura,1000483,Hogar,2035-01-01,Rubbermaid,250.00,60
+Perchero de Pared,1000484,Hogar,2035-01-01,Ikea,320.00,45
+Cuadro Decorativo,1000485,Hogar,2035-01-01,Canvas,850.00,30
+Reloj de Pared,1000486,Hogar,2035-01-01,Seiko,450.00,40
+Espejo Cuerpo Ent,1000487,Hogar,2035-01-01,Ikea,1200.00,15
+Tapete de Entrada,1000488,Hogar,2035-01-01,Betterware,220.00,80
+Cojin Decorativo,1000489,Hogar,2035-01-01,GAIA,350.00,100
+Manta Sofa,1000490,Hogar,2035-01-01,ZaraHome,650.00,40
+Cortina Blackout,1000491,Hogar,2035-01-01,HomeDepot,850.00,25
+Lampara de Pie,1000492,Hogar,2035-01-01,Philips,1200.00,15
+Mesa de Centro,1000493,Hogar,2035-01-01,Ikea,1800.00,10
+Sillon Reclinable,1000494,Hogar,2035-01-01,Ashley,6500.00,5
+Zapatero 10 pares,1000495,Hogar,2035-01-01,Mainstays,450.00,40
+Ganchos Ropa 10pzs,1000496,Hogar,2035-01-01,Huggies,120.00,150
+Plancha de Vapor,1000497,Hogar,2030-01-01,BlackDecker,650.00,40
+Burro de Planchar,1000498,Hogar,2035-01-01,T-Fal,850.00,20
+Tendedero Plegabl,1000499,Hogar,2035-01-01,Betterware,420.00,35
+Cesta Ropa Sucia,1000500,Hogar,2035-01-01,Sterilite,250.00,60
+Sopa de Letras pza,1000501,Abarrotes,2027-10-10,LaModerna,8.50,400
+Sopa Municion pza,1000502,Abarrotes,2027-10-10,LaModerna,8.50,400
+Sopa Fideo pza,1000503,Abarrotes,2027-10-10,LaModerna,8.50,400
+Sopa Codito No. 2,1000504,Abarrotes,2027-10-10,LaModerna,8.50,400
+Pasta Fetuccini,1000505,Pastas,2027-05-15,Barilla,22.00,150
+Pasta Fusilli,1000506,Pastas,2027-05-15,Barilla,22.00,150
+Pasta Lasagna pzs,1000507,Pastas,2027-08-20,Barilla,65.00,80
+Salsa para Pasta,1000508,Abarrotes,2026-12-31,Prego,45.00,120
+Salsa Alfredo 400,1000509,Abarrotes,2026-12-31,Bertolli,65.00,70
+Pesto de Albahaca,1000510,Abarrotes,2026-10-10,Kirkland,180.00,40
+Aceite de Aguacat,1000511,Abarrotes,2027-05-05,ChosenFoods,165.00,50
+Aceite de Uva 1L,1000512,Abarrotes,2027-04-12,Grapeseed,145.00,45
+Manteca de Cacao,1000513,Abarrotes,2027-12-31,Hershey,85.00,30
+Jarabe Granadina,1000514,Bebidas,2027-11-20,Madrileña,85.00,40
+Jarabe de Horchat,1000515,Bebidas,2026-12-31,Kermato,45.00,60
+Clamato Preparado,1000516,Bebidas,2026-08-25,Motta,38.00,120
+Agua de Coco 1L,1000517,Bebidas,2026-07-20,Acapulcoco,45.00,100
+Leche Conden Light,1000518,Lacteos,2027-05-15,LaLechera,28.00,150
+Leche Evapor Light,1000519,Lacteos,2027-06-30,Carnation,22.00,180
+Queso Cotija 200g,1000520,Lacteos,2026-04-10,LosAltos,45.00,90
+Queso Chihuahua,1000521,Lacteos,2026-05-12,Lala,110.00,50
+Queso Gouda Reban,1000522,Lacteos,2026-04-15,Fud,65.00,75
+Queso de Cabra Nat,1000523,Lacteos,2026-03-30,President,85.00,40
+Requeson Fresco,1000524,Lacteos,2026-03-22,Generico,32.00,60
+Crema Batida Can,1000525,Lacteos,2026-04-05,ReddiWip,65.00,55
+Yogurt Griego Fre,1000526,Lacteos,2026-03-25,Fage,32.00,110
+Kefir Natural 1L,1000527,Lacteos,2026-03-25,Lifeway,85.00,30
+Jamon de Pechuga,1000528,Embutidos,2026-04-05,SanRafael,55.00,80
+Salchicha Viena,1000529,Embutidos,2026-05-10,Fud,28.00,200
+Tocino Picado 200,1000530,Embutidos,2026-04-12,OscarMayer,65.00,90
+Pechuga de Pavo H,1000531,Embutidos,2026-04-05,Peñaranda,110.00,40
+Lomo Embuchado,1000532,Embutidos,2026-06-15,Tangamanga,145.00,30
+Salami con Pimien,1000533,Embutidos,2026-06-15,Peñaranda,135.00,35
+Chorizo Argentino,1000534,Embutidos,2026-04-30,Tangamanga,110.00,45
+Pastrami Ahumado,1000535,Embutidos,2026-04-05,Peñaranda,145.00,25
+Mortadela de Pavo,1000536,Embutidos,2026-04-20,Fud,45.00,120
+Salchicha de Res,1000537,Embutidos,2026-05-15,Bernina,95.00,50
+Cecina de Res 500,1000538,Carniceria,2026-03-28,Yecapixtla,180.00,30
+Carne Molida Sirlo,1000539,Carniceria,2026-03-25,SuKarne,145.00,45
+Bisteck de Diezmi,1000540,Carniceria,2026-03-25,SuKarne,165.00,40
+Pechuga de Pollo,1000541,Carniceria,2026-03-25,Pilgrims,120.00,60
+Pierna y Muslo pzs,1000542,Carniceria,2026-03-25,Pilgrims,65.00,100
+Chuleta de Cerdo,1000543,Carniceria,2026-03-25,Fud,110.00,50
+Costilla de Cerdo,1000544,Carniceria,2026-03-25,SuKarne,135.00,40
+Pescado Tilapia,1000545,Carniceria,2026-03-30,Marketside,110.00,60
+Filete de Salmon,1000546,Carniceria,2026-03-30,Costco,450.00,20
+Camaron Pacifico,1000547,Carniceria,2026-03-30,OceanGarden,350.00,30
+Pulpo Cocido 500g,1000548,Carniceria,2026-03-30,Marketside,280.00,15
+Atun Aleta Amaril,1000549,Carniceria,2026-03-30,Dolores,120.00,40
+Mejillones en Con,1000550,Carniceria,2026-03-30,Marketside,180.00,25
+Muneca de Trapo,1000551,Jugueteria,2035-01-01,FisherPrice,250.00,40
+Carrito de Metal,1000552,Jugueteria,2035-01-01,HotWheels,35.00,200
+Bloques Madera 50,1000553,Jugueteria,2035-01-01,MelissaDoug,450.00,30
+Pelota de Futbol,1000554,Deportes,2030-01-01,Adidas,550.00,60
+Balon Basquetbol,1000555,Deportes,2030-01-01,Wilson,480.00,45
+Raqueta Tenis Adult,1000556,Deportes,2030-01-01,Babolat,1200.00,15
+Pesas 5kg Par,1000557,Deportes,2035-01-01,SportCity,350.00,25
+Tapete Yoga Azul,1000558,Deportes,2030-01-01,Gaiam,420.00,40
+Cuerda para Saltar,1000559,Deportes,,Everlast,120.00,100
+Bicicleta Urbana,1000560,Deportes,2030,Benotto,4500.00,10
+Casco Ciclista M,1000561,Deportes,2028-01-01,Bell,850.00,20
+Lentes Natacion,1000562,Deportes,2028-01-01,Speedo,320.00,50
+Gorra Natacion Sil,1000563,Deportes,2028-01-01,Arena,150.00,80
+Tierra Preparada 5,1000564,Jardineria,2028-01-01,Vita,85.00,100
+Fertilizante Univ,1000565,Jardineria,2027-05-15,MiracleGro,145.00,60
+Maceton de Barro,1000566,Jardineria,2035-01-01,Artesanal,280.00,25
+Regadera Plastica,1000567,Jardineria,2035-01-01,Pretul,120.00,40
+Semillas Tomate,1000568,Jardineria,2027-12-31,Vita,25.00,150
+Semillas Girasol J,1000569,Jardineria,2027-12-31,Vita,25.00,150
+Pala de Mano Acero,1000570,Jardineria,2035-01-01,Truper,65.00,80
+Tijera Podar Curva,1000571,Jardineria,2035-01-01,Fiskars,320.00,30
+Aceite Motor 15W40,1000572,Automotriz,2028-01-01,QuakerState,165.00,100
+Liquido Frenos,1000573,Automotriz,2028-01-01,Bardahl,85.00,60
+Anticongelante 1L,1000574,Automotriz,2028-01-01,Prestone,110.00,80
+Liquido Limpiapara,1000575,Automotriz,2028-01-01,Steren,45.00,120
+Cera para Auto 400,1000576,Automotriz,2028-01-01,Meguiars,320.00,40
+Shampoo con Cera,1000577,Automotriz,2028-01-01,ArmorAll,120.00,70
+Aromatizante Pino,1000578,Automotriz,2028-01-01,LittleTrees,25.00,200
+Llanta 185/60 R15,1000579,Automotriz,2030-01-01,Michelin,1850.00,16
+Bateria Auto 12V,1000580,Automotriz,2028-01-01,LTH,2400.00,12
+Fórmula Etapa 1,1000581,Bebes,2026-12-31,Enfamil,450.00,80
+Papilla Manzana,1000582,Bebes,2027-05-20,Gerber,18.00,300
+Papilla Pollo Veg,1000583,Bebes,2027-05-20,Gerber,22.00,250
+Biberon 8oz Antico,1000584,Bebes,2035-01-01,Evenflo,145.00,60
+Chupon de Silicon,1000585,Bebes,2035-01-01,Avent,85.00,100
+Mordedera de Goma,1000586,Bebes,2035-01-01,Nuk,65.00,120
+Sonaja de Colores,1000587,Bebes,2035-01-01,Playgro,110.00,50
+Toallitas Hum 80p,1000588,Bebes,2027-10-10,Huggies,42.00,200
+Pañales Etapa 4 60,1000589,Bebes,2028-01-01,Pampers,380.00,40
+Talco para Bebe,1000590,Bebes,2027-01-01,Johnson,65.00,90
+Aceite para Bebe,1000591,Bebes,2027-01-01,Mennen,55.00,110
+Crema Antipanaliti,1000592,Bebes,2027-10-10,Desitin,120.00,70
+Colonia para Bebe,1000593,Bebes,2027-01-01,RicitosDeOro,48.00,130
+Jabón de Baño Bebe,1000594,Bebes,2027-01-01,DoveBaby,32.00,150
+Sueter de Lana M,1000595,Ropa,2035-01-01,Zara,650.00,30
+Pantalón Mezclill,1000596,Ropa,2035-01-01,Levis,850.00,45
+Short Deportivo G,1000597,Ropa,2035-01-01,Nike,420.00,60
+Sudadera con Gorro,1000598,Ropa,2035-01-01,Gap,550.00,40
+Calcetas Largas 3p,1000599,Ropa,2035-01-01,Puma,110.00,120
+Pijama de Algodon,1000600,Ropa,2035-01-01,Oysho,380.00,55
+Playera Polo Azul,1000601,Ropa,2035-01-01,Lacoste,1100.00,20
+Sandalias de Play,1000602,Ropa,2035-01-01,Quiksilver,280.00,70
+Bufanda de Seda,1000603,Ropa,2035-01-01,Gucci,2500.00,5
+Guantes para Frio,1000604,Ropa,2035-01-01,NorthFace,450.00,25
+Botas de Lluvia,1000605,Ropa,2035-01-01,Hunter,1200.00,15
+Paraguas Portatil,1000606,Hogar,2035-01-01,Totes,220.00,80
+Bascula de Cocina,1000607,Hogar,2035-01-01,Ozeri,350.00,30
+Licuadora 10 vel,1000608,Hogar,2030-01-01,Oster,1200.00,20
+Tostadora 2 Reban,1000609,Hogar,2030-01-01,Hamilton,550.00,25
+Cafetera de Goteo,1000610,Hogar,2030-01-01,MrCoffee,850.00,18
+Hervidor Electric,1000611,Hogar,2030-01-01,T-Fal,480.00,35
+Batidora de Mano,1000612,Hogar,2030-01-01,KitchenAid,950.00,15
+Exprimidor de Citr,1000613,Hogar,2030-01-01,BlackDecker,320.00,40
+Sarten Antiadheren,1000614,Hogar,2035-01-01,Ecko,280.00,60
+Olla de Presion 6L,1000615,Hogar,2035-01-01,Presto,1100.00,25
+Cuchillo Chef 8,1000616,Hogar,2035-01-01,Victorinox,650.00,35
+Tabla para Picar,1000617,Hogar,2035-01-01,Mainstays,110.00,100
+Juego de Cubiertos,1000618,Hogar,2035-01-01,Oneida,850.00,30
+Vasos de Vidrio 6p,1000619,Hogar,2035-01-01,Libbey,220.00,50
+Platos Ceramica 4p,1000620,Hogar,2035-01-01,Corelle,550.00,40
+Toalla de Manos,1000621,Hogar,2035-01-01,Cannon,85.00,150
+Toalla de Baño G,1000622,Hogar,2035-01-01,Hilasal,280.00,90
+Cortina de Ducha,1000623,Hogar,2035-01-01,InterDesign,180.00,60
+Tapete de Baño,1000624,Hogar,2035-01-01,Utopia,150.00,85
+Espejo de Aumento,1000625,Hogar,2035-01-01,Conair,320.00,30
+Secadora de Pelo,1000626,Belleza,2030-01-01,Remington,550.00,45
+Plancha Alaciador,1000627,Belleza,2030-01-01,Babyliss,1100.00,25
+Gel para Cabello,1000628,Belleza,2027-01-01,Ego,35.00,200
+Spray Fijador,1000629,Belleza,2027-01-01,Pantene,65.00,120
+Esmalte de Unas,1000630,Belleza,2027-12-31,Revlon,45.00,300
+Quitaesmalte 100ml,1000631,Belleza,2028-01-01,Zuum,25.00,150
+Crema de Manos,1000632,Belleza,2027-05-15,Vaseline,42.00,110
+Mascarilla Facial,1000633,Belleza,2027-01-01,Garnier,28.00,400
+Labial Mate Rojo,1000634,Belleza,2028-12-31,Maybelline,120.00,100
+Mascara de Pestaña,1000635,Belleza,2027-06-30,Loreal,180.00,85
+Base de Maquillaje,1000636,Belleza,2027-10-10,MAC,450.00,40
+Polvo Compacto,1000637,Belleza,2027-12-31,Clinique,380.00,50
+Sombras de Ojos,1000638,Belleza,2028-01-01,UrbanDecay,950.00,20
+Delineador Negro,1000639,Belleza,2028-01-01,Bisu,45.00,200
+Brocha Maquillaje,1000640,Belleza,2035-01-01,EcoTools,110.00,100
+Perfume Dama 100ml,1000641,Belleza,2035-01-01,Chanel,2200.00,10
+Locion Caballero,1000642,Belleza,2035-01-01,Dior,1850.00,15
+Desodorante Barra,1000643,Higiene,2027-01-01,Secret,55.00,180
+Enjuague Bucal 1L,1000644,Higiene,2027-10-10,Listerine,95.00,120
+Hebra Dental 50m,1000645,Higiene,2030-12-31,OralB,38.00,200
+Papel Higienico 12,1000646,Higiene,2030-01-01,Cottonelle,85.00,150
+Servilletas 200pzs,1000647,Higiene,2030-01-01,Viva,32.00,300
+Pañuelos Caja 90p,1000648,Higiene,2030-01-01,Puff,25.00,250
+Hisopos de Algodon,1000649,Higiene,2030-01-01,Q-Tips,35.00,200
+Rastrillo Desechab,1000650,Higiene,2030-01-01,Gillette,110.00,100
+Vino Espumoso 750,1000651,Licores,2028-12-31,Astoria,350.00,40
+Sake Premium 720m,1000652,Licores,2028-01-01,Kubota,850.00,15
+Licor de Naranja,1000653,Licores,2035-01-01,Controy,280.00,35
+Vermouth Blanco,1000654,Licores,2035-01-01,Cinzano,220.00,30
+Cerveza Artesanal,1000655,Bebidas,2026-10-10,Minerva,45.00,120
+Sidra de Manzana,1000656,Bebidas,2027-01-01,SantaClaus,110.00,60
+Agua con Gas 355ml,1000657,Bebidas,2026-12-31,TopoChico,18.00,300
+Refresco de Lima L,1000658,Bebidas,2026-06-30,7Up,17.00,250
+Bebida Independien,1000659,Bebidas,2026-05-15,Jarritos,12.00,400
+Te Helado Durazno,1000660,Bebidas,2026-12-31,Arizona,15.00,500
+Jugo de Granada,1000661,Bebidas,2026-08-20,PomWonderful,65.00,45
+Nectar de Pera 1L,1000662,Bebidas,2026-09-05,Boing,18.00,140
+Bebida de Avena 1L,1000663,Lacteos,2026-06-15,Oatly,55.00,70
+Yogurt Griego Fresa,1000664,Lacteos,2026-04-10,Oikos,24.00,100
+Queso Edam Bola,1000665,Lacteos,2026-08-20,Kroon,320.00,15
+Queso Provolone,1000666,Lacteos,2026-05-15,Belgioioso,110.00,30
+Queso Feta 200g,1000667,Lacteos,2026-04-30,Dodoni,85.00,45
+Mantequilla de Cab,1000668,Lacteos,2026-05-10,Meyenberg,65.00,25
+Helado Menta Choco,1000669,Congelados,2026-06-30,BenJerrys,145.00,35
+Sorbete Mango 1L,1000670,Congelados,2026-06-15,HaagenDazs,165.00,30
+Waffles Congelados,1000671,Congelados,2026-08-10,Eggo,65.00,80
+Papitas Sonrisas,1000672,Congelados,2026-10-20,McCain,55.00,110
+Lasagna Congelada,1000673,Congelados,2026-05-20,Stouffers,110.00,50
+Burritos Congelad,1000674,Congelados,2026-04-15,Amy,45.00,90
+Pechuga de Pollo E,1000675,Congelados,2026-09-10,Tyson,145.00,40
+Camarones Empaniz,1000676,Congelados,2026-08-25,Marketside,180.00,35
+Frutos Rojos Cong,1000677,Congelados,2026-12-31,LaHuerta,85.00,60
+Espinacas Picadas,1000678,Congelados,2026-11-20,LaHuerta,25.00,120
+Mezcla California,1000679,Congelados,2026-11-20,LaHuerta,28.00,110
+Papas Hash Brown,1000680,Congelados,2026-10-15,OreIda,65.00,85
+Arroz Chino Cong,1000681,Congelados,2026-05-10,TaiPei,55.00,75
+Dumplings Cong,1000682,Congelados,2026-04-20,Bibigo,120.00,45
+Base Pizza Cong,1000683,Congelados,2026-08-30,MamaRosa,42.00,100
+Masa Hojaldre Con,1000684,Congelados,2026-09-15,Pillsbury,85.00,55
+Pay de Queso Cong,1000685,Congelados,2026-04-10,Edwards,165.00,25
+Pastel Helado pza,1000686,Congelados,2026-03-30,DairyQueen,380.00,10
+Hielo en Cubos 2kg,1000687,Hogar,2026-04-05,Generico,18.00,200
+Bolsas Congelar 20,1000688,Hogar,2030-12-31,Ziploc,55.00,150
+Contenedor Vidrio,1000689,Hogar,2035-01-01,Pyrex,180.00,60
+Taza Ceramica Blan,1000690,Hogar,2035-01-01,Ikea,Gratis,200
+Jarra de Agua 2L,1000691,Hogar,2035-01-01,Rubbermaid,85.00,50
+Colador Inoxidabl,1000692,Hogar,2035-01-01,Farberware,110.00,45
+Rallador Queso 4c,1000693,Hogar,2035-01-01,KitchenAid,220.00,35
+Pelador de Papas,1000694,Hogar,2035-01-01,Oxo,85.00,90
+Abridor de Latas,1000695,Hogar,2035-01-01,SwingAway,145.00,55
+Sacacorchos Pro,1000696,Hogar,2035-01-01,Pulltaps,110.00,80
+Guante de Cocina,1000697,Hogar,2035-01-01,Mainstays,45.00,120
+Delantal de Algod,1000698,Hogar,2035-01-01,WilliamSonoma,280.00,30
+Mantel de Mesa 6p,1000699,Hogar,2035-01-01,Target,320.00,40
+Individual Plastico,1000700,Hogar,2035-01-01,BedBath,22.00,200
+Silla de Playa,1000701,Deportes,2035-01-01,Coleman,650.00,30
+Hielera 28 Cuart,1000702,Deportes,2035-01-01,Igloo,850.00,20
+Sombrilla Playa,1000703,Deportes,2035-01-01,TommyBahama,550.00,25
+Inflador de Globos,1000704,Jugueteria,2035-01-01,Generico,45.00,100
+Pistola de Agua,1000705,Jugueteria,2035-01-01,Nerf,320.00,60
+Burbujas Jabon,1000706,Jugueteria,2028-01-01,Gazillion,28.00,250
+Set de Playa 5pzs,1000707,Jugueteria,2035-01-01,Disney,145.00,80
+Frisbee de Plast,1000708,Jugueteria,2035-01-01,WhamO,65.00,150
+Cometa de Tela,1000709,Jugueteria,2035-01-01,MelissaDoug,120.00,55
+Tizas para Acera,1000710,Jugueteria,2035-01-01,Crayola,45.00,200
+Plastilina 4 botes,1000711,Jugueteria,2027-12-31,PlayDoh,85.00,150
+Crayones 24 pzs,1000712,Jugueteria,2035-01-01,Crayola,32.00,300
+Acuarelas 12 col,1000713,Jugueteria,2028-01-01,Pelikan,48.00,180
+Libro para Colore,1000714,Jugueteria,2035-01-01,Disney,25.00,400
+Puzzle 1000 pzs,1000715,Jugueteria,2035-01-01,Ravensburger,350.00,45
+Juego de Mesa Uno,1000716,Jugueteria,2035-01-01,Mattel,110.00,120
+Baraja Española,1000717,Jugueteria,2035-01-01,Bicycle,45.00,200
+Domino Profesional,1000718,Jugueteria,2035-01-01,Cardinal,220.00,80
+Ajedrez de Madera,1000719,Jugueteria,2035-01-01,Pressman,450.00,30
+Jenga Clasico,1000720,Jugueteria,2035-01-01,Hasbro,280.00,60
+Monopoly Mexico,1000721,Jugueteria,2035-01-01,Hasbro,550.00,40
+Scrabble Original,1000722,Jugueteria,2035-01-01,Mattel,480.00,35
+Twister Clasico,1000723,Jugueteria,2035-01-01,Hasbro,320.00,50
+Operacion Juego,1000724,Jugueteria,2035-01-01,Hasbro,450.00,25
+Battleship Juego,1000725,Jugueteria,2035-01-01,Hasbro,380.00,30
+Pictionary Juego,1000726,Jugueteria,2035-01-01,Mattel,450.00,20
+Risk de Estrategia,1000727,Jugueteria,2035-01-01,Hasbro,650.00,15
+Clue Juego Mister,1000728,Jugueteria,2035-01-01,Hasbro,380.00,40
+Catan de Tablero,1000729,Jugueteria,2035-01-01,Devir,950.00,12
+Carcassonne Juego,1000730,Jugueteria,2035-01-01,Devir,750.00,15
+Dixit Juego Cartas,1000731,Jugueteria,2035-01-01,Libellud,650.00,20
+Exploding Kittens,1000732,Jugueteria,2035-01-01,Adonai,450.00,40
+Cereal de Trigo,1000733,Desayuno,2026-12-15,Kelloggs,42.00,100
+Cereal Frutal,1000734,Desayuno,2026-11-20,Post,55.00,80
+Cereal Chocolate,1000735,Desayuno,2026-10-10,Nestle,48.00,120
+Barra de Proteina,1000736,Deportes,2026-12-31,Quest,45.00,300
+Polvo de Proteina,1000737,Deportes,2027-05-15,Isopure,1100.00,40
+Creatina 300g,1000738,Deportes,2027-08-20,GNC,450.00,60
+Aminoacidos BCAA,1000739,Deportes,2027-04-12,Optimum,550.00,45
+Pre-Entreno 250g,1000740,Deportes,2027-02-18,C4,650.00,30
+Vitamina D3 60cp,1000741,Farmacia,2027-10-10,GNC,280.00,100
+Magnesio 100 tab,1000742,Farmacia,2027-09-15,Solgar,320.00,85
+Omega 3 90 caps,1000743,Farmacia,2027-06-30,Nordic,450.00,60
+Probioticos 30cp,1000744,Farmacia,2027-04-12,Culturelle,380.00,55
+Melatonina 5mg,1000745,Farmacia,2027-03-25,Natrol,220.00,90
+Colageno Hidroli,1000746,Farmacia,2027-12-31,Vital,850.00,40
+Glucosamina Comp,1000747,Farmacia,2027-11-15,Kirkland,650.00,50
+Equinacea Capsula,1000748,Farmacia,2027-08-20,NatureWay,280.00,70
+Ginkgo Biloba 60,1000749,Farmacia,2027-05-10,GNC,310.00,65
+Levadura de Cerve,1000750,Farmacia,2027-10-25,Generico,110.00,120
+Alga Spirulina,1000751,Farmacia,2027-09-30,Enature,250.00,80
+Cloruro de Magnes,1000752,Farmacia,2028-01-01,Generico,85.00,150
+Aceite de Higado,1000753,Farmacia,2027-12-31,SevenSeas,120.00,100
+Jarabe de Agave O,1000754,Abarrotes,2027-11-20,AiresCampo,145.00,45
+Azucar de Coco,1000755,Abarrotes,2027-06-30,Enature,110.00,60
+Stevia Liquida,1000756,Abarrotes,2027-04-12,Svetia,65.00,140
+Moni Fruit Endulz,1000757,Abarrotes,2027-03-15,Lakanto,210.00,40
+Harina de Almendr,1000758,Abarrotes,2027-02-10,BobRedMill,250.00,35
+Harina de Coco,1000759,Abarrotes,2027-01-01,BobRedMill,180.00,45
+Harina de Avena,1000760,Abarrotes,2027-05-20,Quaker,45.00,110
+Quinoa Blanca 500,1000761,Abarrotes,2027-10-10,VerdeValle,85.00,100
+Quinoa Roja 500g,1000762,Abarrotes,2027-09-05,VerdeValle,95.00,80
+Semilla de Chia,1000763,Abarrotes,2027-08-15,Enature,65.00,120
+Semilla de Cañamo,1000764,Abarrotes,2027-07-20,Manitoba,220.00,40
+Linaza Molida,1000765,Abarrotes,2027-06-12,Generico,35.00,200
+Goji Berries 200g,1000766,Abarrotes,2027-04-30,Enature,180.00,50
+Cacao en Polvo,1000767,Abarrotes,2027-12-31,Hershey,65.00,110
+Cacao Nibs 150g,1000768,Abarrotes,2027-11-15,Enature,110.00,60
+Mantequilla Ghee,1000769,Abarrotes,2027-10-10,4thHeart,280.00,35
+Vinagre de Sidra,1000770,Abarrotes,2027-09-30,Bragg,145.00,80
+Pasta Konjac 200,1000771,Abarrotes,2026-12-31,MiracleNoodle,45.00,120
+Sopa de Lentejas,1000772,Enlatados,2028-05-15,Campbell,32.00,180
+Sopa de Tomate C,1000773,Enlatados,2028-05-15,Campbell,32.00,180
+Champiñon en Lata,1000774,Enlatados,2028-04-12,Herdez,18.00,220
+Esfuerzo de Elote,1000775,Enlatados,2028-03-20,GiganteVerde,15.00,250
+Chiles Chipotles,1000776,Enlatados,2028-02-10,LaCosteña,14.00,350
+Frijoles Refritos,1000777,Enlatados,2028-01-15,Isadora,16.00,400
+Leche de Coco Lat,1000778,Abarrotes,2027-12-31,ThaiKitchen,38.00,130
+Sardinas en Lata,1000779,Enlatados,2028-08-30,Pescador,25.00,150
+Mejillones Lata,1000780,Enlatados,2028-07-20,Vigilante,65.00,80
+Berberechos Lata,1000781,Enlatados,2028-06-15,Vigilante,95.00,45
+Ostiones Humados,1000782,Enlatados,2028-05-10,CrownPrince,48.00,60
+Alcaparras 100g,1000783,Abarrotes,2027-04-25,Carbonell,35.00,110
+Corazones Palmito,1000784,Enlatados,2028-02-28,Roland,85.00,50
+Esparragos Verdes,1000785,Enlatados,2028-01-20,Herdez,55.00,75
+Pimientos Piquill,1000786,Enlatados,2028-09-15,Goya,42.00,90
+Alcachofas Corazo,1000787,Enlatados,2028-10-10,Goya,75.00,40
+Hojas de Vid 200g,1000788,Abarrotes,2027-08-30,Sultan,110.00,30
+Tahini Pasta 300,1000789,Abarrotes,2027-06-15,Ziyad,145.00,40
+Hummus Clasico,1000790,Lacteos,2026-04-20,Sabra,55.00,100
+Hummus con Pimiento,1000791,Lacteos,2026-04-20,Sabra,55.00,90
+Hummus con Ajo,1000792,Lacteos,2026-04-20,Sabra,55.00,85
+Guacamole Fresco,1000793,Lacteos,2026-03-25,Wholly,65.00,110
+Salsa Pico Gallo,1000794,Lacteos,2026-03-25,Eva,35.00,130
+Queso Panela Fars,1000795,Lacteos,2026-04-05,Lala,42.00,150
+Yogurt Griego Mi,1000796,Lacteos,2026-04-10,Chobani,22.00,140
+Yogurt Griego Van,1000797,Lacteos,2026-04-10,Chobani,22.00,140
+Kefir de Fresa 1L,1000798,Lacteos,2026-04-05,Lifeway,95.00,40
+Leche de Cashew,1000799,Lacteos,2026-06-10,Silk,55.00,55
+Leche de Arroz 1L,1000800,Lacteos,2026-05-30,RiceDream,48.00,70
+Cafe en Capsulas,1000801,Bebidas,2027-10-10,Nespresso,180.00,200
+Cafe Molido Desca,1000802,Bebidas,2027-08-20,Starbucks,145.00,90
+Cafe Instantaneo,1000803,Bebidas,2027-12-31,Nescafe,85.00,150
+Filtros de Cafe,1000804,Hogar,2035-01-01,Melitta,45.00,300
+Te Matcha Polvo,1000805,Bebidas,2027-05-15,Enature,280.00,60
+Te Chai Concentra,1000806,Bebidas,2027-04-12,Tazo,110.00,85
+Te Negro 50 bols,1000807,Bebidas,2027-12-31,Twinings,85.00,120
+Te Earl Grey 25,1000808,Bebidas,2027-12-31,Twinings,55.00,150
+Te de Menta 20,1000809,Bebidas,2027-12-31,Lipton,19.00,200
+Te Rooibos 20,1000810,Bebidas,2027-12-31,HeathHeather,45.00,110
+Te Oolong 20,1000811,Bebidas,2027-12-31,HeathHeather,45.00,100
+Te Blanco 20,1000812,Bebidas,2027-12-31,Twinings,55.00,95
+Jugo V8 1L,1000813,Bebidas,2026-08-15,Campbell,42.00,140
+Agua de Piedra 750,1000814,Bebidas,2027-12-31,Monterrey,35.00,120
+Agua Fiji 500ml,1000815,Bebidas,2026-10-10,Fiji,28.00,200
+Agua Evian 1L,1000816,Bebidas,2026-09-30,Danone,45.00,150
+Agua San Pellegr,1000817,Bebidas,2026-12-31,Nestle,38.00,180
+Refresco Dieta Col,1000818,Bebidas,2026-06-30,Pepsi,17.00,400
+Refresco Cero Azuc,1000819,Bebidas,2026-06-30,CocaCola,17.00,500
+Ginger Beer 4pzs,1000820,Bebidas,2026-11-20,FeverTree,120.00,80
+Cerveza Stout,1000821,Bebidas,2026-10-10,Guinness,55.00,100
+Cerveza IPA 355ml,1000822,Bebidas,2026-09-05,Lagunitas,48.00,120
+Cerveza Pilsner,1000823,Bebidas,2026-08-15,Stella,32.00,200
+Sidra de Pera 355,1000824,Bebidas,2026-07-20,Magners,45.00,90
+Mezcla Margarita,1000825,Bebidas,2026-12-31,JoseCuervo,85.00,75
+Mezcla Piña Colad,1000826,Bebidas,2026-11-15,Bacardi,95.00,60
+Agua Quina 4pzs,1000827,Bebidas,2026-10-25,Schweppes,65.00,110
+Soda Club 1L,1000828,Bebidas,2026-09-15,CanadaDry,18.00,140
+Jarabe Granadina S,1000829,Bebidas,2027-05-10,Rose,55.00,85
+Jugo de Lima 400m,1000830,Bebidas,2026-08-30,Rose,45.00,90
+Aceitunas Manzani,1000831,Abarrotes,2027-04-12,Serpis,38.00,150
+Aceitunas Negras,1000832,Abarrotes,2027-04-12,Serpis,38.00,140
+Aceitunas Gordal,1000833,Abarrotes,2027-04-12,LaEspañola,55.00,110
+Cebollitas Cambray,1000834,Abarrotes,2027-05-20,Clemente,22.00,180
+Pepinos Agridulce,1000835,Abarrotes,2027-06-30,Vlasic,65.00,100
+Chucrut Frasco,1000836,Abarrotes,2027-08-15,Kuhne,48.00,70
+Kimchi Frasco 400,1000837,Abarrotes,2026-09-30,Sunchang,120.00,45
+Pasta de Wasabi,1000838,Abarrotes,2027-10-10,S&B,32.00,130
+Jengibre en Encur,1000839,Abarrotes,2027-11-20,Hime,45.00,95
+Salsa Curry Rojo,1000840,Abarrotes,2027-12-31,ThaiKitchen,55.00,80
+Salsa Curry Verde,1000841,Abarrotes,2027-12-31,ThaiKitchen,55.00,80
+Salsa Pad Thai,1000842,Abarrotes,2027-12-31,BlueElephant,65.00,70
+Leche de Cabra Ev,1000843,Lacteos,2027-05-15,Meyenberg,85.00,40
+Queso Gorgonzola,1000844,Lacteos,2026-04-10,Galbani,95.00,25
+Queso Roquefort,1000845,Lacteos,2026-04-05,Societe,145.00,20
+Queso Emmental 200,1000846,Lacteos,2026-05-20,President,85.00,45
+Queso Gruyere 200,1000847,Lacteos,2026-06-15,Mifroma,110.00,35
+Queso Taleggio,1000848,Lacteos,2026-03-30,Mauricio,120.00,15
+Queso Havarti 200,1000849,Lacteos,2026-07-25,Arla,75.00,50
+Queso Muenster,1000850,Lacteos,2026-08-10,Fud,55.00,65
+Queso Pepper Jack,1000851,Lacteos,2026-09-01,Sargento,65.00,60
+Queso Brie Rueda,1000852,Lacteos,2026-04-05,IleDeFrance,180.00,20
+Queso Camembert R,1000853,Lacteos,2026-04-05,IleDeFrance,180.00,20
+Queso Burrata 2p,1000854,Lacteos,2026-03-22,Belgioioso,145.00,18
+Mozzarella Fresca,1000855,Lacteos,2026-03-22,Belgioioso,95.00,40
+Mascarpone 500g,1000856,Lacteos,2026-03-25,Galbani,180.00,25
+Yogurt Islandes,1000857,Lacteos,2026-04-12,Siggi,28.00,90
+Yogurt Coco Nat,1000858,Lacteos,2026-04-05,SoDelicious,32.00,75
+Yogurt Almendra,1000859,Lacteos,2026-04-05,KiteHill,35.00,65
+Yogurt de Soya,1000860,Lacteos,2026-04-05,Silk,28.00,80
+Helado de Coco 1L,1000861,Congelados,2026-06-20,Talenti,145.00,40
+Helado de Pistach,1000862,Congelados,2026-06-20,Talenti,145.00,40
+Helado de Cafe 1L,1000863,Congelados,2026-06-20,HaagenDazs,165.00,45
+Paletas Magnum 3p,1000864,Congelados,2026-07-15,Holanda,85.00,60
+Paletas Cornetto,1000865,Congelados,2026-07-15,Holanda,65.00,80
+Sandwich Helado,1000866,Congelados,2026-07-15,Nestle,25.00,150
+Bombones Helados,1000867,Congelados,2026-07-15,Holanda,55.00,100
+Fruta Congelada M,1000868,Congelados,2026-12-31,LaHuerta,85.00,70
+Mango en Cubos C,1000869,Congelados,2026-12-31,LaHuerta,85.00,70
+Piña en Cubos Con,1000870,Congelados,2026-12-31,LaHuerta,85.00,70
+Elote Dorado Cong,1000871,Congelados,2026-11-30,GiganteVerde,35.00,120
+Chicharo con Zana,1000872,Congelados,2026-11-30,LaHuerta,25.00,140
+Habas Verdes Cong,1000873,Congelados,2026-11-30,LaHuerta,32.00,100
+Brocoli y Colifl,1000874,Congelados,2026-11-30,LaHuerta,35.00,90
+Papas Gajo Cong,1000875,Congelados,2026-10-25,McCain,65.00,110
+Papas Rejilla Con,1000876,Congelados,2026-10-25,McCain,75.00,100
+Yuca Congelada 1k,1000877,Congelados,2026-09-30,Goya,55.00,60
+Platano Madur Con,1000878,Congelados,2026-09-30,Goya,48.00,85
+Arepas Congeladas,1000879,Congelados,2026-08-20,P.A.N.,65.00,70
+Pan de Bono Cong,1000880,Congelados,2026-08-20,Goya,85.00,50
+Croquetas Jamon C,1000881,Congelados,2026-05-15,Goya,45.00,120
+Empanadas Carne C,1000882,Congelados,2026-05-15,Goya,65.00,100
+Quiche de Espinac,1000883,Congelados,2026-04-10,MarieCallender,110.00,30
+Pizza Vegana Cong,1000884,Congelados,2026-08-30,Daiya,145.00,40
+Helado Vegano Cho,1000885,Congelados,2026-06-30,HaloTop,165.00,35
+Nuggets Veganos,1000886,Congelados,2026-09-15,MorningStar,110.00,60
+Hamburguesa Veg,1000887,Congelados,2026-09-15,BeyondMeat,220.00,45
+Salchicha Vegana,1000888,Congelados,2026-09-15,FieldRoast,145.00,40
+Tocino Vegano Con,1000889,Congelados,2026-09-15,Lightlife,110.00,35
+Tofu Firme 400g,1000890,Lacteos,2026-04-20,HouseFoods,45.00,100
+Tofu Suave 400g,1000891,Lacteos,2026-04-20,HouseFoods,45.00,100
+Tempeh Organico,1000892,Lacteos,2026-04-20,Lightlife,85.00,40
+Seitan en Trozos,1000893,Lacteos,2026-04-20,Uptons,95.00,35
+Leche de Cañamo,1000894,Lacteos,2026-06-15,HempBliss,65.00,30
+Leche de Macadami,1000895,Lacteos,2026-06-15,Milkadamia,85.00,35
+Leche de Quinoa,1000896,Lacteos,2026-06-15,EcoMil,75.00,30
+Mantequilla Vegan,1000897,Lacteos,2026-05-25,Miyoko,110.00,45
+Queso Vegano Ched,1000898,Lacteos,2026-04-10,Violife,85.00,60
+Queso Vegano Mozz,1000899,Lacteos,2026-04-10,Violife,85.00,60
+Queso Vegano Parm,1000900,Lacteos,2026-04-10,FollowYourHeart,95.00,50
+Mayonesa Vegana,1000901,Abarrotes,2026-12-31,Hellmanns,65.00,100
+Ketchup Organica,1000902,Abarrotes,2026-11-20,Annie,55.00,120
+Mostaza Dijon 200,1000903,Abarrotes,2027-10-05,Maille,75.00,80
+Mostaza Antigua,1000904,Abarrotes,2027-10-05,Maille,85.00,70
+Mostaza Dulce Miel,1000905,Abarrotes,2027-10-05,Frenchs,45.00,110
+Salsa BBQ Humada,1000906,Abarrotes,2027-05-20,Stubb,65.00,130
+Salsa BBQ Dulce,1000907,Abarrotes,2027-05-20,SweetBabyRay,55.00,150
+Salsa Worcestershire,1000908,Abarrotes,2027-10-10,LeaPerrin,85.00,90
+Salsa Tabasco 60m,1000909,Salsas,2028-12-31,McIlhenny,35.00,200
+Salsa Buffalo 350,1000910,Salsas,2027-09-15,Frank,65.00,120
+Salsa Teriyaki Gl,1000911,Salsas,2027-06-30,Kikkoman,55.00,110
+Salsa Sweet Chili,1000912,Salsas,2027-08-20,MaePloy,45.00,150
+Salsa de Pescado,1000913,Abarrotes,2027-12-31,ThaiKitchen,65.00,80
+Salsa de Soya Low,1000914,Salsas,2027-09-30,Kikkoman,45.00,140
+Salsa Ponzu 300ml,1000915,Salsas,2027-09-30,Mizkan,75.00,60
+Salsa Unagi 200ml,1000916,Salsas,2027-09-30,Kikkoman,85.00,50
+Salsa Tonkatsu,1000917,Salsas,2027-09-30,Bulldog,95.00,45
+Salsa Sambal Oele,1000918,Salsas,2027-12-31,HuyFong,55.00,90
+Salsa Gochujang,1000919,Salsas,2027-12-31,Sunchang,110.00,70
+Curry Madras Polv,1000920,Abarrotes,2028-05-15,Sharwood,65.00,80
+Garam Masala 50g,1000921,Abarrotes,2028-05-15,Badia,45.00,100
+Tumerico Curcuma,1000922,Abarrotes,2028-05-15,McCormick,35.00,150
+Cardamomo Molido,1000923,Abarrotes,2028-05-15,Badia,85.00,60
+Cilantro Semilla,1000924,Abarrotes,2028-05-15,McCormick,28.00,120
+Fenogreco Molido,1000925,Abarrotes,2028-05-15,Badia,35.00,90
+Azafran Hebras 1g,1000926,Abarrotes,2030-12-31,Badia,250.00,30
+Nuez Moscada pza,1000927,Abarrotes,2028-12-31,Badia,55.00,80
+Anis Estrella 50g,1000928,Abarrotes,2028-12-31,Badia,45.00,110
+Hinojo Semilla,1000929,Abarrotes,2028-12-31,McCormick,28.00,130
+Semilla de Amapol,1000930,Abarrotes,2028-12-31,Badia,45.00,100
+Semilla de Alcarat,1000931,Abarrotes,2028-12-31,McCormick,28.00,90
+Sal de Apio 100g,1000932,Abarrotes,2028-12-31,Badia,25.00,150
+Sal de Ajo 100g,1000933,Abarrotes,2028-12-31,Lawry,35.00,200
+Sal con Cebolla,1000934,Abarrotes,2028-12-31,McCormick,35.00,180
+Sazonador Lemon P,1000935,Abarrotes,2028-12-31,Badia,42.00,140
+Sazonador Italian,1000936,Abarrotes,2028-12-31,McCormick,38.00,160
+Sazonador Mexican,1000937,Abarrotes,2028-12-31,Badia,38.00,150
+Sazonador Cajun,1000938,Abarrotes,2028-12-31,Badia,38.00,130
+Sazonador Bagel,1000939,Abarrotes,2028-12-31,TraderJoe,85.00,100
+Ajonjoli Blanco,1000940,Abarrotes,2028-12-31,Badia,32.00,200
+Ajonjoli Negro,1000941,Abarrotes,2028-12-31,Badia,35.00,150
+Pasta de Achiote B,1000942,Abarrotes,2027-03-18,ElYucateco,25.00,250
+Chiles Ancho Seco,1000943,Abarrotes,2027-12-31,Generico,55.00,100
+Chiles Guajillo S,1000944,Abarrotes,2027-12-31,Generico,55.00,120
+Chiles Pasilla Se,1000945,Abarrotes,2027-12-31,Generico,55.00,100
+Chiles Arbol Seco,1000946,Abarrotes,2027-12-31,Generico,35.00,200
+Chiles Mulato Sec,1000947,Abarrotes,2027-12-31,Generico,65.00,80
+Chile Piquin Polv,1000948,Abarrotes,2027-12-31,Tajin,28.00,300
+Tajin Clasico 142,1000949,Abarrotes,2027-12-31,Tajin,35.00,250
+Chamoy Liquido 1L,1000950,Abarrotes,2027-12-31,Mega,45.00,150
+Dulce Tamarindo,1000951,Dulces,2026-12-31,Pulparindo,5.00,1000
+Paleta de Caramelo,1000952,Dulces,2026-12-31,Vero,3.00,2000
+Chicle de Frutas,1000953,Dulces,2026-12-31,Canels,1.00,5000
+Chocolate Blanco,1000954,Dulces,2026-09-30,MilkyWay,12.00,400
+Chocolate Amargo,1000955,Dulces,2026-09-30,Lindt,45.00,200
+Chocolate Gianduj,1000956,Dulces,2026-09-30,Ferrero,85.00,150
+Trufas de Choco,1000957,Dulces,2026-06-30,Lindt,120.00,100
+Mazapan Gigante,1000958,Dulces,2026-12-31,DeLaRosa,8.00,800
+Bombon Gigante 50,1000635,Dulces,2026-12-31,DeLaRosa,35.00,300
+Obleas con Cajeta,1000960,Dulces,2026-12-31,LasSevillanas,45.00,250
+Cajeta Envinada,1000961,Dulces,2027-12-31,Coronado,65.00,180
+Cajeta Quemada,1000962,Dulces,2027-12-31,Coronado,65.00,180
+Miel de Maguey,1000963,Abarrotes,2028-01-01,Enature,110.00,40
+Melaza de Caña,1000964,Abarrotes,2028-01-01,Generico,45.00,120
+Jarabe de Maiz 1L,1000965,Abarrotes,2027-12-31,Karo,55.00,150
+Extracto de Malta,1000966,Abarrotes,2027-12-31,Generico,85.00,60
+Levadura Nutricio,1000967,Abarrotes,2027-10-10,Bragg,120.00,50
+Germen de Trigo,1000968,Abarrotes,2026-08-30,Generico,35.00,140
+Salvado de Trigo,1000969,Abarrotes,2026-08-30,Generico,25.00,200
+Amaranto Natural,1000970,Abarrotes,2026-12-31,Generico,45.00,180
+Granola con Almend,1000971,Desayuno,2026-11-05,Quaker,48.00,120
+Muesli Suizo 1kg,1000972,Desayuno,2026-11-05,Familia,145.00,50
+Avena Instantanea,1000973,Desayuno,2026-11-05,Quaker,12.00,350
+Leche en Polvo 1k,1000974,Lacteos,2027-12-31,Nido,180.00,100
+Leche Deslactosad,1000975,Lacteos,2026-05-15,Lala,26.00,300
+Leche Light 1L,1000976,Lacteos,2026-05-15,Alpura,26.00,300
+Leche Organica 1L,1000977,Lacteos,2026-05-15,SantaClara,38.00,150
+Huevo de Libre Pa,1000978,Lacteos,2026-04-02,AiresCampo,75.00,80
+Crema para Batir,1000979,Lacteos,2026-04-12,Lyncott,55.00,120
+Sour Cream 500g,1000980,Lacteos,2026-04-12,Daisy,45.00,140
+Cottage Cheese 500,1000981,Lacteos,2026-04-12,Lyncott,55.00,130
+Queso Feta Desmor,1000982,Lacteos,2026-04-30,Athenos,65.00,100
+Queso Azul Desmor,1000983,Lacteos,2026-04-10,TreasureCave,75.00,80
+Queso Parmesano R,1000984,Lacteos,2026-09-30,Kraft,45.00,200
+Tofu Ahumado 250g,1000985,Lacteos,2026-04-20,SoyBoy,65.00,50
+Seitan Organico,1000986,Lacteos,2026-04-20,Uptons,110.00,Ninguno
+Tempeh Marinado,1000987,Lacteos,2026-04-20,Lightlife,95.00,45
+Pastelito de Fresa,1000988,Dulces,2026-04-30,Marinela,15.00,400
+Donas Espolvoread,1000989,Panaderia,2026-04-15,Bimbo,18.00,250
+Roles de Canela,1000990,Panaderia,2026-04-15,Bimbo,22.00,200
+Mantecadas Vainil,1000991,Panaderia,2026-04-15,Bimbo,22.00,200
+Panque de Nuez,1000992,Panaderia,2026-04-15,Bimbo,35.00,150
+Panque de Limon,1000993,Panaderia,2026-04-15,Bimbo,35.00,150
+Barritas de Piña,1000994,Dulces,2026-06-30,Marinela,12.00,350
+Galletas de Avena,1000995,Galletas,2026-08-30,Quaker,18.00,300
+Galletas Integrale,1000996,Galletas,2026-08-30,Gamesa,18.00,300
+Galletas de Choco,1000997,Galletas,2026-08-30,Oreo,15.00,500
+Galletas Rellenas,1000998,Galletas,2026-08-30,Principe,18.00,400
+Galletas Saladas,1000999,Galletas,2026-12-31,Salmas,25.00,350
+Galletas de Queso,1001000,Galletas,2026-10-15,Ritz,22.00,450

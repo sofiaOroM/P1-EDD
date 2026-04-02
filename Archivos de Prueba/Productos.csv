@@ -1,0 +1,53 @@
+Nombre,CodigoBarra,Categoria,Fecha Caducidad,Marca,Precio,Stock
+Leche Entera 1L,7501025,Lacteos,2026-05-15,Lala,2.50,100
+Yogurt Fresa,7501027,Lacteos,2026-04-10,Danone,1.20,50
+Queso Panela,7501027,Lacteos,2026-04-20,Nochebuena,4.50,30
+Arroz Blanco 1kg,7501028,Granos,2027-12-01,Morelos,1.80,200
+Frijol Negro 1kg,7501029,Granos,2027-11-15,Isadora,2.10,150
+Pasta Spaguetti,7501030,Pastas,2028-01-20,La Moderna,0.80,300
+Aceite Vegetal,7501031,Abarrotes,2027-06-30,1-2-3,3.50,80
+Sal de Mesa,7501032,Abarrotes,2029-01-01,Fina,0.50,500
+Azucar Blanca,7501033,Abarrotes,2028-05-10,Zulka,1.90,120
+Cafe Soluble,7501034,Bebidas,2027-03-15,Nescafe,6.00,60
+Te Verde,7501033,Bebidas,2027-08-20,McCormick,2.30,40
+Agua Mineral 600ml,7501036,Bebidas,2026-12-31,Penafiel,0.90,100
+Refresco de Cola,7501037,Bebidas,2026-10-15,Coca-Cola,1.50,250
+Jugo de Naranja,7501038,Bebidas,2026-06-05,Del Valle,1.30,90
+Cereal de Maiz,7501039,Desayuno,2027-02-28,Kelloggs,3.80,70
+Galletas Maria,7501040,Galletas,2027-04-12,Gamesa,0.70,180
+Pan de Caja,7501041,Panaderia,2026-04-01,Bimbo,2.80,45
+Mermelada Fresa,7501042,Abarrotes,2027-09-18,McCormick,3.10,35
+Atun en Agua,7501043,Enlatados,2028-11-30,Dolores,1.40,110
+Sardinas Tomate,7501044,Enlatados,2028-10-25,Guaymex,2.00,40
+Lentejas 500g,7501045,Granos,2027-12-20,Verde Valle,1.25,85
+Harina de Trigo,7501046,Abarrotes,2027-05-14,Selecta,1.10,95
+Mayonesa 400g,7501047,Abarrotes,2027-01-10,Hellmanns,3.40,55
+Ketchup 380g,7501048,Abarrotes,2027-03-22,Heinz,2.20,65
+Mostaza 200g,7501049,Abarrotes,2027-08-05,Frenchs,1.85,30
+Papel Higienico 4pzs,7501050,Limpieza,2030-01-01,Regio,2.50,150
+Jabon de Barra,7501051,Limpieza,2030-01-01,Zote,0.95,200
+Detergente Polvo,7501052,Limpieza,2029-05-15,Ariel,5.20,40
+Suavizante Telas,7501053,Limpieza,2028-12-10,Downy,4.10,35
+Suavizante Telas,7501024,Limpieza,2028-12-10,Downy,4.10,35
+Limpiador Multiusos,7501054,Limpieza,2028-06-20,Fabuloso,1.80,60
+Cloro 1L,7501055,Limpieza,2027-11-30,Cloralex,1.10,100
+Shampoo 400ml,7501056,Higiene,2028-02-14,Pantene,4.50,50
+Pasta de Dientes,7501057,Higiene,2027-07-22,Colgate,2.30,80
+Desodorante Spray,7501058,Higiene,2027-10-05,Rexona,3.90,45
+Jabon Liquido Manos,7501059,Higiene,2028-01-15,Palmolive,2.60,40
+Crema Corporal,7501060,Higiene,2027-09-30,Nivea,5.40,30
+Papas Fritas 100g,7501061,Botanas,2026-07-20,Sabritas,1.40,120
+Nachos 150g,7501062,Botanas,2026-08-15,Barcel,2.10,90
+Cacahuates Salados,7501063,Botanas,2026-12-10,Mafer,1.80,75
+Chocolate Barra,7501064,Dulces,2027-05-01,Hersheys,1.20,100
+Gomitas Frutas,7501065,Dulces,2027-02-14,Panditas,0.90,150
+Helado Vainilla,7501066,Congelados,2026-09-30,Holanda,5.50,20
+Pizza Congelada,7501067,Congelados,2026-08-10,Kir,6.80,15
+Verduras Mixtas,7501068,Congelados,2027-01-20,La Huerta,2.40,40
+Servilletas 100pzs,7501069,Limpieza,2030-01-01,Pétalo,1.50,110
+Mantequilla 90g,7501070,Lacteos,2026-06-15,Primavera,1.10,65
+Huevo Blanco 12pzs,7501071,14524,2026-04-10,Bachoco,3.20,40
+Vinagre Blanco,7501072,Abarrotes,2029-10-15,Barrilito,0.90,ninguno
+Aceitunas Rellenas,7501073,Enlatados,2027-11-05,Bufalo,Gratis,25
+Linea Error Test,,Incompleta,2026-01-01,Marca,GRATIS,10
+Duplicado Test,7501025,Lacteos,2026-05-15,Lala,2.50,100
