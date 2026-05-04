@@ -18,6 +18,7 @@ VentanaDots::VentanaDots(Sucursal* sucursal, QWidget *parent) :
 
 void VentanaDots::actualizarGrafico() {
     QString dotPath = "temp.dot";
+    QString dotPathComp = "temp2.dot";
     QString imgPath = "temp.png";
     int index = ui->comboEstructura->currentIndex();
 
@@ -25,13 +26,13 @@ void VentanaDots::actualizarGrafico() {
     case 0: sucursalActual->arbolAvl.generarReporteGrafico(dotPath.toStdString()); break;
     case 1: sucursalActual->arbolB.generarDotB(dotPath.toStdString()); break;
     case 2: sucursalActual->arbolBM.generarDotBM(dotPath.toStdString()); break;
-    case 3: sucursalActual->hash.generarDot(dotPath.toStdString()); break;
+    case 3: sucursalActual->hash.generarDotParcial(dotPath.toStdString()); sucursalActual->hash.generarDot(dotPathComp.toStdString()); break;
     }
 
     generarImagen(dotPath, imgPath);
 }
 
-void VentanaDots::generarImagen(QString dotPath, QString imgPath)
+/*void VentanaDots::generarImagen(QString dotPath, QString imgPath)
 {
     QProcess process;
 
@@ -61,7 +62,7 @@ void VentanaDots::generarImagen(QString dotPath, QString imgPath)
         ui->lblImagen->resize(pix.size());
         ui->scrollAreaWidgetContents->resize(pix.size());
     }
-}
+}*/
 
 void VentanaDots::on_btnExportarArbol_clicked() {
     QString rutaTemporal = "temp.png";
@@ -88,6 +89,41 @@ void VentanaDots::on_btnExportarArbol_clicked() {
         QMessageBox::information(this, "Éxito", "Árbol exportado correctamente.");
     } else {
         QMessageBox::critical(this, "Error", "No se pudo exportar el archivo.");
+    }
+}
+
+void VentanaDots::generarImagen(QString dotPath, QString imgPath) {
+    // 1. Desvincular la imagen del Label para liberar el archivo
+    ui->lblImagen->setPixmap(QPixmap());
+
+    // 2. Asegurarse de que el archivo viejo no estorbe
+    if (QFile::exists(imgPath)) {
+        QFile::remove(imgPath);
+    }
+
+    QProcess process;
+    QString program = "C:/Program Files/Graphviz/bin/dot.exe";
+    QStringList arguments;
+    arguments << "-Tpng" << dotPath << "-o" << imgPath;
+
+    process.start(program, arguments);
+
+    // 3. Aumentar el tiempo de espera si la tabla es muy grande
+    if (!process.waitForFinished(5000)) { // 5 segundos de gracia
+        qDebug() << "Graphviz tardó demasiado o falló";
+        return;
+    }
+
+    // 4. Forzar a Qt a ignorar la memoria caché del archivo
+    QPixmap pix;
+    pix.load(imgPath); // load() es más confiable que el constructor para archivos grandes
+
+    if(pix.isNull()) {
+        qDebug() << "Error: La imagen no se pudo cargar.";
+    } else {
+        ui->lblImagen->setPixmap(pix);
+        ui->lblImagen->setScaledContents(false);
+        ui->lblImagen->adjustSize(); // Ajustar el tamaño del label al contenido
     }
 }
 

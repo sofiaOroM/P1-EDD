@@ -1,53 +1,1051 @@
-Nombre,CodigoBarra,Categoria,Fecha Caducidad,Marca,Precio,Stock
-Leche Entera 1L,7501025,Lacteos,2026-05-15,Lala,2.50,100
-Yogurt Fresa,7501027,Lacteos,2026-04-10,Danone,1.20,50
-Queso Panela,7501027,Lacteos,2026-04-20,Nochebuena,4.50,30
-Arroz Blanco 1kg,7501028,Granos,2027-12-01,Morelos,1.80,200
-Frijol Negro 1kg,7501029,Granos,2027-11-15,Isadora,2.10,150
-Pasta Spaguetti,7501030,Pastas,2028-01-20,La Moderna,0.80,300
-Aceite Vegetal,7501031,Abarrotes,2027-06-30,1-2-3,3.50,80
-Sal de Mesa,7501032,Abarrotes,2029-01-01,Fina,0.50,500
-Azucar Blanca,7501033,Abarrotes,2028-05-10,Zulka,1.90,120
-Cafe Soluble,7501034,Bebidas,2027-03-15,Nescafe,6.00,60
-Te Verde,7501033,Bebidas,2027-08-20,McCormick,2.30,40
-Agua Mineral 600ml,7501036,Bebidas,2026-12-31,Penafiel,0.90,100
-Refresco de Cola,7501037,Bebidas,2026-10-15,Coca-Cola,1.50,250
-Jugo de Naranja,7501038,Bebidas,2026-06-05,Del Valle,1.30,90
-Cereal de Maiz,7501039,Desayuno,2027-02-28,Kelloggs,3.80,70
-Galletas Maria,7501040,Galletas,2027-04-12,Gamesa,0.70,180
-Pan de Caja,7501041,Panaderia,2026-04-01,Bimbo,2.80,45
-Mermelada Fresa,7501042,Abarrotes,2027-09-18,McCormick,3.10,35
-Atun en Agua,7501043,Enlatados,2028-11-30,Dolores,1.40,110
-Sardinas Tomate,7501044,Enlatados,2028-10-25,Guaymex,2.00,40
-Lentejas 500g,7501045,Granos,2027-12-20,Verde Valle,1.25,85
-Harina de Trigo,7501046,Abarrotes,2027-05-14,Selecta,1.10,95
-Mayonesa 400g,7501047,Abarrotes,2027-01-10,Hellmanns,3.40,55
-Ketchup 380g,7501048,Abarrotes,2027-03-22,Heinz,2.20,65
-Mostaza 200g,7501049,Abarrotes,2027-08-05,Frenchs,1.85,30
-Papel Higienico 4pzs,7501050,Limpieza,2030-01-01,Regio,2.50,150
-Jabon de Barra,7501051,Limpieza,2030-01-01,Zote,0.95,200
-Detergente Polvo,7501052,Limpieza,2029-05-15,Ariel,5.20,40
-Suavizante Telas,7501053,Limpieza,2028-12-10,Downy,4.10,35
-Suavizante Telas,7501024,Limpieza,2028-12-10,Downy,4.10,35
-Limpiador Multiusos,7501054,Limpieza,2028-06-20,Fabuloso,1.80,60
-Cloro 1L,7501055,Limpieza,2027-11-30,Cloralex,1.10,100
-Shampoo 400ml,7501056,Higiene,2028-02-14,Pantene,4.50,50
-Pasta de Dientes,7501057,Higiene,2027-07-22,Colgate,2.30,80
-Desodorante Spray,7501058,Higiene,2027-10-05,Rexona,3.90,45
-Jabon Liquido Manos,7501059,Higiene,2028-01-15,Palmolive,2.60,40
-Crema Corporal,7501060,Higiene,2027-09-30,Nivea,5.40,30
-Papas Fritas 100g,7501061,Botanas,2026-07-20,Sabritas,1.40,120
-Nachos 150g,7501062,Botanas,2026-08-15,Barcel,2.10,90
-Cacahuates Salados,7501063,Botanas,2026-12-10,Mafer,1.80,75
-Chocolate Barra,7501064,Dulces,2027-05-01,Hersheys,1.20,100
-Gomitas Frutas,7501065,Dulces,2027-02-14,Panditas,0.90,150
-Helado Vainilla,7501066,Congelados,2026-09-30,Holanda,5.50,20
-Pizza Congelada,7501067,Congelados,2026-08-10,Kir,6.80,15
-Verduras Mixtas,7501068,Congelados,2027-01-20,La Huerta,2.40,40
-Servilletas 100pzs,7501069,Limpieza,2030-01-01,Pétalo,1.50,110
-Mantequilla 90g,7501070,Lacteos,2026-06-15,Primavera,1.10,65
-Huevo Blanco 12pzs,7501071,14524,2026-04-10,Bachoco,3.20,40
-Vinagre Blanco,7501072,Abarrotes,2029-10-15,Barrilito,0.90,ninguno
-Aceitunas Rellenas,7501073,Enlatados,2027-11-05,Bufalo,Gratis,25
-Linea Error Test,,Incompleta,2026-01-01,Marca,GRATIS,10
-Duplicado Test,7501025,Lacteos,2026-05-15,Lala,2.50,100
+idSucursal,Nombre,CodigoBarra,Categoria,FechaVencimiento,Marca,Precio,Stock
+2,Cereal de MaízMaíz Coca-Cola,7603001001,Lácteos,2026-08-01,Knorr,95.62,139
+2,Pasta Dental Sabritas,7603001002,Abarrotes,2026-08-02,Kellogg's,79.06,29
+2,Papel Higiénico Sabritas,7603001003,Bebidas,2026-08-03,Colgate,33.17,67
+2,Papel HighÃ©nico Cloralex,7603001004,Lácteos,2026-08-04,Palmolive,65.95,186
+2,Helado de Vainilla Knorr,7603001005,Snacks,2026-08-05,Sabritas,32.78,198
+2,Leche Entera Sabritas,7603001006,PanaderíaPanadería,2026-08-06,Knorr,31.82,57
+2,Pan Blanco Colgate,7603001007,Snacks,2026-08-07,Pepsi,59.15,55
+2,Salchichas Alpina,7603001008,Abarrotes,2026-08-08,Dos Pinos,28.93,114
+2,Pan Blanco Lala,7603001009,Bebidas,2026-08-09,Suavitel,77.6,134
+2,Arroz Blanco Coca-Cola,7603001010,Panadería,2026-08-10,Palmolive,11.25,140
+2,AzúcarAzúcar Blanca Nestlé,7603001011,Snacks,2026-08-11,Palmolive,86.13,73
+2,Harina de Trigo Sabritas,7603001012,Panadería,2026-08-12,Dos Pinos,10.54,24
+2,Atún en Lata Knorr,7603001013,Lácteos,2026-08-13,La Moderna,22.0,141
+2,Harina de Trigo Sabritas,7603001014,Limpieza,2026-08-14,Knorr,24.14,179
+2,Pizza Congelada Kellogg's,7603001015,Snacks,2026-08-15,Colgate,66.49,21
+2,Carne de Res Nestlé,7603001016,Lácteos,2026-08-16,Gamesa,40.9,69
+2,Sopa Instantánea Pepsi,7603001017,Congelados,2026-08-17,Colgate,54.11,187
+2,CaféCafé Molido Great Value,7603001018,Congelados,2026-08-18,Sabritas,71.21,135
+2,Galletas María Cloralex,7603001019,Congelados,2026-08-19,Fud,38.13,74
+2,Atún en Lata Fud,7603001020,Snacks,2026-08-20,La Moderna,77.56,160
+2,Detergente Líquido La Moderna,7603001021,Abarrotes,2026-08-21,Knorr,68.87,105
+2,Bananas Nestlé,7603001022,Limpieza,2026-08-22,Knorr,78.81,72
+2,Jamón de Pavo Pepsi,7603001023,Carnes,2026-08-23,La Moderna,18.17,197
+2,Papas Fritas Fud,7603001024,Lácteos,2026-08-24,Kellogg's,88.79,93
+2,Bananas Dos Pinos,7603001025,Limpieza,2026-08-25,Pepsi,64.58,123
+2,Detergente Líquido La Moderna,7603001026,Carnes,2026-08-26,Coca-Cola,15.98,64
+2,Frijol Negro Great Value,7603001027,Limpieza,2026-08-27,Gamesa,37.0,28
+2,Papas Fritas Kellogg's,7603001028,Higiene,2026-08-28,Lala,5.14,168
+2,Servilletas Palmolive,7603001029,Snacks,2026-08-29,Kellogg's,92.59,59
+2,Atún en Lata Pepsi,7603001030,Frutas y Verduras,2026-08-30,Fud,93.74,119
+2,Manzanas Maggi,7603001031,Panadería,2026-08-31,Gamesa,84.64,94
+2,JabónJabón en Barra Maggi,7603001032,Frutas y Verduras,2026-09-01,Nestlé,45.71,33
+2,Margarina La Moderna,7603001033,Snacks,2026-09-02,Palmolive,67.33,126
+2,Cereal de Maíz La Moderna,7603001034,Abarrotes,2026-09-03,Maggi,26.03,133
+2,Pollo Entero Maggi,7603001035,Panadería,2026-09-04,Dos Pinos,67.53,162
+2,Pizza Congelada Palmolive,7603001036,Frutas y Verduras,2026-09-05,Lala,46.42,60
+2,Leche Entera La CosteÃ±a,7603001037,Bebidas,2026-09-06,Coca-Cola,91.06,196
+2,Galletas María La Moderna,7603001038,Limpieza,2026-09-07,Nestlé,40.9,163
+2,Mantequilla Alpina,7603001039,Snacks,2026-09-08,Fud,65.56,31
+2,Cereal de Maíz Dos Pinos,7603001040,Snacks,2026-09-09,Suavitel,56.63,50
+2,Leche Entera Pepsi,7603001041,Bebidas,2026-09-10,Maggi,6.24,52
+2,Shampoo Sabritas,7603001042,Snacks,2026-09-11,Alpina,51.44,73
+2,Arroz Blanco Kellogg's,7603001043,Snacks,2026-09-12,Fud,93.58,99
+2,Arroz Blanco Coca-Cola,7603001044,Carnes,2026-09-13,Suavitel,35.81,189
+2,Sopa Instantánea Cloralex,7603001045,Abarrotes,2026-09-14,Palmolive,31.48,130
+2,Shampoo Sabritas,7603001046,Lácteos,2026-09-15,Cloralex,89.73,85
+2,Azúcar Blanca La Moderna,7603001047,Limpieza,2026-09-16,Great Value,11.31,64
+2,Pan Blanco Kellogg's,7603001048,Limpieza,2026-09-17,Cloralex,24.74,177
+2,Huevos Pepsi,7603001049,Frutas y Verduras,2026-09-18,Nestlé,8.45,120
+2,Cereal de Maíz Maggi,7603001050,Frutas y Verduras,2026-09-19,Sabritas,54.13,182
+3,Mantequilla Coca-Cola,7603001051,Lácteos,2026-09-20,La CosteÃ±a,14.8,56
+3,Arroz Blanco Kellogg's,7603001052,Lácteos,2026-09-21,Gamesa,8.47,102
+3,Papas Fritas Lala,7603001053,Congelados,2026-09-22,Gamesa,78.15,179
+3,Papas Fritas La CosteÃ±a,7603001054,Snacks,2026-09-23,Bimbo,33.82,99
+3,Huevos La Moderna,7603001055,Lácteos,2026-09-24,Coca-Cola,30.73,95
+3,Servilletas Maggi,7603001056,Lácteos,2026-09-25,Pepsi,58.64,144
+3,Pan Integral Lala,7603001057,Snacks,2026-09-26,Cloralex,86.86,43
+3,Pizza Congelada Colgate,7603001058,Carnes,2026-09-27,Nestlé,51.77,127
+3,Refresco Cola Nestlé,7603001059,Higiene,2026-09-28,Sabritas,97.87,10
+3,Pizza Congelada Palmolive,7603001060,Limpieza,2026-09-29,Alpina,49.05,97
+3,Detergente Líquido Nestlé,7603001061,Snacks,2026-09-30,Lala,50.79,189
+3,Queso Mozzarella La Moderna,7603001062,Higiene,2026-10-01,La Moderna,20.42,58
+3,Chocolate en Barra Kellogg's,7603001063,Panadería,2026-10-02,Alpina,36.25,37
+3,Jugo de Naranja Fud,7603001064,Bebidas,2026-10-03,Nestlé,7.94,64
+3,Helado de Vainilla Dos Pinos,7603001065,Congelados,2026-10-04,Cloralex,34.9,98
+3,Detergente Líquido Knorr,7603001066,Bebidas,2026-10-05,Fud,10.84,168
+3,Pizza Congelada Gamesa,7603001067,Frutas y Verduras,2026-10-06,La CosteÃ±a,6.38,103
+3,Leche Descremada Suavitel,7603001068,Panadería,2026-10-07,Kellogg's,19.09,129
+3,Mantequilla Palmolive,7603001069,Congelados,2026-10-08,Colgate,74.31,25
+3,Manzanas Dos Pinos,7603001070,Bebidas,2026-10-09,Colgate,30.38,12
+3,Refresco Cola Lala,7603001071,Congelados,2026-10-10,Alpina,85.78,166
+3,Tomates Knorr,7603001072,Congelados,2026-10-11,Gamesa,42.62,36
+3,Tomates Pepsi,7603001073,Panadería,2026-10-12,Great Value,51.68,190
+3,Frijol Negro Bimbo,7603001074,Congelados,2026-10-13,La CosteÃ±a,41.33,43
+3,Frijol Negro Palmolive,7603001075,Higiene,2026-10-14,Bimbo,15.62,68
+3,Harina de Trigo Suavitel,7603001076,Higiene,2026-10-15,Fud,96.72,191
+3,Arroz Blanco Nestlé,7603001077,Snacks,2026-10-16,Cloralex,45.36,34
+3,Margarina Nestlé,7603001078,Carnes,2026-10-17,Fud,42.58,161
+3,Refresco Cola Fud,7603001079,Abarrotes,2026-10-18,Bimbo,45.47,114
+3,Jabón en Barra Suavitel,7603001080,Bebidas,2026-10-19,Fud,20.56,30
+3,Papel Higiénico Knorr,7603001081,Congelados,2026-10-20,Cloralex,46.95,184
+3,Mantequilla La CosteÃ±a,7603001082,Limpieza,2026-10-21,Knorr,47.11,51
+3,Pollo Entero Cloralex,7603001083,Higiene,2026-10-22,Great Value,66.74,107
+3,Papas Fritas Bimbo,7603001084,Higiene,2026-10-23,Colgate,80.87,102
+3,Sopa Instantánea Lala,7603001085,Snacks,2026-10-24,Suavitel,20.11,190
+3,Servilletas Maggi,7603001086,Frutas y Verduras,2026-10-25,Lala,46.38,124
+3,Margarina La Moderna,7603001087,Bebidas,2026-10-26,Suavitel,95.39,145
+3,Pan Integral Bimbo,7603001088,Carnes,2026-10-27,Suavitel,83.86,186
+3,Frijol Negro La CosteÃ±a,7603001089,Frutas y Verduras,2026-10-28,Great Value,76.14,41
+3,Aceite Vegetal Kellogg's,7603001090,Congelados,2026-10-29,Great Value,41.5,64
+3,Zanahorias Fud,7603001091,Lácteos,2026-10-30,Cloralex,57.72,76
+3,Harina de Trigo Palmolive,7603001092,Carnes,2026-10-31,Colgate,17.15,19
+3,Servilletas Palmolive,7603001093,Lácteos,2026-11-01,Kellogg's,52.86,75
+3,Leche Descremada Suavitel,7603001094,Carnes,2026-11-02,Coca-Cola,8.32,44
+3,Yogur Natural Fud,7603001095,Carnes,2026-11-03,Bimbo,29.66,189
+3,Helado de Vainilla Suavitel,7603001096,Panadería,2026-11-04,Colgate,14.38,11
+3,Arroz Blanco Cloralex,7603001097,Frutas y Verduras,2026-11-05,Sabritas,30.65,39
+3,Agua Purificada Bimbo,7603001098,Panadería,2026-11-06,Alpina,57.55,157
+3,Pollo Entero La CosteÃ±a,7603001099,Panadería,2026-11-07,Colgate,27.87,148
+3,Queso Mozzarella La CosteÃ±a,7603001100,Panadería,2026-11-08,Bimbo,43.51,175
+4,Tomates Cloralex,7603001101,Bebidas,2026-11-09,Dos Pinos,35.35,111
+4,Servilletas Knorr,7603001102,Congelados,2026-11-10,Knorr,50.01,75
+4,Carne de Res Bimbo,7603001103,Lácteos,2026-11-11,Great Value,33.71,78
+4,Mantequilla Sabritas,7603001104,Carnes,2026-11-12,Nestlé,75.22,169
+4,Harina de Trigo Maggi,7603001105,Carnes,2026-11-13,Suavitel,93.35,181
+4,Pizza Congelada Gamesa,7603001106,Lácteos,2026-11-14,Cloralex,85.32,18
+4,Pizza Congelada Lala,7603001107,Abarrotes,2026-11-15,Palmolive,34.5,112
+4,Aceite Vegetal Sabritas,7603001108,Carnes,2026-11-16,Bimbo,45.23,140
+4,Leche Entera Lala,7603001109,Higiene,2026-11-17,Bimbo,75.01,179
+4,Huevos Lala,7603001110,Bebidas,2026-11-18,Colgate,90.04,76
+4,Pan Integral Coca-Cola,7603001111,Abarrotes,2026-11-19,Dos Pinos,84.07,89
+4,Pasta Dental La Moderna,7603001112,Frutas y Verduras,2026-11-20,Palmolive,54.5,172
+4,Salchichas Coca-Cola,7603001113,Abarrotes,2026-11-21,Lala,29.66,36
+4,Refresco Cola Sabritas,7603001114,Congelados,2026-11-22,Lala,70.14,79
+4,Papas Fritas Pepsi,7603001115,Abarrotes,2026-11-23,Nestlé,53.61,83
+4,Arroz Blanco Great Value,7603001116,Panadería,2026-11-24,Suavitel,33.26,77
+4,Jamón de Pavo Nestlé,7603001117,Limpieza,2026-11-25,Colgate,47.62,163
+4,Margarina Alpina,7603001118,Bebidas,2026-11-26,Coca-Cola,75.89,154
+4,Refresco Cola Gamesa,7603001119,Limpieza,2026-11-27,Coca-Cola,37.91,41
+4,Atún en Lata Suavitel,7603001120,Higiene,2026-11-28,La Moderna,67.78,119
+4,Pollo Entero Cloralex,7603001121,Abarrotes,2026-11-29,Dos Pinos,53.43,115
+4,Harina de Trigo La CosteÃ±a,7603001122,Snacks,2026-11-30,La CosteÃ±a,16.03,115
+4,Café Molido Fud,7603001123,Limpieza,2026-12-01,Cloralex,84.38,93
+4,Carne de Res Cloralex,7603001124,Lácteos,2026-12-02,Great Value,32.59,14
+4,Queso Mozzarella Alpina,7603001125,Snacks,2026-12-03,Kellogg's,24.41,125
+4,Galletas María Palmolive,7603001126,Lácteos,2026-12-04,Dos Pinos,39.82,189
+4,Detergente Líquido Suavitel,7603001127,Limpieza,2026-12-05,Suavitel,77.12,119
+4,Zanahorias Bimbo,7603001128,Carnes,2026-12-06,Suavitel,36.43,127
+4,Tomates Pepsi,7603001129,Lácteos,2026-12-07,Colgate,57.24,136
+4,Leche Entera Kellogg's,7603001130,Lácteos,2026-12-08,Palmolive,29.15,185
+4,Mantequilla Colgate,7603001131,Snacks,2026-12-09,Bimbo,34.45,122
+4,Manzanas Great Value,7603001132,Lácteos,2026-12-10,La Moderna,61.51,112
+4,Margarina Kellogg's,7603001133,Frutas y Verduras,2026-12-11,Sabritas,51.24,144
+4,Harina de Trigo Bimbo,7603001134,Panadería,2026-12-12,Maggi,85.35,149
+4,Papel Higiénico Colgate,7603001135,Higiene,2026-12-13,Pepsi,75.0,88
+4,Margarina Gamesa,7603001136,Lácteos,2026-12-14,Nestlé,50.93,54
+4,Margarina Sabritas,7603001137,Limpieza,2026-12-15,La CosteÃ±a,19.77,14
+4,Manzanas Great Value,7603001138,Snacks,2026-12-16,Fud,91.15,32
+4,Yogur Natural Maggi,7603001139,Congelados,2026-12-17,Dos Pinos,77.34,65
+4,Aceite Vegetal Coca-Cola,7603001140,Limpieza,2026-12-18,Kellogg's,50.37,29
+4,Tomates Cloralex,7603001141,Carnes,2026-12-19,Colgate,65.71,34
+4,Bananas Knorr,7603001142,Abarrotes,2026-12-20,Sabritas,77.08,137
+4,Aceite Vegetal Palmolive,7603001143,Carnes,2026-12-21,Great Value,98.51,57
+4,Pollo Entero Fud,7603001144,Lácteos,2026-12-22,Maggi,86.4,189
+4,Yogur Natural Alpina,7603001145,Higiene,2026-12-23,Suavitel,12.22,200
+4,Cereal de Maíz Fud,7603001146,Lácteos,2026-12-24,Alpina,46.9,54
+4,Arroz Blanco La Moderna,7603001147,Snacks,2026-12-25,Coca-Cola,8.31,14
+4,Salchichas La CosteÃ±a,7603001148,Abarrotes,2026-12-26,Cloralex,95.78,36
+4,Azúcar Blanca Pepsi,7603001149,Limpieza,2026-12-27,Gamesa,55.79,161
+4,Pollo Entero Sabritas,7603001150,Abarrotes,2026-12-28,Suavitel,54.32,137
+5,Shampoo Suavitel,7603001151,Congelados,2026-12-29,Sabritas,92.28,100
+5,Cereal de Maíz Colgate,7603001152,Limpieza,2026-12-30,Knorr,13.25,194
+5,Harina de Trigo Kellogg's,7603001153,Snacks,2026-12-31,Knorr,54.42,79
+5,Huevos Pepsi,7603001154,Carnes,2027-01-01,La CosteÃ±a,41.53,54
+5,Pasta Dental Alpina,7603001155,Panadería,2027-01-02,Lala,41.82,14
+5,Leche Descremada Great Value,7603001156,Frutas y Verduras,2027-01-03,Suavitel,92.93,13
+5,Pan Blanco Lala,7603001157,Abarrotes,2027-01-04,La CosteÃ±a,91.11,5
+5,Azúcar Blanca Maggi,7603001158,Congelados,2027-01-05,Maggi,74.36,132
+5,Café Molido Nestlé,7603001159,Panadería,2027-01-06,Kellogg's,34.86,188
+5,Servilletas Colgate,7603001160,Abarrotes,2027-01-07,Kellogg's,9.35,67
+5,Galletas María Fud,7603001161,Panadería,2027-01-08,Dos Pinos,26.91,160
+5,Aceite Vegetal Nestlé,7603001162,Bebidas,2027-01-09,Great Value,10.31,44
+5,Pollo Entero Alpina,7603001163,Carnes,2027-01-10,Sabritas,21.56,179
+5,Harina de Trigo Knorr,7603001164,Lácteos,2027-01-11,Maggi,78.98,34
+5,Manzanas Palmolive,7603001165,Congelados,2027-01-12,Suavitel,70.08,38
+5,Jugo de Naranja Nestlé,7603001166,Carnes,2027-01-13,Lala,14.31,175
+5,Mantequilla Fud,7603001167,Carnes,2027-01-14,Alpina,78.47,90
+5,Queso Mozzarella Nestlé,7603001168,Carnes,2027-01-15,Dos Pinos,77.29,137
+5,Queso Mozzarella La Moderna,7603001169,Lácteos,2027-01-16,Palmolive,17.5,24
+5,Pizza Congelada Suavitel,7603001170,Snacks,2027-01-17,Pepsi,48.34,166
+5,Pan Integral Knorr,7603001171,Snacks,2027-01-18,Nestlé,30.82,99
+5,Huevos Lala,7603001172,Bebidas,2027-01-19,Lala,38.18,100
+5,Huevos Knorr,7603001173,Higiene,2027-01-20,La CosteÃ±a,72.09,143
+5,Agua Purificada Colgate,7603001174,Congelados,2027-01-21,Nestlé,49.65,153
+5,Papel Higiénico Alpina,7603001175,Congelados,2027-01-22,La CosteÃ±a,92.24,182
+5,Galletas María Colgate,7603001176,Bebidas,2027-01-23,Gamesa,31.14,92
+5,Cereal de Maíz Palmolive,7603001177,Snacks,2027-01-24,La CosteÃ±a,52.07,187
+5,Carne de Res Maggi,7603001178,Bebidas,2027-01-25,Lala,39.1,12
+5,Refresco Cola Gamesa,7603001179,Panadería,2027-01-26,Kellogg's,65.56,75
+5,Arroz Blanco Knorr,7603001180,Abarrotes,2027-01-27,Fud,41.1,92
+5,Azúcar Blanca La CosteÃ±a,7603001181,Bebidas,2026-08-01,Great Value,88.81,95
+5,Zanahorias Pepsi,7603001182,Limpieza,2026-08-02,Fud,55.16,19
+5,Pizza Congelada La Moderna,7603001183,Frutas y Verduras,2026-08-03,Kellogg's,76.66,194
+5,Bananas Fud,7603001184,Higiene,2026-08-04,Great Value,25.12,113
+5,Refresco Cola Cloralex,7603001185,Bebidas,2026-08-05,Dos Pinos,57.9,99
+5,Jabón en Barra Nestlé,7603001186,Abarrotes,2026-08-06,Fud,72.08,196
+5,Atún en Lata Bimbo,7603001187,Abarrotes,2026-08-07,Kellogg's,81.83,104
+5,Frijol Negro Nestlé,7603001188,Bebidas,2026-08-08,Bimbo,75.05,8
+5,Zanahorias Cloralex,7603001189,Carnes,2026-08-09,La CosteÃ±a,57.87,73
+5,Refresco Cola Cloralex,7603001190,Limpieza,2026-08-10,Knorr,54.04,104
+5,Pan Integral Kellogg's,7603001191,Panadería,2026-08-11,Nestlé,43.64,48
+5,Frijol Negro Great Value,7603001192,Limpieza,2026-08-12,Knorr,34.22,171
+5,Detergente Líquido Coca-Cola,7603001193,Limpieza,2026-08-13,Bimbo,48.88,157
+5,Arroz Blanco Lala,7603001194,Abarrotes,2026-08-14,Maggi,50.15,90
+5,Yogur Natural Kellogg's,7603001195,Bebidas,2026-08-15,Kellogg's,33.39,63
+5,Salchichas Maggi,7603001196,Lácteos,2026-08-16,Palmolive,34.1,166
+5,Shampoo Dos Pinos,7603001197,Congelados,2026-08-17,Suavitel,94.39,89
+5,Papel Higiénico Cloralex,7603001198,Panadería,2026-08-18,Sabritas,95.92,10
+5,Salchichas La CosteÃ±a,7603001199,Limpieza,2026-08-19,Great Value,49.41,6
+5,Pizza Congelada Fud,7603001200,Carnes,2026-08-20,Kellogg's,72.5,131
+6,Queso Mozzarella Sabritas,7603001201,Abarrotes,2026-08-21,Dos Pinos,18.55,93
+6,Pan Blanco Maggi,7603001202,Lácteos,2026-08-22,La CosteÃ±a,22.96,57
+6,Agua Purificada Lala,7603001203,Lácteos,2026-08-23,Pepsi,83.85,107
+6,Sopa Instantánea Pepsi,7603001204,Snacks,2026-08-24,Knorr,63.57,172
+6,Café Molido Knorr,7603001205,Lácteos,2026-08-25,Cloralex,90.54,188
+6,Jamón de Pavo Alpina,7603001206,Frutas y Verduras,2026-08-26,Suavitel,7.4,103
+6,Sopa Instantánea Gamesa,7603001207,Higiene,2026-08-27,Alpina,35.18,131
+6,Azúcar Blanca Nestlé,7603001208,Snacks,2026-08-28,Great Value,52.96,14
+6,Chocolate en Barra Bimbo,7603001209,Higiene,2026-08-29,La Moderna,89.88,40
+6,Salchichas Palmolive,7603001210,Higiene,2026-08-30,Gamesa,28.91,158
+6,Cereal de Maíz Sabritas,7603001211,Panadería,2026-08-31,Cloralex,98.89,185
+6,Sopa Instantánea Bimbo,7603001212,Abarrotes,2026-09-01,Suavitel,64.95,194
+6,Aceite Vegetal Alpina,7603001213,Panadería,2026-09-02,Great Value,24.09,35
+6,Galletas María Dos Pinos,7603001214,Frutas y Verduras,2026-09-03,Fud,77.93,196
+6,Café Molido Cloralex,7603001215,Abarrotes,2026-09-04,Nestlé,87.96,139
+6,Chocolate en Barra Lala,7603001216,Congelados,2026-09-05,Dos Pinos,8.65,115
+6,Margarina Colgate,7603001217,Abarrotes,2026-09-06,Pepsi,74.23,116
+6,Cereal de Maíz Knorr,7603001218,Bebidas,2026-09-07,Gamesa,54.97,44
+6,Leche Descremada Pepsi,7603001219,Limpieza,2026-09-08,Lala,77.0,44
+6,Sopa Instantánea Lala,7603001220,Congelados,2026-09-09,Fud,48.8,189
+6,Papas Fritas Palmolive,7603001221,Panadería,2026-09-10,La CosteÃ±a,48.82,81
+6,Pollo Entero Nestlé,7603001222,Frutas y Verduras,2026-09-11,Gamesa,40.87,130
+6,Margarina Fud,7603001223,Carnes,2026-09-12,Great Value,19.66,190
+6,Pan Blanco La CosteÃ±a,7603001224,Higiene,2026-09-13,Knorr,5.47,22
+6,Aceite Vegetal Bimbo,7603001225,Abarrotes,2026-09-14,Coca-Cola,56.44,74
+6,Papel Higiénico Knorr,7603001226,Snacks,2026-09-15,Lala,76.45,60
+6,Aceite Vegetal Colgate,7603001227,Snacks,2026-09-16,Pepsi,81.68,196
+6,Arroz Blanco Great Value,7603001228,Congelados,2026-09-17,Suavitel,82.0,89
+6,Cereal de Maíz Palmolive,7603001229,Limpieza,2026-09-18,Pepsi,11.28,49
+6,Margarina Suavitel,7603001230,Panadería,2026-09-19,Suavitel,6.41,71
+6,Jugo de Naranja Sabritas,7603001231,Frutas y Verduras,2026-09-20,Great Value,27.92,69
+6,Mantequilla Nestlé,7603001232,Abarrotes,2026-09-21,Lala,11.45,10
+6,Sopa Instantánea Dos Pinos,7603001233,Snacks,2026-09-22,Suavitel,21.4,151
+6,Yogur Natural Gamesa,7603001234,Abarrotes,2026-09-23,Colgate,24.66,57
+6,Bananas Fud,7603001235,Higiene,2026-09-24,Kellogg's,31.39,64
+6,Jabón en Barra Dos Pinos,7603001236,Higiene,2026-09-25,Knorr,91.24,98
+6,Tomates Kellogg's,7603001237,Frutas y Verduras,2026-09-26,Sabritas,43.32,87
+6,Shampoo Lala,7603001238,Bebidas,2026-09-27,Suavitel,61.84,199
+6,Frijol Negro Gamesa,7603001239,Limpieza,2026-09-28,Fud,49.87,24
+6,Pan Blanco Maggi,7603001240,Snacks,2026-09-29,Fud,32.9,66
+6,Leche Descremada Cloralex,7603001241,Higiene,2026-09-30,Pepsi,86.61,69
+6,Salchichas Kellogg's,7603001242,Panadería,2026-10-01,Coca-Cola,5.68,145
+6,Pan Blanco Palmolive,7603001243,Congelados,2026-10-02,Kellogg's,8.4,128
+6,Queso Mozzarella Knorr,7603001244,Congelados,2026-10-03,Knorr,65.56,50
+6,Queso Mozzarella Sabritas,7603001245,Frutas y Verduras,2026-10-04,Cloralex,90.94,146
+6,Pan Blanco Colgate,7603001246,Lácteos,2026-10-05,Maggi,61.4,23
+6,Agua Purificada Colgate,7603001247,Abarrotes,2026-10-06,Kellogg's,14.07,187
+6,Pollo Entero Cloralex,7603001248,Lácteos,2026-10-07,Great Value,78.22,177
+6,Azúcar Blanca Palmolive,7603001249,Carnes,2026-10-08,Kellogg's,43.11,174
+6,Servilletas Alpina,7603001250,Snacks,2026-10-09,Knorr,86.52,129
+7,Huevos Coca-Cola,7603001251,Higiene,2026-10-10,Pepsi,92.45,106
+7,Zanahorias Knorr,7603001252,Abarrotes,2026-10-11,Alpina,67.64,198
+7,Huevos Alpina,7603001253,Bebidas,2026-10-12,Alpina,14.78,123
+7,Shampoo Alpina,7603001254,Carnes,2026-10-13,Alpina,70.3,15
+7,Chocolate en Barra La CosteÃ±a,7603001255,Bebidas,2026-10-14,Nestlé,45.78,128
+7,Helado de Vainilla Suavitel,7603001256,Abarrotes,2026-10-15,La Moderna,35.86,148
+7,Salchichas Bimbo,7603001257,Snacks,2026-10-16,Gamesa,96.15,99
+7,Pan Blanco Palmolive,7603001258,Congelados,2026-10-17,Coca-Cola,37.15,42
+7,Papel Higiénico Coca-Cola,7603001259,Panadería,2026-10-18,Lala,68.47,69
+7,Jamón de Pavo Gamesa,7603001260,Abarrotes,2026-10-19,Bimbo,98.32,132
+7,Bananas La CosteÃ±a,7603001261,Limpieza,2026-10-20,Gamesa,83.06,36
+7,Cereal de Maíz Great Value,7603001262,Abarrotes,2026-10-21,Sabritas,8.85,41
+7,Pizza Congelada Pepsi,7603001263,Panadería,2026-10-22,Alpina,66.12,163
+7,Harina de Trigo Pepsi,7603001264,Congelados,2026-10-23,Cloralex,25.93,198
+7,Papas Fritas Dos Pinos,7603001265,Panadería,2026-10-24,Alpina,67.96,108
+7,Chocolate en Barra Pepsi,7603001266,Frutas y Verduras,2026-10-25,Lala,47.98,181
+7,Detergente Líquido Gamesa,7603001267,Carnes,2026-10-26,La Moderna,57.75,19
+7,Papas Fritas Great Value,7603001268,Higiene,2026-10-27,Cloralex,7.82,54
+7,Chocolate en Barra Dos Pinos,7603001269,Bebidas,2026-10-28,La CosteÃ±a,48.64,109
+7,Galletas María Dos Pinos,7603001270,Limpieza,2026-10-29,Nestlé,70.82,123
+7,Leche Descremada Palmolive,7603001271,Congelados,2026-10-30,Fud,51.3,118
+7,Pan Integral Pepsi,7603001272,Limpieza,2026-10-31,La Moderna,31.98,115
+7,Leche Descremada Bimbo,7603001273,Abarrotes,2026-11-01,Nestlé,73.15,18
+7,Zanahorias Palmolive,7603001274,Carnes,2026-11-02,Pepsi,29.16,160
+7,Zanahorias Palmolive,7603001275,Bebidas,2026-11-03,Palmolive,33.84,21
+7,Bananas Gamesa,7603001276,Bebidas,2026-11-04,Kellogg's,17.73,119
+7,Refresco Cola La CosteÃ±a,7603001277,Bebidas,2026-11-05,Fud,88.08,86
+7,Salchichas Coca-Cola,7603001278,Abarrotes,2026-11-06,Sabritas,93.24,122
+7,Papas Fritas Pepsi,7603001279,Bebidas,2026-11-07,Suavitel,86.81,146
+7,Harina de Trigo Fud,7603001280,Lácteos,2026-11-08,Great Value,12.84,80
+7,Huevos Pepsi,7603001281,Bebidas,2026-11-09,Dos Pinos,20.59,128
+7,Cereal de Maíz Colgate,7603001282,Frutas y Verduras,2026-11-10,Fud,25.78,141
+7,Helado de Vainilla Nestlé,7603001283,Carnes,2026-11-11,Coca-Cola,92.84,89
+7,Papas Fritas Nestlé,7603001284,Limpieza,2026-11-12,La CosteÃ±a,13.9,114
+7,Zanahorias Bimbo,7603001285,Congelados,2026-11-13,Palmolive,44.42,65
+7,Queso Mozzarella Gamesa,7603001286,Abarrotes,2026-11-14,Cloralex,53.44,120
+7,Azúcar Blanca Suavitel,7603001287,Panadería,2026-11-15,Coca-Cola,94.59,74
+7,Arroz Blanco Gamesa,7603001288,Carnes,2026-11-16,La Moderna,6.27,185
+7,Manzanas Bimbo,7603001289,Congelados,2026-11-17,Great Value,78.49,199
+7,Pollo Entero Great Value,7603001290,Carnes,2026-11-18,Kellogg's,12.77,108
+7,Shampoo Alpina,7603001291,Frutas y Verduras,2026-11-19,Nestlé,82.27,185
+7,Leche Descremada Suavitel,7603001292,Abarrotes,2026-11-20,Suavitel,73.32,35
+7,Atún en Lata Knorr,7603001293,Limpieza,2026-11-21,La CosteÃ±a,81.18,94
+7,Papel Higiénico Bimbo,7603001294,Carnes,2026-11-22,Pepsi,50.65,114
+7,Sopa Instantánea La Moderna,7603001295,Frutas y Verduras,2026-11-23,Palmolive,42.94,162
+7,Pan Integral Lala,7603001296,Frutas y Verduras,2026-11-24,Palmolive,69.79,26
+7,Aceite Vegetal Alpina,7603001297,Congelados,2026-11-25,Colgate,20.79,66
+7,Salchichas Suavitel,7603001298,Limpieza,2026-11-26,Knorr,92.41,170
+7,Papas Fritas La CosteÃ±a,7603001299,Abarrotes,2026-11-27,Bimbo,13.03,30
+7,Zanahorias Kellogg's,7603001300,Panadería,2026-11-28,Great Value,93.68,193
+8,Chocolate en Barra Kellogg's,7603001301,Bebidas,2026-11-29,Sabritas,53.6,197
+8,Atún en Lata Alpina,7603001302,Carnes,2026-11-30,Palmolive,64.36,155
+8,Pan Integral Nestlé,7603001303,Congelados,2026-12-01,Dos Pinos,50.8,53
+8,Papas Fritas Great Value,7603001304,Frutas y Verduras,2026-12-02,Fud,51.84,61
+8,Salchichas Nestlé,7603001305,Lácteos,2026-12-03,Alpina,28.97,196
+8,Pasta Dental Pepsi,7603001306,Carnes,2026-12-04,Alpina,92.8,123
+8,Arroz Blanco La Moderna,7603001307,Higiene,2026-12-05,Alpina,55.03,78
+8,Café Molido Lala,7603001308,Snacks,2026-12-06,Colgate,50.74,191
+8,Helado de Vainilla Kellogg's,7603001309,Carnes,2026-12-07,La Moderna,47.26,112
+8,Sopa Instantánea La CosteÃ±a,7603001310,Panadería,2026-12-08,Cloralex,40.76,82
+8,Papel Higiénico Knorr,7603001311,Congelados,2026-12-09,La CosteÃ±a,11.55,92
+8,Chocolate en Barra Bimbo,7603001312,Congelados,2026-12-10,Alpina,87.43,107
+8,Arroz Blanco Lala,7603001313,Snacks,2026-12-11,La Moderna,18.61,143
+8,Arroz Blanco La CosteÃ±a,7603001314,Carnes,2026-12-12,Gamesa,90.06,175
+8,Frijol Negro Colgate,7603001315,Abarrotes,2026-12-13,Pepsi,18.55,198
+8,Azúcar Blanca Gamesa,7603001316,Abarrotes,2026-12-14,Pepsi,49.41,8
+8,Aceite Vegetal Gamesa,7603001317,Lácteos,2026-12-15,La Moderna,13.16,179
+8,Chocolate en Barra Alpina,7603001318,Frutas y Verduras,2026-12-16,Suavitel,72.77,48
+8,Queso Mozzarella La CosteÃ±a,7603001319,Abarrotes,2026-12-17,Pepsi,84.24,109
+8,Sopa Instantánea Dos Pinos,7603001320,Snacks,2026-12-18,Maggi,12.22,104
+8,Pan Blanco Bimbo,7603001321,Frutas y Verduras,2026-12-19,Colgate,93.6,181
+8,Queso Mozzarella Coca-Cola,7603001322,Higiene,2026-12-20,Pepsi,71.66,78
+8,Azúcar Blanca Pepsi,7603001323,Abarrotes,2026-12-21,Alpina,44.87,47
+8,Mantequilla La CosteÃ±a,7603001324,Panadería,2026-12-22,Great Value,9.61,87
+8,Margarina Bimbo,7603001325,Snacks,2026-12-23,Suavitel,95.2,128
+8,Salchichas Fud,7603001326,Congelados,2026-12-24,Sabritas,42.22,99
+8,Harina de Trigo Pepsi,7603001327,Carnes,2026-12-25,Lala,37.62,192
+8,Pollo Entero Dos Pinos,7603001328,Carnes,2026-12-26,Alpina,94.04,68
+8,Shampoo Knorr,7603001329,Congelados,2026-12-27,Lala,9.38,50
+8,Sopa Instantánea Lala,7603001330,Snacks,2026-12-28,Coca-Cola,65.95,132
+8,Margarina Alpina,7603001331,Abarrotes,2026-12-29,Suavitel,41.97,167
+8,Agua Purificada Fud,7603001332,Panadería,2026-12-30,Bimbo,50.95,114
+8,Helado de Vainilla La Moderna,7603001333,Bebidas,2026-12-31,Fud,91.28,41
+8,Queso Mozzarella Knorr,7603001334,Lácteos,2027-01-01,Palmolive,91.24,146
+8,Salchichas Palmolive,7603001335,Lácteos,2027-01-02,Knorr,16.33,119
+8,Pizza Congelada Dos Pinos,7603001336,Bebidas,2027-01-03,Gamesa,10.94,135
+8,Agua Purificada Coca-Cola,7603001337,Snacks,2027-01-04,Fud,54.16,19
+8,Frijol Negro Great Value,7603001338,Frutas y Verduras,2027-01-05,Suavitel,91.7,44
+8,Arroz Blanco La Moderna,7603001339,Carnes,2027-01-06,Lala,12.33,175
+8,Harina de Trigo Maggi,7603001340,Limpieza,2027-01-07,Fud,20.03,65
+8,Refresco Cola Great Value,7603001341,Congelados,2027-01-08,Fud,52.86,96
+8,Servilletas Maggi,7603001342,Frutas y Verduras,2027-01-09,Great Value,61.7,136
+8,Mantequilla Sabritas,7603001343,Higiene,2027-01-10,Pepsi,75.53,123
+8,Servilletas Nestlé,7603001344,Higiene,2027-01-11,Great Value,63.63,126
+8,Salchichas Knorr,7603001345,Limpieza,2027-01-12,Palmolive,76.38,73
+8,Pollo Entero Bimbo,7603001346,Higiene,2027-01-13,Nestlé,53.05,79
+8,Leche Descremada Dos Pinos,7603001347,Limpieza,2027-01-14,Maggi,39.14,118
+8,Shampoo Kellogg's,7603001348,Abarrotes,2027-01-15,Maggi,29.72,125
+8,Aceite Vegetal Maggi,7603001349,Higiene,2027-01-16,Colgate,18.47,15
+8,Café Molido Knorr,7603001350,Lácteos,2027-01-17,Palmolive,44.2,72
+9,Pan Integral Colgate,7603001351,Abarrotes,2027-01-18,Great Value,14.9,22
+9,Arroz Blanco Maggi,7603001352,Congelados,2027-01-19,La CosteÃ±a,45.57,9
+9,Pizza Congelada Gamesa,7603001353,Abarrotes,2027-01-20,Pepsi,9.49,92
+9,Papas Fritas Dos Pinos,7603001354,Snacks,2027-01-21,Dos Pinos,14.34,110
+9,Azúcar Blanca Palmolive,7603001355,Congelados,2027-01-22,Cloralex,34.91,39
+9,Aceite Vegetal Knorr,7603001356,Lácteos,2027-01-23,Alpina,26.23,169
+9,Pizza Congelada Cloralex,7603001357,Limpieza,2027-01-24,Cloralex,68.88,129
+9,Papas Fritas Fud,7603001358,Lácteos,2027-01-25,Pepsi,64.99,70
+9,Zanahorias Knorr,7603001359,Snacks,2027-01-26,Bimbo,76.22,51
+9,Frijol Negro Kellogg's,7603001360,Panadería,2027-01-27,Great Value,7.2,149
+9,Detergente Líquido Fud,7603001361,Frutas y Verduras,2026-08-01,Knorr,28.03,173
+9,Manzanas Gamesa,7603001362,Carnes,2026-08-02,Kellogg's,62.58,21
+9,Cereal de Maíz Kellogg's,7603001363,Lácteos,2026-08-03,Great Value,9.16,11
+9,Agua Purificada Bimbo,7603001364,Bebidas,2026-08-04,Suavitel,13.63,172
+9,Pan Integral Bimbo,7603001365,Limpieza,2026-08-05,Coca-Cola,27.12,125
+9,Café Molido Knorr,7603001366,Abarrotes,2026-08-06,Coca-Cola,57.02,110
+9,Carne de Res Pepsi,7603001367,Limpieza,2026-08-07,Sabritas,31.8,169
+9,Aceite Vegetal Maggi,7603001368,Lácteos,2026-08-08,Sabritas,10.16,68
+9,Shampoo Suavitel,7603001369,Panadería,2026-08-09,Palmolive,76.53,69
+9,Agua Purificada Great Value,7603001370,Higiene,2026-08-10,Great Value,86.13,56
+9,Agua Purificada Suavitel,7603001371,Carnes,2026-08-11,La Moderna,15.04,73
+9,Pan Integral La CosteÃ±a,7603001372,Panadería,2026-08-12,La Moderna,62.55,35
+9,Pollo Entero Alpina,7603001373,Abarrotes,2026-08-13,Alpina,93.99,150
+9,Agua Purificada Coca-Cola,7603001374,Congelados,2026-08-14,Bimbo,82.24,11
+9,Detergente Líquido Lala,7603001375,Snacks,2026-08-15,Coca-Cola,16.92,16
+9,Frijol Negro Nestlé,7603001376,Limpieza,2026-08-16,Cloralex,26.89,191
+9,Pasta Dental Palmolive,7603001377,Snacks,2026-08-17,Gamesa,15.45,168
+9,Azúcar Blanca Pepsi,7603001378,Panadería,2026-08-18,Dos Pinos,74.19,55
+9,Bananas Nestlé,7603001379,Snacks,2026-08-19,La CosteÃ±a,21.98,182
+9,Harina de Trigo Knorr,7603001380,Lácteos,2026-08-20,Pepsi,81.18,16
+9,Mantequilla La Moderna,7603001381,Frutas y Verduras,2026-08-21,Kellogg's,32.11,44
+9,Leche Descremada Coca-Cola,7603001382,Carnes,2026-08-22,Alpina,45.05,5
+9,Refresco Cola La Moderna,7603001383,Limpieza,2026-08-23,Alpina,11.31,28
+9,Atún en Lata Maggi,7603001384,Higiene,2026-08-24,Coca-Cola,42.21,105
+9,Arroz Blanco Sabritas,7603001385,Carnes,2026-08-25,Pepsi,60.97,119
+9,Servilletas Great Value,7603001386,Snacks,2026-08-26,Fud,54.24,139
+9,Refresco Cola Cloralex,7603001387,Snacks,2026-08-27,Lala,8.88,170
+9,Servilletas Maggi,7603001388,Lácteos,2026-08-28,Coca-Cola,53.05,113
+9,Tomates Knorr,7603001389,Carnes,2026-08-29,Sabritas,28.75,111
+9,Papas Fritas La CosteÃ±a,7603001390,Bebidas,2026-08-30,La CosteÃ±a,70.42,11
+9,Papel Higiénico Maggi,7603001391,Limpieza,2026-08-31,Nestlé,25.52,8
+9,Café Molido Cloralex,7603001392,Abarrotes,2026-09-01,Nestlé,12.1,151
+9,Harina de Trigo Colgate,7603001393,Bebidas,2026-09-02,Lala,48.98,15
+9,Chocolate en Barra Coca-Cola,7603001394,Abarrotes,2026-09-03,Dos Pinos,7.11,102
+9,Manzanas Maggi,7603001395,Limpieza,2026-09-04,Fud,47.16,111
+9,Margarina Dos Pinos,7603001396,Limpieza,2026-09-05,Great Value,30.65,19
+9,Jamón de Pavo Nestlé,7603001397,Lácteos,2026-09-06,La Moderna,13.25,164
+9,Frijol Negro Knorr,7603001398,Higiene,2026-09-07,Suavitel,80.44,168
+9,Huevos Gamesa,7603001399,Higiene,2026-09-08,Alpina,44.56,42
+9,Harina de Trigo Bimbo,7603001400,Snacks,2026-09-09,Lala,75.69,15
+10,Servilletas Maggi,7603001401,Lácteos,2026-09-10,Fud,37.43,164
+10,Jugo de Naranja Sabritas,7603001402,Panadería,2026-09-11,Kellogg's,47.94,56
+10,Shampoo Coca-Cola,7603001403,Frutas y Verduras,2026-09-12,Kellogg's,64.36,90
+10,Servilletas Maggi,7603001404,Snacks,2026-09-13,Maggi,31.81,90
+10,Leche Descremada La Moderna,7603001405,Frutas y Verduras,2026-09-14,La CosteÃ±a,69.01,140
+10,Pasta Dental Knorr,7603001406,Lácteos,2026-09-15,Alpina,90.81,38
+10,Cereal de Maíz Maggi,7603001407,Abarrotes,2026-09-16,Fud,42.32,165
+10,Frijol Negro Fud,7603001408,Carnes,2026-09-17,Great Value,82.24,181
+10,Leche Descremada Fud,7603001409,Bebidas,2026-09-18,Kellogg's,38.89,46
+10,Refresco Cola Colgate,7603001410,Higiene,2026-09-19,Bimbo,81.57,177
+10,Pan Integral Maggi,7603001411,Carnes,2026-09-20,La Moderna,5.68,85
+10,Mantequilla Colgate,7603001412,Higiene,2026-09-21,Colgate,7.85,197
+10,Agua Purificada Fud,7603001413,Carnes,2026-09-22,Maggi,21.63,137
+10,Helado de Vainilla Gamesa,7603001414,Abarrotes,2026-09-23,Great Value,78.12,81
+10,Frijol Negro Maggi,7603001415,Higiene,2026-09-24,Nestlé,26.16,15
+10,Frijol Negro Bimbo,7603001416,Abarrotes,2026-09-25,Pepsi,30.27,6
+10,Yogur Natural Gamesa,7603001417,Congelados,2026-09-26,Suavitel,26.39,129
+10,Huevos Knorr,7603001418,Lácteos,2026-09-27,Coca-Cola,37.14,51
+10,Carne de Res Bimbo,7603001419,Carnes,2026-09-28,Alpina,68.24,31
+10,Helado de Vainilla La Moderna,7603001420,Panadería,2026-09-29,Maggi,18.63,65
+10,Detergente Líquido Palmolive,7603001421,Limpieza,2026-09-30,Colgate,35.63,65
+10,Huevos Fud,7603001422,Bebidas,2026-10-01,La CosteÃ±a,11.68,22
+10,Harina de Trigo Sabritas,7603001423,Lácteos,2026-10-02,La Moderna,73.05,186
+10,Carne de Res Cloralex,7603001424,Frutas y Verduras,2026-10-03,Nestlé,59.38,86
+10,Mantequilla Pepsi,7603001425,Panadería,2026-10-04,Kellogg's,60.13,134
+10,Café Molido Pepsi,7603001426,Frutas y Verduras,2026-10-05,Pepsi,64.83,163
+10,Yogur Natural Kellogg's,7603001427,Higiene,2026-10-06,Bimbo,90.6,189
+10,Tomates La CosteÃ±a,7603001428,Panadería,2026-10-07,Alpina,37.37,162
+10,Salchichas Dos Pinos,7603001429,Abarrotes,2026-10-08,Palmolive,38.95,169
+10,Chocolate en Barra Gamesa,7603001430,Bebidas,2026-10-09,Knorr,72.97,9
+10,Refresco Cola Colgate,7603001431,Limpieza,2026-10-10,Sabritas,77.8,111
+10,Cereal de Maíz Kellogg's,7603001432,Carnes,2026-10-11,Pepsi,68.29,63
+10,Jabón en Barra Sabritas,7603001433,Bebidas,2026-10-12,Maggi,73.61,88
+10,Harina de Trigo Nestlé,7603001434,Lácteos,2026-10-13,Nestlé,83.53,130
+10,Margarina Bimbo,7603001435,Frutas y Verduras,2026-10-14,Sabritas,99.18,168
+10,Servilletas Dos Pinos,7603001436,Higiene,2026-10-15,Dos Pinos,27.89,34
+10,Zanahorias La Moderna,7603001437,Snacks,2026-10-16,Great Value,15.68,175
+10,Papel Higiénico Great Value,7603001438,Congelados,2026-10-17,La CosteÃ±a,38.69,145
+10,Shampoo Dos Pinos,7603001439,Bebidas,2026-10-18,Gamesa,67.14,111
+10,Harina de Trigo La Moderna,7603001440,Congelados,2026-10-19,Fud,81.8,91
+10,Pasta Dental Bimbo,7603001441,Congelados,2026-10-20,Maggi,38.54,16
+10,Bananas Lala,7603001442,Carnes,2026-10-21,La Moderna,98.28,94
+10,Yogur Natural Maggi,7603001443,Lácteos,2026-10-22,La CosteÃ±a,46.02,76
+10,Salchichas Gamesa,7603001444,Snacks,2026-10-23,Sabritas,26.47,189
+10,Jugo de Naranja Bimbo,7603001445,Panadería,2026-10-24,Colgate,89.39,193
+10,Yogur Natural Kellogg's,7603001446,Higiene,2026-10-25,Pepsi,18.03,191
+10,Pasta Dental Bimbo,7603001447,Carnes,2026-10-26,Maggi,14.71,143
+10,Yogur Natural La CosteÃ±a,7603001448,Abarrotes,2026-10-27,La CosteÃ±a,80.74,18
+10,Huevos Great Value,7603001449,Carnes,2026-10-28,Suavitel,64.46,191
+10,Jugo de Naranja Gamesa,7603001450,Higiene,2026-10-29,La Moderna,32.98,152
+1,Huevos OrgÃ¡nicos La Moderna,7502001001,Limpieza,2026-07-01,Maggi,59.7,66
+1,Carne Molida Lala,7502001002,Panadería,2026-07-02,Great Value,75.12,123
+1,Arroz Integral La Moderna,7502001003,Limpieza,2026-07-03,Bimbo,30.08,47
+1,Manteca Fud,7502001004,Lácteos,2026-07-04,Suavitel,14.61,36
+1,Peras Nestlé,7502001005,Higiene,2026-07-05,Gamesa,16.29,123
+1,Carne Molida Sabritas,7502001006,Panadería,2026-07-06,Coca-Cola,11.53,50
+1,Enjuague Bucal Sabritas,7502001007,Panadería,2026-07-07,Bimbo,12.09,19
+1,Acondicionador Great Value,7502001008,Abarrotes,2026-07-08,Bimbo,85.82,23
+1,Chocolate Amargo Pepsi,7502001009,Snacks,2026-07-09,Cloralex,52.87,26
+1,Agua Mineral Cloralex,7502001010,Frutas y Verduras,2026-07-10,Kellogg's,47.86,19
+1,Pan Dulce Pepsi,7502001011,Panadería,2026-07-11,Coca-Cola,16.97,44
+1,Azúcar Morena Alpina,7502001012,Lácteos,2026-07-12,Nestlé,36.08,144
+1,Chocolate Amargo Sabritas,7502001013,Congelados,2026-07-13,Maggi,84.44,60
+1,Aceite de Oliva Sabritas,7502001014,Limpieza,2026-07-14,Palmolive,48.21,122
+1,Azúcar Morena La Moderna,7502001015,Frutas y Verduras,2026-07-15,Pepsi,59.34,3
+1,Leche Light Great Value,7502001016,Higiene,2026-07-16,Fud,67.37,20
+1,Acondicionador Colgate,7502001017,Higiene,2026-07-17,Lala,20.92,25
+1,Chocolate Amargo Great Value,7502001018,Panadería,2026-07-18,Alpina,57.44,39
+1,Helado de Chocolate Knorr,7502001019,Frutas y Verduras,2026-07-19,Great Value,31.95,137
+1,Queso Cheddar Gamesa,7502001020,Congelados,2026-07-20,La Moderna,66.55,111
+1,Frijol Rojo Cloralex,7502001021,Higiene,2026-07-21,Kellogg's,26.02,121
+1,Galletas Chocolate Gamesa,7502001022,Congelados,2026-07-22,Coca-Cola,44.07,74
+1,Jamón de Cerdo La Moderna,7502001023,Lácteos,2026-07-23,Sabritas,9.21,133
+1,Salami Nestlé,7502001024,Frutas y Verduras,2026-07-24,Coca-Cola,85.23,62
+1,Acondicionador Kellogg's,7502001025,Snacks,2026-07-25,La CosteÃ±a,85.47,139
+1,Lechuga La Moderna,7502001026,Congelados,2026-07-26,Suavitel,22.08,98
+1,Jabón Líquido Great Value,7502001027,Bebidas,2026-07-27,Palmolive,7.68,148
+1,Yogur Griego Maggi,7502001028,Lácteos,2026-07-28,Colgate,6.28,99
+1,Leche Light Great Value,7502001029,Higiene,2026-07-29,Palmolive,56.24,134
+1,Acondicionador Cloralex,7502001030,Lácteos,2026-07-30,Cloralex,87.36,136
+1,Leche Light Alpina,7502001031,Congelados,2026-07-31,Gamesa,17.82,50
+1,Chocolate Amargo Sabritas,7502001032,Snacks,2026-08-01,Sabritas,67.71,108
+1,Muslos de Pollo Gamesa,7502001033,Abarrotes,2026-08-02,Colgate,52.67,130
+1,Yogur Griego Pepsi,7502001034,Limpieza,2026-08-03,Cloralex,44.4,120
+1,Granola Palmolive,7502001035,Bebidas,2026-08-04,Great Value,7.18,122
+1,Sopa de Pollo Maggi,7502001036,Frutas y Verduras,2026-08-05,Kellogg's,10.06,111
+1,Nachos La CosteÃ±a,7502001037,Abarrotes,2026-08-06,Suavitel,79.03,10
+1,Lechuga La Moderna,7502001038,Panadería,2026-08-07,Lala,42.13,125
+1,Azúcar Morena Bimbo,7502001039,Abarrotes,2026-08-08,Lala,88.67,42
+1,Acondicionador Nestlé,7502001040,Frutas y Verduras,2026-08-09,Bimbo,31.99,80
+1,Yogur Griego Colgate,7502001041,Frutas y Verduras,2026-08-10,Bimbo,24.33,6
+1,Queso Crema Pepsi,7502001042,Abarrotes,2026-08-11,Lala,64.35,110
+1,Salami Pepsi,7502001043,Limpieza,2026-08-12,Fud,80.21,134
+1,Pan Dulce Great Value,7502001044,Carnes,2026-08-13,Suavitel,46.59,7
+1,Aceite de Oliva Alpina,7502001045,Higiene,2026-08-14,Knorr,49.39,134
+1,Queso Crema Dos Pinos,7502001046,Snacks,2026-08-15,Gamesa,80.29,71
+1,Leche Deslactosada La Moderna,7502001047,Limpieza,2026-08-16,Kellogg's,55.01,20
+1,Carne Molida Gamesa,7502001048,Frutas y Verduras,2026-08-17,Cloralex,81.2,34
+1,Manteca Suavitel,7502001049,Limpieza,2026-08-18,Alpina,26.69,115
+1,Arroz Integral Nestlé,7502001050,Snacks,2026-08-19,Alpina,86.44,16
+1,Nachos La Moderna,7502001051,Carnes,2026-08-20,Alpina,24.98,115
+1,Lechuga La Moderna,7502001052,Panadería,2026-08-21,Colgate,10.15,49
+1,Leche Light Lala,7502001053,Congelados,2026-08-22,Colgate,65.16,122
+1,Leche Light Lala,7502001054,Frutas y Verduras,2026-08-23,Knorr,85.99,144
+1,Café InstantÃ¡neo Maggi,7502001055,Congelados,2026-08-24,Pepsi,65.94,37
+1,Jabón Líquido Knorr,7502001056,Snacks,2026-08-25,Gamesa,39.86,9
+1,Muslos de Pollo Pepsi,7502001057,Snacks,2026-08-26,Suavitel,35.98,134
+1,Carne Molida Maggi,7502001058,Congelados,2026-08-27,Coca-Cola,59.52,135
+1,Azúcar Morena Alpina,7502001059,Bebidas,2026-08-28,Alpina,26.73,76
+1,Leche Light Palmolive,7502001060,Snacks,2026-08-29,Lala,22.46,52
+1,Galletas Chocolate Kellogg's,7502001061,Bebidas,2026-08-30,Knorr,57.51,141
+1,Sardinas en Lata Colgate,7502001062,Carnes,2026-08-31,Alpina,88.08,48
+1,Enjuague Bucal Lala,7502001063,Abarrotes,2026-09-01,Knorr,68.01,63
+1,Granola Gamesa,7502001064,Bebidas,2026-09-02,Cloralex,58.21,120
+1,Manteca Pepsi,7502001065,Carnes,2026-09-03,La Moderna,27.87,74
+1,Granola Gamesa,7502001066,Snacks,2026-09-04,Sabritas,89.4,97
+1,Sopa de Pollo Bimbo,7502001067,Carnes,2026-09-05,Great Value,89.43,15
+1,Pan Multigrano Suavitel,7502001068,Congelados,2026-09-06,Palmolive,72.62,103
+1,Muslos de Pollo Palmolive,7502001069,Congelados,2026-09-07,Fud,48.58,106
+1,Manteca Sabritas,7502001070,Limpieza,2026-09-08,Sabritas,34.84,64
+1,Carne Molida Sabritas,7502001071,Snacks,2026-09-09,Palmolive,83.88,42
+1,Leche Deslactosada Colgate,7502001072,Limpieza,2026-09-10,Pepsi,78.3,56
+1,Galletas Chocolate Nestlé,7502001073,Limpieza,2026-09-11,Great Value,29.53,114
+1,Galletas Chocolate Bimbo,7502001074,Panadería,2026-09-12,Maggi,16.65,55
+1,Harina de Maíz Fud,7502001075,Snacks,2026-09-13,Great Value,68.37,26
+1,Azúcar Morena Dos Pinos,7502001076,Snacks,2026-09-14,Cloralex,27.83,12
+1,Agua Mineral Pepsi,7502001077,Lácteos,2026-09-15,Kellogg's,30.31,140
+1,Agua Mineral Lala,7502001078,Carnes,2026-09-16,Maggi,42.74,32
+1,Pan Dulce Gamesa,7502001079,Panadería,2026-09-17,Fud,26.61,20
+1,Aceite de Oliva Dos Pinos,7502001080,Congelados,2026-09-18,Maggi,58.49,68
+1,Detergente en Polvo Knorr,7502001081,Congelados,2026-09-19,Fud,68.59,108
+1,Enjuague Bucal Alpina,7502001082,Snacks,2026-09-20,Lala,39.07,37
+1,Enjuague Bucal Colgate,7502001083,Panadería,2026-09-21,Colgate,24.3,140
+1,Jabón Líquido Knorr,7502001084,Panadería,2026-09-22,Nestlé,42.53,83
+1,Chocolate Amargo Maggi,7502001085,Snacks,2026-09-23,Cloralex,15.65,73
+1,Aceite de Oliva Kellogg's,7502001086,Abarrotes,2026-09-24,Kellogg's,6.75,22
+1,Enjuague Bucal Maggi,7502001087,Limpieza,2026-09-25,Coca-Cola,61.63,104
+1,Carne Molida Colgate,7502001088,Carnes,2026-09-26,Knorr,88.07,129
+1,Jugo de Manzana Sabritas,7502001089,Limpieza,2026-09-27,Pepsi,42.76,148
+1,Jabón Líquido Dos Pinos,7502001090,Abarrotes,2026-09-28,Lala,8.48,33
+1,Sopa de Pollo Sabritas,7502001091,Frutas y Verduras,2026-09-29,Colgate,86.03,77
+1,Leche Deslactosada Suavitel,7502001092,Snacks,2026-09-30,Dos Pinos,82.7,100
+1,Manteca Lala,7502001093,Frutas y Verduras,2026-10-01,Great Value,71.83,106
+1,Frijol Rojo Suavitel,7502001094,Limpieza,2026-10-02,Nestlé,66.07,87
+1,Detergente en Polvo Alpina,7502001095,Carnes,2026-10-03,La Moderna,32.18,85
+1,Huevos OrgÃ¡nicos Alpina,7502001096,Frutas y Verduras,2026-10-04,Colgate,44.55,6
+1,Salami Bimbo,7502001097,Abarrotes,2026-10-05,Cloralex,31.0,16
+1,Uvas La CosteÃ±a,7502001098,Abarrotes,2026-10-06,Nestlé,33.09,5
+1,Muslos de Pollo Great Value,7502001099,Carnes,2026-10-07,Palmolive,68.27,119
+1,Chocolate Amargo Coca-Cola,7502001100,Carnes,2026-10-08,Bimbo,38.67,114
+1,Sardinas en Lata Kellogg's,7502001101,Bebidas,2026-10-09,Maggi,18.25,145
+1,Jamón de Cerdo Great Value,7502001102,Panadería,2026-10-10,Nestlé,72.99,113
+1,Uvas La Moderna,7502001103,Higiene,2026-10-11,Sabritas,89.33,12
+1,Detergente en Polvo Sabritas,7502001104,Limpieza,2026-10-12,Suavitel,45.57,77
+1,Jugo de Manzana Great Value,7502001105,Higiene,2026-10-13,Alpina,14.94,81
+1,Manteca Cloralex,7502001106,Lácteos,2026-10-14,Sabritas,65.62,105
+1,Queso Cheddar Pepsi,7502001107,Lácteos,2026-10-15,La CosteÃ±a,29.36,126
+1,LasaÃ±a Congelada La CosteÃ±a,7502001108,Higiene,2026-10-16,La Moderna,76.05,109
+1,Huevos OrgÃ¡nicos Knorr,7502001109,Carnes,2026-10-17,Bimbo,8.17,89
+1,Sopa de Pollo Colgate,7502001110,Panadería,2026-10-18,Nestlé,32.65,40
+1,Pan Multigrano Gamesa,7502001111,Congelados,2026-10-19,La CosteÃ±a,84.78,19
+1,Sopa de Pollo Great Value,7502001112,Bebidas,2026-10-20,Cloralex,58.53,142
+1,Leche Light Great Value,7502001113,Abarrotes,2026-10-21,Dos Pinos,44.75,26
+1,Harina de Maíz Colgate,7502001114,Lácteos,2026-10-22,La Moderna,7.22,150
+1,Jabón Líquido Pepsi,7502001115,Lácteos,2026-10-23,Pepsi,36.89,23
+1,Yogur Griego Pepsi,7502001116,Congelados,2026-10-24,Sabritas,53.22,28
+1,Nachos Fud,7502001117,Carnes,2026-10-25,Suavitel,67.29,146
+1,Jugo de Manzana Knorr,7502001118,Panadería,2026-10-26,Nestlé,30.61,104
+1,Chocolate Amargo Coca-Cola,7502001119,Carnes,2026-10-27,Maggi,54.91,115
+1,LasaÃ±a Congelada Knorr,7502001120,Lácteos,2026-10-28,Sabritas,10.19,31
+1,Toallas de Papel Suavitel,7502001121,Abarrotes,2026-07-01,Cloralex,11.47,21
+1,Nachos Colgate,7502001122,Bebidas,2026-07-02,Colgate,41.43,44
+1,Helado de Chocolate Fud,7502001123,Abarrotes,2026-07-03,La Moderna,85.56,31
+1,Sopa de Pollo Sabritas,7502001124,Panadería,2026-07-04,La Moderna,37.6,94
+1,Galletas Chocolate Gamesa,7502001125,Higiene,2026-07-05,Lala,89.8,68
+1,Azúcar Morena Knorr,7502001126,Congelados,2026-07-06,La Moderna,42.22,66
+1,Yogur Griego Pepsi,7502001127,Limpieza,2026-07-07,Great Value,19.92,87
+1,Jugo de Manzana La Moderna,7502001128,Abarrotes,2026-07-08,Gamesa,37.69,109
+1,Arroz Integral Lala,7502001129,Lácteos,2026-07-09,Nestlé,48.29,5
+1,Sopa de Pollo Dos Pinos,7502001130,Snacks,2026-07-10,Dos Pinos,70.65,147
+1,Detergente en Polvo Coca-Cola,7502001131,Lácteos,2026-07-11,Colgate,56.56,34
+1,Queso Cheddar Pepsi,7502001132,Congelados,2026-07-12,Kellogg's,19.05,88
+1,Enjuague Bucal Colgate,7502001133,Panadería,2026-07-13,Lala,38.23,116
+1,Toallas de Papel Knorr,7502001134,Congelados,2026-07-14,Palmolive,66.82,5
+1,Enjuague Bucal La Moderna,7502001135,Bebidas,2026-07-15,Kellogg's,83.36,66
+1,Granola Colgate,7502001136,Abarrotes,2026-07-16,La CosteÃ±a,43.67,121
+1,Harina de Maíz Nestlé,7502001137,Carnes,2026-07-17,Colgate,39.13,86
+1,LasaÃ±a Congelada Knorr,7502001138,Limpieza,2026-07-18,Maggi,88.0,15
+1,Enjuague Bucal Gamesa,7502001139,Frutas y Verduras,2026-07-19,Colgate,22.95,59
+1,Detergente en Polvo Cloralex,7502001140,Frutas y Verduras,2026-07-20,Gamesa,75.83,3
+1,Leche Light Nestlé,7502001141,Lácteos,2026-07-21,Nestlé,31.81,28
+1,Peras Bimbo,7502001142,Higiene,2026-07-22,Bimbo,22.41,15
+1,Manteca Colgate,7502001143,Frutas y Verduras,2026-07-23,Kellogg's,53.24,16
+1,Detergente en Polvo Bimbo,7502001144,Bebidas,2026-07-24,La Moderna,18.28,48
+1,LasaÃ±a Congelada Pepsi,7502001145,Limpieza,2026-07-25,Bimbo,31.68,23
+1,Jamón de Cerdo Suavitel,7502001146,Snacks,2026-07-26,Kellogg's,51.26,48
+1,Café InstantÃ¡neo Sabritas,7502001147,Bebidas,2026-07-27,Dos Pinos,79.05,42
+1,Lechuga Alpina,7502001148,Limpieza,2026-07-28,Pepsi,47.7,41
+1,LasaÃ±a Congelada La CosteÃ±a,7502001149,Snacks,2026-07-29,Pepsi,75.99,40
+1,Detergente en Polvo Bimbo,7502001150,Limpieza,2026-07-30,Pepsi,89.35,145
+1,Yogur Griego Alpina,7502001151,Panadería,2026-07-31,Fud,67.7,31
+1,Salami La CosteÃ±a,7502001152,Carnes,2026-08-01,Dos Pinos,62.94,102
+1,Pepino Coca-Cola,7502001153,Carnes,2026-08-02,Nestlé,17.67,63
+1,Pan Dulce Cloralex,7502001154,Limpieza,2026-08-03,La Moderna,78.88,60
+1,Jamón de Cerdo Suavitel,7502001155,Limpieza,2026-08-04,Kellogg's,22.36,86
+1,Pepino Suavitel,7502001156,Lácteos,2026-08-05,La Moderna,11.83,3
+1,Helado de Chocolate Colgate,7502001157,Limpieza,2026-08-06,La CosteÃ±a,66.05,114
+1,Sopa de Pollo Sabritas,7502001158,Higiene,2026-08-07,Palmolive,49.96,62
+1,LasaÃ±a Congelada Great Value,7502001159,Higiene,2026-08-08,Suavitel,37.16,112
+1,Chocolate Amargo Suavitel,7502001160,Snacks,2026-08-09,Suavitel,38.89,24
+1,Harina de Maíz Fud,7502001161,Lácteos,2026-08-10,Palmolive,28.41,82
+1,Sardinas en Lata Gamesa,7502001162,Snacks,2026-08-11,Cloralex,26.3,130
+1,Detergente en Polvo Lala,7502001163,Panadería,2026-08-12,Knorr,83.71,118
+1,Pan Dulce Sabritas,7502001164,Congelados,2026-08-13,Alpina,17.85,104
+1,Detergente en Polvo Lala,7502001165,Bebidas,2026-08-14,Gamesa,20.54,88
+1,Carne Molida Sabritas,7502001166,Limpieza,2026-08-15,Palmolive,42.11,18
+1,Granola Maggi,7502001167,Limpieza,2026-08-16,La CosteÃ±a,42.73,112
+1,Detergente en Polvo Maggi,7502001168,Bebidas,2026-08-17,Suavitel,87.8,39
+1,Frijol Rojo Suavitel,7502001169,Panadería,2026-08-18,Sabritas,19.63,40
+1,Sopa de Pollo Great Value,7502001170,Lácteos,2026-08-19,Dos Pinos,71.14,90
+1,Leche Deslactosada Suavitel,7502001171,Frutas y Verduras,2026-08-20,La CosteÃ±a,13.84,62
+1,Huevos OrgÃ¡nicos Kellogg's,7502001172,Frutas y Verduras,2026-08-21,Great Value,87.0,140
+1,LasaÃ±a Congelada Suavitel,7502001173,Panadería,2026-08-22,La Moderna,54.5,82
+1,Huevos OrgÃ¡nicos Fud,7502001174,Snacks,2026-08-23,Kellogg's,34.35,59
+1,Muslos de Pollo Palmolive,7502001175,Abarrotes,2026-08-24,Suavitel,77.01,70
+1,Enjuague Bucal Fud,7502001176,Bebidas,2026-08-25,Great Value,38.5,54
+1,Azúcar Morena Dos Pinos,7502001177,Lácteos,2026-08-26,Lala,17.79,10
+1,Jugo de Manzana Sabritas,7502001178,Panadería,2026-08-27,Gamesa,16.37,91
+1,Pan Dulce Palmolive,7502001179,Congelados,2026-08-28,Kellogg's,31.95,99
+1,Pan Dulce Pepsi,7502001180,Carnes,2026-08-29,Kellogg's,30.72,33
+1,Toallas de Papel Dos Pinos,7502001181,Abarrotes,2026-08-30,La CosteÃ±a,14.47,87
+1,Enjuague Bucal Suavitel,7502001182,Carnes,2026-08-31,Fud,50.92,143
+1,Enjuague Bucal Gamesa,7502001183,Higiene,2026-09-01,Nestlé,89.38,24
+1,Queso Cheddar Lala,7502001184,Limpieza,2026-09-02,Maggi,82.6,47
+1,Galletas Chocolate Sabritas,7502001185,Carnes,2026-09-03,Knorr,41.39,90
+1,Pepino Nestlé,7502001186,Bebidas,2026-09-04,Cloralex,66.05,82
+1,Muslos de Pollo Colgate,7502001187,Carnes,2026-09-05,Great Value,71.0,44
+1,Chocolate Amargo Fud,7502001188,Panadería,2026-09-06,Suavitel,30.81,110
+1,Harina de Maíz Suavitel,7502001189,Bebidas,2026-09-07,Kellogg's,40.11,10
+1,Galletas Chocolate Alpina,7502001190,Congelados,2026-09-08,Gamesa,20.92,148
+1,Muslos de Pollo Gamesa,7502001191,Carnes,2026-09-09,Maggi,87.47,52
+1,LasaÃ±a Congelada Sabritas,7502001192,Snacks,2026-09-10,Great Value,33.73,37
+1,Helado de Chocolate Sabritas,7502001193,Frutas y Verduras,2026-09-11,La CosteÃ±a,87.25,136
+1,Jamón de Cerdo Cloralex,7502001194,Carnes,2026-09-12,Great Value,35.81,12
+1,Jamón de Cerdo Colgate,7502001195,Limpieza,2026-09-13,Fud,22.5,75
+1,Leche Light Lala,7502001196,Frutas y Verduras,2026-09-14,Sabritas,51.38,28
+1,Queso Crema Nestlé,7502001197,Limpieza,2026-09-15,Great Value,85.15,29
+1,Jugo de Manzana Kellogg's,7502001198,Carnes,2026-09-16,La Moderna,82.51,82
+1,Pan Dulce La CosteÃ±a,7502001199,Limpieza,2026-09-17,Gamesa,65.89,38
+1,Aceite de Oliva Great Value,7502001200,Abarrotes,2026-09-18,Dos Pinos,9.29,136
+1,Yogur Griego Cloralex,7502001201,Panadería,2026-09-19,Coca-Cola,76.13,44
+1,Jamón de Cerdo Sabritas,7502001202,Snacks,2026-09-20,Maggi,78.11,143
+1,Chocolate Amargo Coca-Cola,7502001203,Snacks,2026-09-21,Colgate,50.3,92
+1,Carne Molida Cloralex,7502001204,Carnes,2026-09-22,Coca-Cola,84.11,146
+1,Leche Light Colgate,7502001205,Snacks,2026-09-23,La Moderna,25.11,14
+1,Galletas Chocolate Maggi,7502001206,Frutas y Verduras,2026-09-24,Maggi,88.48,135
+1,Jugo de Manzana Alpina,7502001207,Limpieza,2026-09-25,Kellogg's,62.4,60
+1,Queso Cheddar Pepsi,7502001208,Abarrotes,2026-09-26,Colgate,48.11,3
+1,Sardinas en Lata Nestlé,7502001209,Carnes,2026-09-27,Fud,35.67,8
+1,Frijol Rojo Knorr,7502001210,Frutas y Verduras,2026-09-28,Coca-Cola,8.08,59
+1,LasaÃ±a Congelada Suavitel,7502001211,Snacks,2026-09-29,Dos Pinos,80.42,17
+1,Helado de Chocolate Palmolive,7502001212,Snacks,2026-09-30,Kellogg's,22.25,88
+1,Frijol Rojo Palmolive,7502001213,Bebidas,2026-10-01,Coca-Cola,60.39,110
+1,Peras Nestlé,7502001214,Limpieza,2026-10-02,La CosteÃ±a,77.07,61
+1,Jabón Líquido Lala,7502001215,Bebidas,2026-10-03,Nestlé,39.42,145
+1,Leche Light Palmolive,7502001216,Frutas y Verduras,2026-10-04,Maggi,18.7,15
+1,Refresco Naranja Maggi,7502001217,Carnes,2026-10-05,Bimbo,48.57,113
+1,Queso Crema Sabritas,7502001218,Abarrotes,2026-10-06,Palmolive,78.72,133
+1,Sopa de Pollo Suavitel,7502001219,Bebidas,2026-10-07,Gamesa,30.79,62
+1,Queso Crema Suavitel,7502001220,Abarrotes,2026-10-08,Bimbo,89.57,42
+1,Azúcar Morena Pepsi,7502001221,Congelados,2026-10-09,Sabritas,66.03,107
+1,Jugo de Manzana Lala,7502001222,Lácteos,2026-10-10,Palmolive,40.11,35
+1,Harina de Maíz Lala,7502001223,Congelados,2026-10-11,Kellogg's,81.31,30
+1,Jugo de Manzana Palmolive,7502001224,Bebidas,2026-10-12,Sabritas,48.11,127
+1,Queso Cheddar Pepsi,7502001225,Frutas y Verduras,2026-10-13,Kellogg's,62.06,60
+1,Pan Dulce Dos Pinos,7502001226,Panadería,2026-10-14,Bimbo,55.08,142
+1,Café InstantÃ¡neo La Moderna,7502001227,Higiene,2026-10-15,Maggi,88.65,76
+1,Salami Coca-Cola,7502001228,Frutas y Verduras,2026-10-16,Alpina,41.79,75
+1,Pan Multigrano Maggi,7502001229,Congelados,2026-10-17,Nestlé,22.22,84
+1,Detergente en Polvo Knorr,7502001230,Bebidas,2026-10-18,Cloralex,50.53,111
+1,Muslos de Pollo Sabritas,7502001231,Abarrotes,2026-10-19,Bimbo,25.76,42
+1,Sopa de Pollo Colgate,7502001232,Frutas y Verduras,2026-10-20,Colgate,39.38,88
+1,Enjuague Bucal Gamesa,7502001233,Frutas y Verduras,2026-10-21,Suavitel,77.77,92
+1,Helado de Chocolate Suavitel,7502001234,Frutas y Verduras,2026-10-22,Great Value,36.08,117
+1,Peras Knorr,7502001235,Congelados,2026-10-23,Fud,10.44,66
+1,Café InstantÃ¡neo Nestlé,7502001236,Congelados,2026-10-24,Great Value,20.3,8
+1,Pan Dulce Bimbo,7502001237,Panadería,2026-10-25,La Moderna,35.05,6
+1,Uvas Knorr,7502001238,Lácteos,2026-10-26,Kellogg's,17.54,93
+1,Aceite de Oliva Cloralex,7502001239,Lácteos,2026-10-27,Great Value,12.89,135
+1,Peras Kellogg's,7502001240,Bebidas,2026-10-28,Pepsi,88.86,6
+1,Uvas La CosteÃ±a,7502001241,Snacks,2026-07-01,Coca-Cola,12.02,120
+1,Huevos OrgÃ¡nicos Colgate,7502001242,Snacks,2026-07-02,Nestlé,35.83,57
+1,Azúcar Morena Pepsi,7502001243,Congelados,2026-07-03,Knorr,12.64,113
+1,Sopa de Pollo Cloralex,7502001244,Abarrotes,2026-07-04,Colgate,19.17,57
+1,Carne Molida Colgate,7502001245,Carnes,2026-07-05,Sabritas,55.66,79
+1,Leche Light Nestlé,7502001246,Congelados,2026-07-06,Suavitel,42.85,63
+1,Jamón de Cerdo Knorr,7502001247,Abarrotes,2026-07-07,Kellogg's,85.28,58
+1,Muslos de Pollo Gamesa,7502001248,Panadería,2026-07-08,Lala,89.93,94
+1,Café InstantÃ¡neo Fud,7502001249,Frutas y Verduras,2026-07-09,Sabritas,37.85,89
+1,Jugo de Manzana Kellogg's,7502001250,Frutas y Verduras,2026-07-10,Sabritas,89.53,60
+1,Leche Light Cloralex,7502001251,Bebidas,2026-07-11,La CosteÃ±a,40.85,110
+1,Toallas de Papel Dos Pinos,7502001252,Limpieza,2026-07-12,Sabritas,39.21,98
+1,Arroz Integral La Moderna,7502001253,Congelados,2026-07-13,La Moderna,38.15,69
+1,Acondicionador Suavitel,7502001254,Snacks,2026-07-14,La Moderna,43.21,91
+1,Enjuague Bucal Nestlé,7502001255,Abarrotes,2026-07-15,Coca-Cola,36.84,114
+1,Muslos de Pollo Maggi,7502001256,Higiene,2026-07-16,Pepsi,65.26,75
+1,Huevos OrgÃ¡nicos Sabritas,7502001257,Bebidas,2026-07-17,Lala,87.15,115
+1,Queso Cheddar Dos Pinos,7502001258,Limpieza,2026-07-18,Dos Pinos,49.43,46
+1,Refresco Naranja Kellogg's,7502001259,Lácteos,2026-07-19,Kellogg's,88.88,68
+1,Leche Light Sabritas,7502001260,Lácteos,2026-07-20,Cloralex,19.0,23
+1,Jugo de Manzana Kellogg's,7502001261,Snacks,2026-07-21,Great Value,77.86,64
+1,Huevos OrgÃ¡nicos Palmolive,7502001262,Frutas y Verduras,2026-07-22,Fud,60.91,19
+1,Carne Molida Maggi,7502001263,Bebidas,2026-07-23,Palmolive,43.3,77
+1,Chocolate Amargo La Moderna,7502001264,Lácteos,2026-07-24,La CosteÃ±a,80.64,49
+1,Huevos OrgÃ¡nicos Bimbo,7502001265,Congelados,2026-07-25,Suavitel,44.45,136
+1,Chocolate Amargo Coca-Cola,7502001266,Bebidas,2026-07-26,Fud,54.14,113
+1,Peras Bimbo,7502001267,Panadería,2026-07-27,Pepsi,34.34,78
+1,Azúcar Morena Maggi,7502001268,Abarrotes,2026-07-28,Alpina,37.91,23
+1,Muslos de Pollo Dos Pinos,7502001269,Abarrotes,2026-07-29,Coca-Cola,37.57,147
+1,Enjuague Bucal Knorr,7502001270,Congelados,2026-07-30,Kellogg's,25.33,138
+1,Pepino Suavitel,7502001271,Lácteos,2026-07-31,Lala,48.83,17
+1,Queso Crema Bimbo,7502001272,Frutas y Verduras,2026-08-01,Nestlé,34.67,47
+1,Muslos de Pollo Lala,7502001273,Bebidas,2026-08-02,Lala,86.73,94
+1,Jabón Líquido Cloralex,7502001274,Abarrotes,2026-08-03,Coca-Cola,24.85,32
+1,Frijol Rojo Coca-Cola,7502001275,Lácteos,2026-08-04,Gamesa,29.29,112
+1,Carne Molida Nestlé,7502001276,Limpieza,2026-08-05,Colgate,71.83,11
+1,Harina de Maíz Alpina,7502001277,Abarrotes,2026-08-06,Lala,64.19,123
+1,Frijol Rojo Cloralex,7502001278,Limpieza,2026-08-07,Cloralex,80.6,46
+1,Harina de Maíz La Moderna,7502001279,Snacks,2026-08-08,Great Value,21.28,146
+1,Nachos Fud,7502001280,Snacks,2026-08-09,Suavitel,79.83,19
+1,LasaÃ±a Congelada Alpina,7502001281,Congelados,2026-08-10,Kellogg's,40.58,36
+1,Leche Deslactosada Dos Pinos,7502001282,Bebidas,2026-08-11,Palmolive,59.06,24
+1,Galletas Chocolate Great Value,7502001283,Limpieza,2026-08-12,Cloralex,68.66,128
+1,Acondicionador Lala,7502001284,Carnes,2026-08-13,Sabritas,67.41,135
+1,Muslos de Pollo Knorr,7502001285,Abarrotes,2026-08-14,Kellogg's,13.74,146
+1,Huevos OrgÃ¡nicos Alpina,7502001286,Higiene,2026-08-15,Maggi,64.24,123
+1,Lechuga Coca-Cola,7502001287,Congelados,2026-08-16,Dos Pinos,15.63,45
+1,Queso Cheddar Pepsi,7502001288,Panadería,2026-08-17,Pepsi,46.44,103
+1,Enjuague Bucal Maggi,7502001289,Abarrotes,2026-08-18,Lala,42.41,110
+1,Uvas La CosteÃ±a,7502001290,Lácteos,2026-08-19,Sabritas,24.01,107
+1,Nachos Nestlé,7502001291,Snacks,2026-08-20,Gamesa,20.75,135
+1,Muslos de Pollo Pepsi,7502001292,Panadería,2026-08-21,Cloralex,11.43,96
+1,Toallas Sanitarias Suavitel,7502001293,Higiene,2026-08-22,Alpina,83.98,11
+1,Aceite de Oliva Kellogg's,7502001294,Abarrotes,2026-08-23,Cloralex,20.67,79
+1,Detergente en Polvo Maggi,7502001295,Limpieza,2026-08-24,La Moderna,73.96,108
+1,Agua Mineral Palmolive,7502001296,Bebidas,2026-08-25,Dos Pinos,63.32,68
+1,Jabón Líquido Alpina,7502001297,Limpieza,2026-08-26,Lala,77.38,127
+1,Helado de Chocolate Coca-Cola,7502001298,Congelados,2026-08-27,Pepsi,40.54,100
+1,Granola Suavitel,7502001299,Snacks,2026-08-28,Maggi,14.65,122
+1,Jugo de Manzana Nestlé,7502001300,Lácteos,2026-08-29,La CosteÃ±a,53.52,11
+1,Tomates Kellogg's,7401001001,Snacks,2026-06-01,La CosteÃ±a,68.98,15
+1,Leche Entera Suavitel,7401001002,Snacks,2026-06-02,Fud,26.21,101
+1,Jamón de Pavo Suavitel,7401001003,Bebidas,2026-06-03,Dos Pinos,7.45,10
+1,Agua Purificada La CosteÃ±a,7401001004,Lácteos,2026-06-04,Knorr,57.71,49
+1,Papas Fritas Nestlé,7401001005,Snacks,2026-06-05,Bimbo,50.69,28
+1,Margarina Bimbo,7401001006,Bebidas,2026-06-06,Nestlé,30.0,114
+1,Pan Blanco Colgate,7401001007,Abarrotes,2026-06-07,Nestlé,74.43,72
+1,Arroz Blanco Coca-Cola,7401001008,Congelados,2026-06-08,Kellogg's,37.92,46
+1,Leche Descremada Bimbo,7401001009,Limpieza,2026-06-09,Fud,33.72,90
+1,Pollo Entero Alpina,7401001010,Carnes,2026-06-10,Lala,60.99,51
+1,Carne de Res La Moderna,7401001011,Abarrotes,2026-06-11,Coca-Cola,62.76,13
+1,Pasta Dental Knorr,7401001012,Congelados,2026-06-12,Fud,29.68,51
+1,Pollo Entero Suavitel,7401001013,Frutas y Verduras,2026-06-13,Cloralex,30.32,15
+1,Pizza Congelada Colgate,7401001014,Abarrotes,2026-06-14,Sabritas,9.18,26
+1,Jabón en Barra Fud,7401001015,Snacks,2026-06-15,Alpina,55.87,114
+1,Helado de Vainilla Bimbo,7401001016,Limpieza,2026-06-16,La Moderna,9.13,106
+1,Jugo de Naranja Pepsi,7401001017,Panadería,2026-06-17,Maggi,5.94,109
+1,Jugo de Naranja Fud,7401001018,Abarrotes,2026-06-18,Kellogg's,8.2,34
+1,Salchichas Nestlé,7401001019,Panadería,2026-06-19,Cloralex,16.32,106
+1,Pollo Entero Suavitel,7401001020,Lácteos,2026-06-20,Gamesa,50.74,22
+1,Detergente Líquido Lala,7401001021,Higiene,2026-06-21,Palmolive,60.72,108
+1,Sopa Instantánea Kellogg's,7401001022,Abarrotes,2026-06-22,La CosteÃ±a,23.16,33
+1,Huevos Suavitel,7401001023,Limpieza,2026-06-23,Gamesa,44.51,41
+1,Atún en Lata Cloralex,7401001024,Lácteos,2026-06-24,Gamesa,66.51,58
+1,Carne de Res Gamesa,7401001025,Bebidas,2026-06-25,Knorr,8.28,5
+1,Aceite Vegetal Coca-Cola,7401001026,Limpieza,2026-06-26,Lala,51.95,53
+1,Aceite Vegetal Palmolive,7401001027,Snacks,2026-06-27,La Moderna,5.81,26
+1,Galletas María Nestlé,7401001028,Limpieza,2026-06-28,Maggi,14.29,112
+1,Detergente Líquido Gamesa,7401001029,Frutas y Verduras,2026-06-29,Knorr,36.72,114
+1,Margarina Palmolive,7401001030,Higiene,2026-06-30,Pepsi,37.66,81
+1,Aceite Vegetal Pepsi,7401001031,Lácteos,2026-07-01,Coca-Cola,43.37,32
+1,Mantequilla Dos Pinos,7401001032,Limpieza,2026-07-02,Coca-Cola,44.77,114
+1,Refresco Cola Alpina,7401001033,Carnes,2026-07-03,Kellogg's,60.83,36
+1,Yogur Natural Bimbo,7401001034,Lácteos,2026-07-04,Suavitel,52.36,111
+1,Jamón de Pavo Alpina,7401001035,Abarrotes,2026-07-05,Fud,61.24,24
+1,Pan Integral Alpina,7401001036,Snacks,2026-07-06,La Moderna,20.14,48
+1,Chocolate en Barra Lala,7401001037,Carnes,2026-07-07,Fud,6.7,99
+1,Tomates Pepsi,7401001038,Congelados,2026-07-08,Lala,6.23,58
+1,Queso Mozzarella Coca-Cola,7401001039,Frutas y Verduras,2026-07-09,Pepsi,64.61,83
+1,Zanahorias Cloralex,7401001040,Snacks,2026-07-10,Coca-Cola,28.59,6
+1,Pan Integral Sabritas,7401001041,Congelados,2026-07-11,Gamesa,18.65,41
+1,Servilletas Great Value,7401001042,Carnes,2026-07-12,Fud,37.78,89
+1,Salchichas La CosteÃ±a,7401001043,Frutas y Verduras,2026-07-13,Palmolive,41.36,29
+1,Papas Fritas Suavitel,7401001044,Carnes,2026-07-14,Great Value,71.08,115
+1,Pizza Congelada Great Value,7401001045,Bebidas,2026-07-15,Lala,7.42,51
+1,Papas Fritas Gamesa,7401001046,Limpieza,2026-07-16,Great Value,49.25,20
+1,Jabón en Barra Alpina,7401001047,Bebidas,2026-07-17,Kellogg's,62.04,5
+1,Leche Descremada Nestlé,7401001048,Panadería,2026-07-18,Lala,33.71,117
+1,Café Molido Pepsi,7401001049,Snacks,2026-07-19,Bimbo,15.3,91
+1,Atún en Lata Maggi,7401001050,Congelados,2026-07-20,Fud,69.15,60
+1,Galletas María La Moderna,7401001051,Bebidas,2026-07-21,Fud,74.18,53
+1,Jamón de Pavo Gamesa,7401001052,Bebidas,2026-07-22,Great Value,48.95,19
+1,Shampoo Suavitel,7401001053,Carnes,2026-07-23,Pepsi,44.78,72
+1,Margarina La Moderna,7401001054,Higiene,2026-07-24,Alpina,13.54,11
+1,Margarina Nestlé ,7401001055,Frutas y Verduras,2026-07-25,Dos Pinos,16.53,37
+1,Jugo de Naranja Cloralex,7401001056,Panadería,2026-07-26,Fud,17.15,43
+1,Mantequilla Kellogg's,7401001057,Limpieza,2026-07-27,Fud,51.11,96
+1,Pollo Entero Pepsi,7401001058,Limpieza,2026-07-28,Alpina,47.79,97
+1,Papas Fritas Colgate,7401001059,Bebidas,2026-07-29,Lala,7.12,71
+1,Queso Mozzarella Gamesa,7401001060,Congelados,2026-07-30,Great Value,68.71,107
+1,Helado de Vainilla Colgate,7401001061,Limpieza,2026-07-31,La CosteÃ±a,65.94,120
+1,Pasta Dental Coca-Cola,7401001062,Congelados,2026-08-01,La Moderna,32.81,20
+1,Refresco Cola Palmolive,7401001063,Bebidas,2026-08-02,Bimbo,11.93,80
+1,Café Molido Knorr,7401001064,Higiene,2026-08-03,Bimbo,43.59,54
+1,Refresco Cola Coca-Cola,7401001065,Carnes,2026-08-04,Sabritas,22.89,69
+1,Chocolate en Barra Knorr,7401001066,Bebidas,2026-08-05,Fud,55.74,9
+1,Shampoo Knorr,7401001067,Abarrotes,2026-08-06,Great Value,69.66,30
+1,Harina de Trigo Coca-Cola,7401001068,Lácteos,2026-08-07,Dos Pinos,31.71,81
+1,Azúcar Blanca La Moderna,7401001069,Limpieza,2026-08-08,Sabritas,65.07,104
+1,Pollo Entero La Moderna,7401001070,Abarrotes,2026-08-09,Pepsi,29.83,21
+1,Agua Purificada Kellogg's,7401001071,Congelados,2026-08-10,Sabritas,59.19,89
+1,Queso Mozzarella Dos Pinos,7401001072,Lácteos,2026-08-11,Kellogg's,11.96,98
+1,Agua Purificada Kellogg's,7401001073,Lácteos,2026-08-12,Alpina,14.08,82
+1,Tomates Gamesa,7401001074,Higiene,2026-08-13,Lala,70.21,84
+1,Pan Integral Great Value,7401001075,Limpieza,2026-08-14,Alpina,53.41,89
+1,Mantequilla Kellogg's,7401001076,Frutas y Verduras,2026-08-15,Lala,47.61,47
+1,Queso Mozzarella Maggi,7401001077,Limpieza,2026-08-16,La Moderna,65.55,27
+1,Salchichas Knorr,7401001078,Snacks,2026-08-17,Knorr,64.05,44
+1,Frijol Negro Nestlé,7401001079,Snacks,2026-08-18,Colgate,60.63,13
+1,Papel Higiénico Lala,7401001080,Lácteos,2026-08-19,Dos Pinos,68.86,20
+1,Carne de Res La CosteÃ±a,7401001081,Snacks,2026-08-20,Coca-Cola,47.18,18
+1,Chocolate en Barra Pepsi,7401001082,Frutas y Verduras,2026-08-21,Cloralex,16.45,15
+1,Yogur Natural Nestlé,7401001083,Frutas y Verduras,2026-08-22,Dos Pinos,24.06,68
+1,Papas Fritas Great Value,7401001084,Panadería,2026-08-23,Maggi,55.18,59
+1,Leche Entera Knorr,7401001085,Higiene,2026-08-24,Alpina,62.35,9
+1,Jamón de Pavo Palmolive,7401001086,Abarrotes,2026-08-25,La Moderna,40.09,22
+1,Huevos Fud,7401001087,Bebidas,2026-08-26,La CosteÃ±a,45.98,73
+1,Yogur Natural Alpina,7401001088,Limpieza,2026-08-27,Bimbo,72.45,50
+1,Atún en Lata Gamesa,7401001089,Limpieza,2026-08-28,Sabritas,39.31,70
+1,Leche Descremada Great Value,7401001090,Snacks,2026-08-29,La Moderna,42.02,81
+1,Shampoo Knorr,7401001091,Congelados,2026-06-01,La CosteÃ±a,21.77,52
+1,Yogur Natural Bimbo,7401001092,Snacks,2026-06-02,Palmolive,68.75,74
+1,Aceite Vegetal Lala,7401001093,Congelados,2026-06-03,La Moderna,56.88,9
+1,Pasta Dental Nestlé,7401001094,Frutas y Verduras,2026-06-04,Kellogg's,26.06,119
+1,Cereal de Maíz La Moderna,7401001095,Panadería,2026-06-05,Nestlé,7.74,37
+1,Yogur Natural Great Value,7401001096,Bebidas,2026-06-06,Gamesa,25.72,28
+1,Atún en Lata Alpina,7401001097,Higiene,2026-06-07,Kellogg's,11.4,19
+1,Jabón en Barra La CosteÃ±a,7401001098,Abarrotes,2026-06-08,Maggi,20.3,97
+1,Sopa Instantánea Gamesa,7401001099,Snacks,2026-06-09,La CosteÃ±a,70.29,26
+1,Detergente Líquido Pepsi,7401001100,Lácteos,2026-06-10,Pepsi,26.92,44
+1,Mantequilla Bimbo,7401001101,Limpieza,2026-06-11,Bimbo,69.47,97
+1,Yogur Natural Maggi,7401001102,Higiene,2026-06-12,Great Value,66.86,43
+1,Detergente Líquido Lala,7401001103,Abarrotes,2026-06-13,Sabritas,45.03,35
+1,Leche Entera Dos Pinos,7401001104,Lácteos,2026-06-14,Lala,12.35,88
+1,Refresco Cola Nestlé,7401001105,Congelados,2026-06-15,Alpina,35.46,72
+1,Manzanas Knorr,7401001106,Bebidas,2026-06-16,Dos Pinos,62.63,89
+1,Jabón en Barra Bimbo,7401001107,Frutas y Verduras,2026-06-17,Fud,53.39,14
+1,Margarina Knorr,7401001108,Snacks,2026-06-18,Fud,23.18,75
+1,Leche Entera Coca-Cola,7401001109,Higiene,2026-06-19,Knorr,52.71,67
+1,Refresco Cola Maggi,7401001110,Limpieza,2026-06-20,Gamesa,57.66,97
+1,Sopa Instantánea La CosteÃ±a,7401001111,Abarrotes,2026-06-21,Bimbo,27.16,92
+1,Tomates Maggi,7401001112,Snacks,2026-06-22,Palmolive,13.24,116
+1,Pasta Dental Colgate,7401001113,Panadería,2026-06-23,Cloralex,46.84,98
+1,Café Molido Cloralex,7401001114,Higiene,2026-06-24,Coca-Cola,70.88,66
+1,Harina de Trigo Lala,7401001115,Carnes,2026-06-25,Dos Pinos,43.62,6
+1,Agua Purificada Fud,7401001116,Higiene,2026-06-26,Kellogg's,69.13,15
+1,Salchichas Sabritas,7401001117,Carnes,2026-06-27,Alpina,39.74,27
+1,Pasta Dental Maggi,7401001118,Limpieza,2026-06-28,Pepsi,37.99,54
+1,Helado de Vainilla Fud,7401001119,Abarrotes,2026-06-29,Coca-Cola,7.17,95
+1,Aceite Vegetal Alpina,7401001120,Bebidas,2026-06-30,Sabritas,6.28,90
+1,Tomates Colgate,7401001121,Panadería,2026-07-01,Sabritas,67.2,15
+1,Pan Integral Knorr,7401001122,Higiene,2026-07-02,Colgate,60.55,120
+1,Zanahorias Fud,7401001123,Frutas y Verduras,2026-07-03,Kellogg's,72.43,14
+1,Jabón en Barra Lala,7401001124,Panadería,2026-07-04,Colgate,33.81,33
+1,Pan Blanco La Moderna,7401001125,Snacks,2026-07-05,Nestlé,30.51,43
+1,Aceite Vegetal Alpina,7401001126,Higiene,2026-07-06,Cloralex,70.84,120
+1,Cereal de Maíz Kellogg's,7401001127,Higiene,2026-07-07,Nestlé,49.94,115
+1,Agua Purificada La CosteÃ±a,7401001128,Bebidas,2026-07-08,Alpina,51.92,82
+1,Pollo Entero Coca-Cola,7401001129,Bebidas,2026-07-09,Coca-Cola,67.78,92
+1,Zanahorias Gamesa,7401001130,Higiene,2026-07-10,Great Value,57.53,59
+1,Papel Higiénico Knorr,7401001131,Congelados,2026-07-11,Colgate,46.58,50
+1,Huevos Kellogg's,7401001132,Congelados,2026-07-12,Coca-Cola,42.59,109
+1,Tomates Great Value,7401001133,Lácteos,2026-07-13,Bimbo,74.21,103
+1,Pan Blanco Sabritas,7401001134,Abarrotes,2026-07-14,Sabritas,48.07,116
+1,Refresco Cola Maggi,7401001135,Panadería,2026-07-15,Pepsi,24.84,74
+1,Manzanas Knorr,7401001136,Congelados,2026-07-16,Knorr,15.82,7
+1,Queso Mozzarella Nestlé,7401001137,Limpieza,2026-07-17,Coca-Cola,10.32,76
+1,Servilletas Sabritas,7401001138,Carnes,2026-07-18,Alpina,12.39,34
+1,Chocolate en Barra Knorr,7401001139,Snacks,2026-07-19,Pepsi,23.8,53
+1,Papas Fritas Lala,7401001140,Abarrotes,2026-07-20,Gamesa,47.84,77
+1,Galletas María Maggi,7401001141,Higiene,2026-07-21,Maggi,73.85,113
+1,Papas Fritas Coca-Cola,7401001142,Higiene,2026-07-22,Fud,11.19,79
+1,Refresco Cola Palmolive,7401001143,Bebidas,2026-07-23,Alpina,35.38,6
+1,Leche Descremada Dos Pinos,7401001144,Abarrotes,2026-07-24,Fud,71.89,29
+1,Agua Purificada Coca-Cola,7401001145,Abarrotes,2026-07-25,Suavitel,9.18,66
+1,Huevos La Moderna,7401001146,Panadería,2026-07-26,Sabritas,68.07,12
+1,Jugo de Naranja Knorr,7401001147,Congelados,2026-07-27,Cloralex,44.76,17
+1,Jugo de Naranja Colgate,7401001148,Frutas y Verduras,2026-07-28,Coca-Cola,27.25,93
+1,Café Molido Knorr,7401001149,Bebidas,2026-07-29,Sabritas,9.17,44
+1,Helado de Vainilla Coca-Cola,7401001150,Lácteos,2026-07-30,Lala,60.42,12
+1,Arroz Blanco La Moderna,7401001151,Congelados,2026-07-31,Fud,30.24,78
+1,Zanahorias Knorr,7401001152,Lácteos,2026-08-01,Great Value,69.78,98
+1,Jamón de Pavo Bimbo,7401001153,Higiene,2026-08-02,Fud,51.13,6
+1,Sopa Instantánea Pepsi,7401001154,Panadería,2026-08-03,Gamesa,16.74,17
+1,Arroz Blanco Knorr,7401001155,Bebidas,2026-08-04,Alpina,10.34,84
+1,Aceite Vegetal Sabritas,7401001156,Lácteos,2026-08-05,Nestlé,14.86,83
+1,Manzanas Fud,7401001157,Frutas y Verduras,2026-08-06,La CosteÃ±a,5.31,111
+1,Margarina Coca-Cola,7401001158,Lácteos,2026-08-07,Palmolive,38.55,93
+1,Leche Entera Maggi,7401001159,Abarrotes,2026-08-08,Coca-Cola,51.54,16
+1,Huevos Sabritas,7401001160,Panadería,2026-08-09,Great Value,19.56,61
+1,Detergente Líquido Maggi,7401001161,Higiene,2026-08-10,La Moderna,26.92,46
+1,Jabón en Barra Coca-Cola,7401001162,Bebidas,2026-08-11,Cloralex,34.01,29
+1,Arroz Blanco Alpina,7401001163,Bebidas,2026-08-12,Suavitel,48.94,47
+1,Harina de Trigo Fud,7401001164,Carnes,2026-08-13,Sabritas,65.35,69
+1,Carne de Res La Moderna,7401001165,Limpieza,2026-08-14,Cloralex,8.49,83
+1,Arroz Blanco Palmolive,7401001166,Frutas y Verduras,2026-08-15,Bimbo,73.09,18
+1,Salchichas Coca-Cola,7401001167,Higiene,2026-08-16,Coca-Cola,15.86,74
+1,Margarina Knorr,7401001168,Panadería,2026-08-17,La CosteÃ±a,15.05,51
+1,Agua Purificada Maggi,7401001169,Snacks,2026-08-18,Cloralex,37.89,30
+1,Shampoo Palmolive,7401001170,Panadería,2026-08-19,Colgate,36.72,98
+1,Shampoo Maggi,7401001171,Lácteos,2026-08-20,Nestlé,66.06,89
+1,Helado de Vainilla Cloralex,7401001172,Carnes,2026-08-21,Suavitel,32.46,48
+1,Jabón en Barra La CosteÃ±a,7401001173,Congelados,2026-08-22,Lala,23.85,84
+1,Papas Fritas Sabritas,7401001174,Carnes,2026-08-23,Alpina,14.76,75
+1,Aceite Vegetal Cloralex,7401001175,Snacks,2026-08-24,Lala,30.63,114
+1,Jamón de Pavo Kellogg's,7401001176,Higiene,2026-08-25,Coca-Cola,30.87,105
+1,Pasta Dental Gamesa,7401001177,Abarrotes,2026-08-26,Lala,15.55,78
+1,Cereal de Maíz Nestlé,7401001178,Limpieza,2026-08-27,Knorr,8.17,7
+1,Agua Purificada Palmolive,7401001179,Panadería,2026-08-28,Fud,68.63,102
+1,Yogur Natural Palmolive,7401001180,Congelados,2026-08-29,Cloralex,44.97,54
+1,Servilletas Lala,7401001181,Frutas y Verduras,2026-06-01,Alpina,39.42,13
+1,Pan Integral Knorr,7401001182,Carnes,2026-06-02,Fud,17.36,19
+1,Cereal de Maíz Colgate,7401001183,Frutas y Verduras,2026-06-03,Palmolive,71.63,104
+1,Chocolate en Barra Cloralex,7401001184,Snacks,2026-06-04,Sabritas,34.56,50
+1,Sopa Instantánea La CosteÃ±a,7401001185,Frutas y Verduras,2026-06-05,La CosteÃ±a,5.58,56
+1,Refresco Cola Bimbo,7401001186,Frutas y Verduras,2026-06-06,La Moderna,59.51,65
+1,Aceite Vegetal Palmolive,7401001187,Lácteos,2026-06-07,Maggi,29.86,106
+1,Jugo de Naranja Knorr,7401001188,Bebidas,2026-06-08,Sabritas,71.81,22
+1,Salchichas Lala,7401001189,Lácteos,2026-06-09,Alpina,47.72,113
+1,Mantequilla Cloralex,7401001190,Higiene,2026-06-10,Maggi,58.66,94
+1,Jugo de Naranja Palmolive,7401001191,Snacks,2026-06-11,Maggi,21.22,85
+1,Leche Descremada Suavitel,7401001192,Abarrotes,2026-06-12,Great Value,6.55,10
+1,Sopa Instantánea Gamesa,7401001193,Abarrotes,2026-06-13,Sabritas,49.78,45
+1,Galletas María Fud,7401001194,Lácteos,2026-06-14,La Moderna,36.47,97
+1,Pan Blanco Knorr,7401001195,Panadería,2026-06-15,Great Value,36.34,101
+1,Servilletas Nestlé,7401001196,Snacks,2026-06-16,Coca-Cola,13.41,57
+1,Galletas María Cloralex,7401001197,Panadería,2026-06-17,La Moderna,41.39,7
+1,Salchichas La Moderna,7401001198,Higiene,2026-06-18,Maggi,30.85,66
+1,Huevos Gamesa,7401001199,Abarrotes,2026-06-19,Nestlé,58.06,36
+1,Tomates La Moderna,7401001200,Congelados,2026-06-20,Palmolive,74.49,64
+1,Pollo Entero Colgate,7401001201,Carnes,2026-06-21,Suavitel,15.14,45
+1,Papel Higiénico Pepsi,7401001202,Panadería,2026-06-22,Colgate,18.03,85
+1,Chocolate en Barra Gamesa,7401001203,Higiene,2026-06-23,Gamesa,63.66,94
+1,Manzanas Suavitel,7401001204,Snacks,2026-06-24,Lala,26.68,88
+1,Zanahorias Suavitel,7401001205,Abarrotes,2026-06-25,Lala,34.59,41
+1,Refresco Cola Maggi,7401001206,Bebidas,2026-06-26,Cloralex,17.73,59
+1,Leche Entera Bimbo,7401001207,Higiene,2026-06-27,Cloralex,28.81,46
+1,Frijol Negro Maggi,7401001208,Panadería,2026-06-28,Knorr,36.61,118
+1,Papel Higiénico Lala,7401001209,Frutas y Verduras,2026-06-29,Palmolive,25.91,29
+1,Aceite Vegetal Suavitel,7401001210,Carnes,2026-06-30,Dos Pinos,6.48,14
+1,Pollo Entero Knorr,7401001211,Carnes,2026-07-01,Nestlé,35.1,15
+1,Pasta Dental Great Value,7401001212,Bebidas,2026-07-02,Colgate,64.59,106
+1,Atún en Lata Gamesa,7401001213,Higiene,2026-07-03,Maggi,49.99,73
+1,Agua Purificada Coca-Cola,7401001214,Abarrotes,2026-07-04,Cloralex,37.21,101
+1,Café Molido Sabritas,7401001215,Snacks,2026-07-05,Nestlé,18.34,113
+1,Cereal de Maíz Dos Pinos,7401001216,Frutas y Verduras,2026-07-06,Gamesa,65.91,59
+1,Queso Mozzarella Knorr,7401001217,Panadería,2026-07-07,Kellogg's,69.89,97
+1,Margarina Nestlé,7401001218,Carnes,2026-07-08,Gamesa,32.22,45
+1,Galletas María Dos Pinos,7401001219,Lácteos,2026-07-09,La Moderna,28.48,76
+1,Pan Blanco Suavitel,7401001220,Abarrotes,2026-07-10,La CosteÃ±a,61.08,36
+1,Papel Higiénico Bimbo,7401001221,Congelados,2026-07-11,Bimbo,67.59,44
+1,Harina de Trigo Dos Pinos,7401001222,Limpieza,2026-07-12,Bimbo,47.24,48
+1,Pan Blanco Bimbo,7401001223,Limpieza,2026-07-13,Sabritas,62.31,100
+1,Frijol Negro Colgate,7401001224,Higiene,2026-07-14,Palmolive,52.28,118
+1,Jamón de Pavo Great Value,7401001225,Snacks,2026-07-15,Pepsi,28.75,38
+1,Leche Descremada Coca-Cola,7401001226,Frutas y Verduras,2026-07-16,Colgate,60.35,79
+1,Mantequilla Knorr,7401001227,Abarrotes,2026-07-17,Nestlé,66.34,62
+1,Shampoo Coca-Cola,7401001228,Carnes,2026-07-18,Fud,22.61,64
+1,Servilletas Fud,7401001229,Congelados,2026-07-19,Cloralex,9.65,45
+1,Jugo de Naranja Palmolive,7401001230,Carnes,2026-07-20,Kellogg's,68.32,110
+1,Pasta Dental Cloralex,7401001231,Congelados,2026-07-21,Great Value,29.97,37
+1,Yogur Natural Sabritas,7401001232,Abarrotes,2026-07-22,Palmolive,32.95,81
+1,Pan Blanco Sabritas,7401001233,Snacks,2026-07-23,Fud,20.7,24
+1,Refresco Cola Knorr,7401001234,Carnes,2026-07-24,Fud,15.92,72
+1,Pasta Dental Nestlé,7401001235,Congelados,2026-07-25,Great Value,69.81,66
+1,Arroz Blanco Knorr,7401001236,Snacks,2026-07-26,Suavitel,17.44,93
+1,Bananas Gamesa,7401001237,Bebidas,2026-07-27,Dos Pinos,6.47,45
+1,Manzanas Gamesa,7401001238,Carnes,2026-07-28,Palmolive,12.79,86
+1,Detergente Líquido Palmolive,7401001239,Limpieza,2026-07-29,Pepsi,28.39,43
+1,Helado de Vainilla Cloralex,7401001240,Panadería,2026-07-30,Knorr,38.91,78
+1,Jamón de Pavo La CosteÃ±a,7401001241,Snacks,2026-07-31,Knorr,36.79,75
+1,Papel Higiénico Palmolive,7401001242,Abarrotes,2026-08-01,Coca-Cola,25.6,24
+1,Detergente Líquido Sabritas,7401001243,Bebidas,2026-08-02,La Moderna,62.69,67
+1,Jamón de Pavo Fud,7401001244,Lácteos,2026-08-03,Coca-Cola,62.87,10
+1,Jugo de Naranja La CosteÃ±a,7401001245,Higiene,2026-08-04,La Moderna,22.2,70
+1,Arroz Blanco Fud,7401001246,Panadería,2026-08-05,La Moderna,25.76,82
+1,Refresco Cola Dos Pinos,7401001247,Snacks,2026-08-06,Dos Pinos,39.69,108
+1,Papas Fritas Bimbo,7401001248,Higiene,2026-08-07,Dos Pinos,13.94,80
+1,Pizza Congelada Kellogg's,7401001249,Bebidas,2026-08-08,Lala,57.06,116
+1,Papas Fritas Bimbo,7401001250,Bebidas,2026-08-09,Kellogg's,55.48,94
+1,Chocolate en Barra Lala,7401001251,Frutas y Verduras,2026-08-10,Great Value,13.37,58
+1,Shampoo Bimbo,7401001252,Limpieza,2026-08-11,Suavitel,59.92,56
+1,Papel Higiénico Palmolive,7401001253,Abarrotes,2026-08-12,Maggi,35.23,66
+1,Salchichas Colgate,7401001254,Carnes,2026-08-13,Nestlé,10.98,14
+1,Servilletas Knorr,7401001255,Frutas y Verduras,2026-08-14,La Moderna,10.7,59
+1,Jugo de Naranja Colgate,7401001256,Higiene,2026-08-15,Cloralex,28.18,7
+1,Mantequilla Dos Pinos,7401001257,Lácteos,2026-08-16,Nestlé,7.67,84
+1,Margarina Kellogg's,7401001258,Congelados,2026-08-17,Bimbo,43.8,116
+1,Café Molido Cloralex,7401001259,Bebidas,2026-08-18,Fud,12.63,48
+1,Leche Descremada Kellogg's,7401001260,Carnes,2026-08-19,Nestlé,5.68,12
+1,Aceite Vegetal Cloralex,7401001261,Frutas y Verduras,2026-08-20,Fud,27.59,50
+1,Manzanas Palmolive,7401001262,Carnes,2026-08-21,Alpina,54.98,6
+1,Galletas María Cloralex,7401001263,Bebidas,2026-08-22,Kellogg's,68.55,6
+1,Papas Fritas Alpina,7401001264,Abarrotes,2026-08-23,Sabritas,44.0,105
+1,Atún en Lata Fud,7401001265,Abarrotes,2026-08-24,Palmolive,9.39,50
+1,Sopa Instantánea Fud,7401001266,Limpieza,2026-08-25,Colgate,49.17,6
+1,Galletas María Alpina,7401001267,Panadería,2026-08-26,Great Value,73.46,46
+1,Azúcar Blanca Colgate,7401001268,Panadería,2026-08-27,Palmolive,18.58,47
+1,Cereal de Maíz Pepsi,7401001269,Higiene,2026-08-28,Suavitel,53.52,79
+1,Servilletas Nestlé,7401001270,Abarrotes,2026-08-29,Sabritas,62.87,8
+1,Yogur Natural La CosteÃ±a,7401001271,Higiene,2026-06-01,Colgate,14.92,12
+1,Margarina Suavitel,7401001272,Congelados,2026-06-02,Dos Pinos,37.05,107
+1,Refresco Cola Pepsi,7401001273,Frutas y Verduras,2026-06-03,Gamesa,8.26,9
+1,Pizza Congelada Great Value,7401001274,Carnes,2026-06-04,Dos Pinos,22.88,103
+1,Harina de Trigo Fud,7401001275,Higiene,2026-06-05,Sabritas,58.04,104
+1,Azúcar Blanca Great Value,7401001276,Limpieza,2026-06-06,Coca-Cola,6.66,91
+1,Atún en Lata Palmolive,7401001277,Bebidas,2026-06-07,Kellogg's,39.69,47
+1,Margarina Bimbo,7401001278,Limpieza,2026-06-08,Kellogg's,74.13,63
+1,Bananas Fud,7401001279,Frutas y Verduras,2026-06-09,Kellogg's,23.7,39
+1,Bananas Kellogg's,7401001280,Lácteos,2026-06-10,Cloralex,65.19,71
+1,Leche Descremada Gamesa,7401001281,Lácteos,2026-06-11,Alpina,25.95,53
+1,Frijol Negro Kellogg's,7401001282,Limpieza,2026-06-12,Coca-Cola,18.29,113
+1,Café Molido Lala,7401001283,Snacks,2026-06-13,Knorr,61.85,39
+1,Leche Descremada Palmolive,7401001284,Limpieza,2026-06-14,Cloralex,66.83,66
+1,Leche Descremada Lala,7401001285,Snacks,2026-06-15,Palmolive,50.99,33
+1,Leche Entera Nestlé,7401001286,Snacks,2026-06-16,Colgate,50.29,114
+1,Pizza Congelada Bimbo,7401001287,Higiene,2026-06-17,Pepsi,9.1,36
+1,Bananas Coca-Cola,7401001288,Higiene,2026-06-18,La Moderna,8.59,104
+1,Refresco Cola Suavitel,7401001289,Lácteos,2026-06-19,La Moderna,74.12,22
+1,Detergente Líquido La CosteÃ±a,7401001290,Congelados,2026-06-20,Gamesa,41.68,116
+1,Leche Entera Bimbo,7401001291,Bebidas,2026-06-21,Kellogg's,63.24,18
+1,Pollo Entero La CosteÃ±a,7401001292,Panadería,2026-06-22,Maggi,34.92,73
+1,Helado de Vainilla Nestlé,7401001293,Congelados,2026-06-23,Bimbo,45.15,16
+1,Margarina Bimbo,7401001294,Snacks,2026-06-24,Fud,15.0,116
+1,Shampoo Fud,7401001295,Congelados,2026-06-25,Suavitel,62.0,66
+1,Papel Higiénico Nestlé,7401001296,Congelados,2026-06-26,Gamesa,48.55,85
+1,Leche Descremada Cloralex,7401001297,Higiene,2026-06-27,La CosteÃ±a,20.52,42
+1,Mantequilla Sabritas,7401001298,Frutas y Verduras,2026-06-28,Coca-Cola,53.09,56
+1,Helado de Vainilla Kellogg's,7401001299,Snacks,2026-06-29,Lala,28.78,12
+1,Agua Purificada Dos Pinos,7401001300,Higiene,2026-06-30,Fud,26.1,53

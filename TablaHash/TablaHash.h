@@ -30,7 +30,8 @@ public:
     void vaciar();
     double obtenerFactorCarga();
     int contarColisiones();
-    void generarDot(std::string ruta);
+    void generarDot(string ruta);
+    void generarDotParcial(string ruta);
 };
 
 

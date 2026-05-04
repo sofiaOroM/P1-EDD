@@ -60,3 +60,7 @@ El codigo fuente se encuentra segmentado en modulos especificos:
 * Busqueda por Barcode: Comparativa de eficiencia entre Arboles.
 * Manejo de Memoria: Implementacion de destructores para evitar fugas de memoria.
 
+## Arquitectura del Sistema
+El sistema sigue un diseño modular donde una **Sucursal** actúa como el núcleo de gestión, poseyendo instancias independientes de cada estructura de datos.
+
+![Diagrama de Clases](./Diagrama%20de%20clases%20F2.png)

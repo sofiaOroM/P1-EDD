@@ -28,7 +28,7 @@ public:
     void generarDotBM(string nombreArchivo);
     void mostrarProductosPorCategoria(string categoria);
     vector<Producto*> buscarCoincidenciasCategoria(string subcadena);
-    vector<Producto*> obtenerProductosCategoria(string categoria);
+    //vector<Producto*> obtenerProductosCategoria(string categoria);
 };
 
 

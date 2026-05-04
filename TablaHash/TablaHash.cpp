@@ -17,7 +17,7 @@ TablaHash::~TablaHash() {
 }
 
 // Algoritmo de hashing para strings
-int TablaHash::funcionHash(std::string llave) {
+int TablaHash::funcionHash(string llave) {
     unsigned long hash = 5381;
     for (char c : llave) {
         hash = ((hash << 5) + hash) + c; // hash * 33 + c
@@ -125,6 +125,108 @@ int TablaHash::contarColisiones() {
     return colisiones;
 }
 
+/*void TablaHash::generarDotParcial(string ruta) {
+    ofstream archivo(ruta);
+    if (!archivo.is_open()) return;
+
+    archivo << "digraph G {" << endl;
+    archivo << "  rankdir=LR;" << endl;
+    archivo << "  nodesep=0.1;" << endl; // Espacio vertical entre filas
+    archivo << "  ranksep=0.5;" << endl; // Espacio horizontal entre cajas
+    archivo << "  node [fontname=\"Arial\", fontsize=10];" << endl;
+
+    // 1. Estilo para el arreglo principal (Índices)
+    archivo << "  node [shape=box, style=filled, fillcolor=\"#D6EAF8\", color=\"#2E86C1\", width=1.5];" << endl;
+
+    for (int i = 0; i < capacidad; i++) {
+        if (tabla[i] != nullptr) {
+            // Usamos un subgrafo para forzar la alineación horizontal de cada fila
+            archivo << "  { rank=same; " << endl;
+
+            // Dibujar el Índice
+            archivo << "    indice" << i << " [label=\"Índice " << i << "\"];" << endl;
+
+            // 2. Estilo para los productos (Cajas de colisión)
+            archivo << "    node [shape=record, style=\"rounded,filled\", fillcolor=\"#FDFEFE\", color=\"#7FB3D5\", width=2];" << endl;
+
+            Nodo* actual = tabla[i];
+            int count = 0;
+            while (actual) {
+                // Nodo del producto
+                archivo << "    node" << i << "_" << count
+                        << " [label=\"{ " << actual->producto->name
+                        << " | " << actual->producto->barcode << " }\"];" << endl;
+
+                // Conexión lógica
+                if (count == 0) {
+                    archivo << "    indice" << i << " -> node" << i << "_" << count << ";" << endl;
+                } else {
+                    archivo << "    node" << i << "_" << count - 1 << " -> node" << i << "_" << count << ";" << endl;
+                }
+
+                actual = actual->siguiente;
+                count++;
+            }
+            archivo << "  }" << endl; // Cierre del rank=same
+        }
+    }
+
+    archivo << "  label=\"\\n\\nReporte de Tabla Hash\\nFactor de Carga: " << obtenerFactorCarga() << "\";" << endl;
+    archivo << "  fontsize=14;" << endl;
+    archivo << "}" << endl;
+
+    archivo.close();
+}*/
+void TablaHash::generarDotParcial(string ruta) {
+    ofstream archivo(ruta);
+    if (!archivo.is_open()) return;
+
+    archivo << "digraph G {" << endl;
+    // Eliminamos rankdir=LR para que el flujo sea vertical (Top to Bottom)
+    archivo << "  nodesep=0.5;" << endl; // Espacio horizontal entre columnas
+    archivo << "  ranksep=0.4;" << endl; // Espacio vertical entre nodos
+    archivo << "  node [fontname=\"Arial\", fontsize=10];" << endl;
+
+    // 1. Forzar que todos los Índices estén en la misma fila superior
+    archivo << "  { rank=same; " << endl;
+    for (int i = 0; i < capacidad; i++) {
+        if (tabla[i] != nullptr) {
+            archivo << "    indice" << i << " [label=\"Índice " << i << "\", shape=box, style=filled, fillcolor=\"#D6EAF8\", color=\"#2E86C1\"];" << endl;
+        }
+    }
+    archivo << "  }" << endl;
+
+    // 2. Dibujar las listas hacia abajo
+    for (int i = 0; i < capacidad; i++) {
+        if (tabla[i] != nullptr) {
+            Nodo* actual = tabla[i];
+            int count = 0;
+
+            while (actual) {
+                // Nodo del producto (orientación vertical en el record)
+                archivo << "    node" << i << "_" << count
+                        << " [label=\"{ " << actual->producto->name
+                        << " | " << actual->producto->barcode << " }\", shape=record, style=\"rounded,filled\", fillcolor=\"#FDFEFE\", color=\"#7FB3D5\"];" << endl;
+
+                // Conexión vertical
+                if (count == 0) {
+                    archivo << "    indice" << i << " -> node" << i << "_" << count << ";" << endl;
+                } else {
+                    archivo << "    node" << i << "_" << count - 1 << " -> node" << i << "_" << count << ";" << endl;
+                }
+
+                actual = actual->siguiente;
+                count++;
+            }
+        }
+    }
+
+    archivo << "  label=\"\\n\\nReporte de Tabla Hash (Distribución Vertical)\\nFactor de Carga: " << obtenerFactorCarga() << "\";" << endl;
+    archivo << "  fontsize=14;" << endl;
+    archivo << "}" << endl;
+
+    archivo.close();
+}
 void TablaHash::generarDot(string ruta) {
     ofstream archivo(ruta);
     archivo << "digraph G {" << endl;

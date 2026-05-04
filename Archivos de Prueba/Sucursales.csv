@@ -1,0 +1,11 @@
+ID,Nombre,Ubicación,t_ingreso,t_traspaso,t_despacho
+1,Sucursal Central Norte,Ciudad de Guatemala,10,15,20
+2,Sucursal Zona 10,Guatemala,8,12,18
+3,Sucursal Occidente,Quetzaltenango,9,14,22
+4,Sucursal Atlántico,Puerto Barrios,11,16,19
+5,Sucursal Sur,Escuintla,7,10,15
+6,Sucursal Este,Izabal,12,18,24
+7,Sucursal Mixco,Mixco,6,9,13
+8,Sucursal Antigua,Antigua Guatemala,8,11,17
+9,Sucursal Chimaltenango,Chimaltenango,10,14,21
+10,Sucursal Petén,Santa Elena,13,20,25
