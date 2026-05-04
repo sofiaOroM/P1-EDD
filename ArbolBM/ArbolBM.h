@@ -5,6 +5,7 @@
 #include "NodoBM.h"
 #include <iostream>
 #include <fstream>
+#include <vector>
 using namespace std;
 
 
@@ -20,9 +21,14 @@ public:
     ArbolBM();
     bool insertar(Producto* p);
     NodoBM* buscarPadre(NodoBM* actual, NodoBM* hijo);
+    void ajustarNodo(NodoBM* nodo);
+    void fusionar(NodoBM* izq, NodoBM* der, NodoBM* padre, int posEnPadre);
+    void redistribuir(NodoBM* hermano, NodoBM* actual, NodoBM* padre, int posPadre, bool esIzquierdo);
     void eliminar(string categoria, Producto* p);
     void generarDotBM(string nombreArchivo);
-    void mostrarProductosPorCategoria(std::string categoria);
+    void mostrarProductosPorCategoria(string categoria);
+    vector<Producto*> buscarCoincidenciasCategoria(string subcadena);
+    vector<Producto*> obtenerProductosCategoria(string categoria);
 };
 
 

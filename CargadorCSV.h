@@ -1,27 +1,26 @@
 #ifndef GESTOR_DE_CATALOGO_CARGADORCSV_H
 #define GESTOR_DE_CATALOGO_CARGADORCSV_H
 #include <string>
-#include <fstream>
-#include <sstream>
-#include "./ListasEnlazada/NoOrdenada/ListaNoOrdenada.h"
-#include "./ListasEnlazada/Ordenada/ListaOrdenada.h"
+#include <QTextEdit>
 #include "./TablaHash/TablaHash.h"
-#include "./ArbolAVL/ArbolAVL.h"
-#include "ArbolB/ArbolB.h"
-#include "ArbolBM/ArbolBM.h"
+#include "Grafo/Grafo.h"
+#include "Sucursales/ListaSucursales.h"
+
+using namespace std;
 
 class CargadorCSV
 {
 public:
-    static void cargar(std::string ruta,
-                       ListaNoOrdenada& listaN,
-                       ListaOrdenada& listaO,
-                       TablaHash& hash,
-                       ArbolAVL& arbolAvl,
-                       ArbolB& arbolB,
-                       ArbolBM& arbolBM);
+    static int identificarTipoArchivo(string ruta);
+    static vector<string> dividirLineaCSV(string linea);
+    static string limpiarToken(string token);
+    static void cargarSucursales(string ruta, ListaSucursales& red, QTextEdit* logVisual);
+    static void cargarConexiones(string ruta, Grafo& grafo, ListaSucursales& red, QTextEdit* logVisual);
+    static void cargarProductos(string ruta, ListaSucursales& red, QTextEdit* logVisual);
+private:
     static string normalizarFecha(string fechaOriginal);
     static bool esFechaValida(string& fecha);
+    static void registrarError(string mensaje, QTextEdit* logVisual = nullptr);
 };
 
 

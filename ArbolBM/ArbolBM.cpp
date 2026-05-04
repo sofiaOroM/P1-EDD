@@ -7,7 +7,7 @@ void ArbolBM::dividirHoja(NodoBM* izquierda, NodoBM* padre, Producto* p) {
     NodoBM* derecha = new NodoBM(true);
 
     // Crear un buffer temporal para manejar m+1 elementos
-    std::string tempClaves[ORDEN_BP + 1];
+    string tempClaves[ORDEN_BP + 1];
     NodoBM::ListaProductos* tempProd[ORDEN_BP + 1];
 
     int i = 0;
@@ -54,7 +54,7 @@ void ArbolBM::dividirHoja(NodoBM* izquierda, NodoBM* padre, Producto* p) {
         insertarInterno(derecha->claves[0], padre, derecha);
     }
 }
-void ArbolBM::insertarInterno(std::string clave, NodoBM* actual, NodoBM* hijo) {
+void ArbolBM::insertarInterno(string clave, NodoBM* actual, NodoBM* hijo) {
     // Caso 1: El nodo actual (interno) tiene espacio
     if (actual->cuenta < ORDEN_BP) {
         int i = actual->cuenta - 1;
@@ -121,9 +121,6 @@ void ArbolBM::insertarInterno(std::string clave, NodoBM* actual, NodoBM* hijo) {
             nuevaRaiz->cuenta = 1;
             raiz = nuevaRaiz;
         } else {
-            // Llamada recursiva: buscar al padre del nodo 'actual'
-            // Nota: En una implementación ideal, puedes pasar el padre como parámetro
-            // o mantener punteros al padre en cada nodo.
             insertarInterno(tempClaves[division], buscarPadre(raiz, actual), nuevoInterno);
         }
     }
@@ -178,52 +175,6 @@ bool ArbolBM::insertar(Producto* p) {
         return false;
     }
 }
-/*void ArbolBM::insertar(Producto* p) {
-    if (raiz == nullptr) {
-        raiz = new NodoBM(true);
-        raiz->claves[0] = p->category;
-        raiz->productos[0] = new NodoBM::ListaProductos{p, nullptr};
-        raiz->cuenta = 1;
-    } else {
-        NodoBM* cursor = raiz;
-        NodoBM* padre = nullptr;
-
-        // 1. Bajar hasta la hoja
-        while (!cursor->esHoja) {
-            padre = cursor;
-            int i = 0;
-            while (i < cursor->cuenta && p->category >= cursor->claves[i]) i++;
-            cursor = cursor->hijos[i];
-        }
-
-        // 2. Comprobar si la categoría ya existe en la hoja
-        for (int i = 0; i < cursor->cuenta; i++) {
-            if (cursor->claves[i] == p->category) {
-                auto actual = cursor->productos[i];
-                while (actual->siguiente) actual = actual->siguiente;
-                actual->siguiente = new NodoBM::ListaProductos{p, nullptr};
-                return;
-            }
-        }
-
-        // 3. Si no existe y hay espacio, insertar ordenado
-        if (cursor->cuenta < ORDEN_BP) {
-            int i = cursor->cuenta - 1;
-            while (i >= 0 && cursor->claves[i] > p->category) {
-                cursor->claves[i + 1] = cursor->claves[i];
-                cursor->productos[i + 1] = cursor->productos[i];
-                i--;
-            }
-            cursor->claves[i + 1] = p->category;
-            cursor->productos[i + 1] = new NodoBM::ListaProductos{p, nullptr};
-            cursor->cuenta++;
-        }
-        // 4. Si está llena, dividir hoja
-        else {
-            dividirHoja(cursor, padre, p);
-        }
-    }
-}*/
 
 NodoBM* ArbolBM::buscarPadre(NodoBM* actual, NodoBM* hijo) {
     if (actual == nullptr || actual->esHoja) return nullptr;
@@ -235,20 +186,148 @@ NodoBM* ArbolBM::buscarPadre(NodoBM* actual, NodoBM* hijo) {
     }
     return nullptr;
 }
+void ArbolBM::ajustarNodo(NodoBM* nodo) {
+    if (nodo == raiz) {
+        if (nodo->cuenta == 0 && !nodo->esHoja) {
+            NodoBM* viejaRaiz = raiz;
+            raiz = raiz->hijos[0];
+            delete viejaRaiz;
+        }
+        return;
+    }
+
+    NodoBM* padre = buscarPadre(raiz, nodo);
+    int pos = 0;
+    while (padre->hijos[pos] != nodo) pos++;
+
+    // 1. Intentar redistribución con hermano IZQUIERDO
+    if (pos > 0 && padre->hijos[pos-1]->cuenta > ((ORDEN_BP+1)/2 - 1)) {
+        redistribuir(padre->hijos[pos-1], nodo, padre, pos - 1, true);
+    }
+    // 2. Intentar redistribución con hermano DERECHO
+    else if (pos < padre->cuenta && padre->hijos[pos+1]->cuenta > ((ORDEN_BP+1)/2 - 1)) {
+        redistribuir(padre->hijos[pos+1], nodo, padre, pos, false);
+    }
+    // 3. Fusión (Si no se pudo prestar, hay que unir)
+    else {
+        if (pos > 0) fusionar(padre->hijos[pos-1], nodo, padre, pos - 1);
+        else fusionar(nodo, padre->hijos[pos+1], padre, pos);
+    }
+}
+
+void ArbolBM::fusionar(NodoBM* izq, NodoBM* der, NodoBM* padre, int posEnPadre) {
+    if (izq->esHoja) {
+        // Copiar todo de 'der' hacia 'izq'
+        for (int i = 0; i < der->cuenta; i++) {
+            izq->claves[izq->cuenta] = der->claves[i];
+            izq->productos[izq->cuenta] = der->productos[i];
+            izq->cuenta++;
+        }
+        izq->siguiente = der->siguiente;
+    } else {
+        // Para nodos internos, bajar la clave del padre que separaba a los dos hijos
+        izq->claves[izq->cuenta] = padre->claves[posEnPadre];
+        izq->cuenta++;
+        for (int i = 0; i < der->cuenta; i++) {
+            izq->claves[izq->cuenta] = der->claves[i];
+            izq->hijos[izq->cuenta] = der->hijos[i];
+            izq->cuenta++;
+        }
+        izq->hijos[izq->cuenta] = der->hijos[der->cuenta];
+    }
+
+    // Desplazar claves en el padre
+    for (int i = posEnPadre; i < padre->cuenta - 1; i++) {
+        padre->claves[i] = padre->claves[i+1];
+        padre->hijos[i+1] = padre->hijos[i+2];
+    }
+    padre->cuenta--;
+    delete der;
+
+    // Si el padre quedó muy pequeño, rebalancear padre
+    if (padre->cuenta < ((ORDEN_BP+1)/2 - 1)) ajustarNodo(padre);
+}
+
+void ArbolBM::redistribuir(NodoBM* hermano, NodoBM* actual, NodoBM* padre, int posPadre, bool esIzquierdo) {
+    if (actual->esHoja) {
+        if (esIzquierdo) {
+            // Caso: El hermano izquierdo presta su última clave al inicio de 'actual'
+            for (int i = actual->cuenta; i > 0; i--) {
+                actual->claves[i] = actual->claves[i - 1];
+                actual->productos[i] = actual->productos[i - 1];
+            }
+            actual->claves[0] = hermano->claves[hermano->cuenta - 1];
+            actual->productos[0] = hermano->productos[hermano->cuenta - 1];
+            actual->cuenta++;
+            hermano->cuenta--;
+
+            // La clave que sube al padre en el B+ (hojas) es la nueva primera clave del hijo derecho
+            padre->claves[posPadre] = actual->claves[0];
+        } else {
+            // Caso: El hermano derecho presta su PRIMERA clave al final de 'actual'
+            actual->claves[actual->cuenta] = hermano->claves[0];
+            actual->productos[actual->cuenta] = hermano->productos[0];
+            actual->cuenta++;
+
+            for (int i = 0; i < hermano->cuenta - 1; i++) {
+                hermano->claves[i] = hermano->claves[i + 1];
+                hermano->productos[i] = hermano->productos[i + 1];
+            }
+            hermano->cuenta--;
+
+            // Actualizar la clave en el padre con la nueva primera del hermano
+            padre->claves[posPadre] = hermano->claves[0];
+        }
+    } else {
+        // --- REDISTRIBUCIÓN PARA NODOS INTERNOS ---
+        if (esIzquierdo) {
+            // 1. Desplazar lo de 'actual'
+            for (int i = actual->cuenta; i > 0; i--) {
+                actual->claves[i] = actual->claves[i - 1];
+                actual->hijos[i + 1] = actual->hijos[i];
+            }
+            actual->hijos[1] = actual->hijos[0];
+
+            // 2. La clave del padre baja al hijo actual
+            actual->claves[0] = padre->claves[posPadre];
+            actual->hijos[0] = hermano->hijos[hermano->cuenta];
+
+            // 3. La última clave del hermano sube al padre
+            padre->claves[posPadre] = hermano->claves[hermano->cuenta - 1];
+            actual->cuenta++;
+            hermano->cuenta--;
+        } else {
+            // 1. La clave del padre baja al hijo actual
+            actual->claves[actual->cuenta] = padre->claves[posPadre];
+            actual->hijos[actual->cuenta + 1] = hermano->hijos[0];
+
+            // 2. La primera clave del hermano sube al padre
+            padre->claves[posPadre] = hermano->claves[0];
+
+            // 3. Desplazar elementos en el hermano
+            for (int i = 0; i < hermano->cuenta - 1; i++) {
+                hermano->claves[i] = hermano->claves[i + 1];
+                hermano->hijos[i] = hermano->hijos[i + 1];
+            }
+            hermano->hijos[hermano->cuenta - 1] = hermano->hijos[hermano->cuenta];
+
+            actual->cuenta++;
+            hermano->cuenta--;
+        }
+    }
+}
 
 void ArbolBM::eliminar(std::string categoria, Producto* p) {
     if (raiz == nullptr) return;
 
     NodoBM* cursor = raiz;
     NodoBM* padre = nullptr;
-    int indiceEnPadre = -1;
 
     // 1. Localizar la hoja que contiene la categoría
     while (!cursor->esHoja) {
         padre = cursor;
         int i = 0;
         while (i < cursor->cuenta && categoria >= cursor->claves[i]) i++;
-        indiceEnPadre = i;
         cursor = cursor->hijos[i];
     }
 
@@ -281,11 +360,9 @@ void ArbolBM::eliminar(std::string categoria, Producto* p) {
                 }
                 cursor->cuenta--;
 
-                // 4. Verificar si la hoja necesita rebalanceo (Underflow)
-                // Para orden 3, el mínimo es 1 llave. Si queda en 0, se requiere fusión.
-                if (cursor->cuenta == 0 && cursor != raiz) {
-                    // Aquí se implementaría la fusión/redistribución con hermanos
-                    std::cout << "Aviso: Rebalanceo por eliminación requerido." << std::endl;
+                int minClaves = (ORDEN_BP + 1) / 2 - 1;
+                if (cursor->cuenta < minClaves) {
+                    ajustarNodo(cursor);
                 }
             }
             break;
@@ -293,29 +370,29 @@ void ArbolBM::eliminar(std::string categoria, Producto* p) {
     }
 }
 
-void ArbolBM::generarDotBM(std::string nombreArchivo) {
-    std::ofstream archivo(nombreArchivo);
+void ArbolBM::generarDotBM(string nombreArchivo) {
+    ofstream archivo(nombreArchivo);
     if (!archivo.is_open()) return;
 
-    archivo << "digraph G {" << std::endl;
+    archivo << "digraph G {" << endl;
     // Ajustes de visualización jerárquica
-    archivo << "  rankdir=TB;" << std::endl; // Dirección: Arriba hacia Abajo
-    archivo << "  nodesep=0.5;" << std::endl; // Separación entre nodos
-    archivo << "  ranksep=1.0;" << std::endl; // Separación entre niveles
-    archivo << "  node [shape=record, style=filled, fillcolor=lightblue];" << std::endl;
-    archivo << "  label=\"Estructura Árbol B+ - Categorías\";" << std::endl;
+    archivo << "  rankdir=TB;" << endl; // Dirección: Arriba hacia Abajo
+    archivo << "  nodesep=0.5;" << endl; // Separación entre nodos
+    archivo << "  ranksep=1.0;" << endl; // Separación entre niveles
+    archivo << "  node [shape=record, style=filled, fillcolor=lightblue];" << endl;
+    archivo << "  label=\"Estructura Árbol B+ - Categorías\";" << endl;
 
     if (raiz == nullptr) {
-        archivo << "  vacio [label=\"Árbol Vacío\"];" << std::endl;
-        archivo << "}" << std::endl;
+        archivo << "  vacio [label=\"Árbol Vacío\"];" << endl;
+        archivo << "}" << endl;
         return;
     }
 
-    std::queue<NodoBM*> cola;
+    queue<NodoBM*> cola;
     cola.push(raiz);
 
     // Almacenaremos las hojas para forzarlas al mismo nivel al final
-    std::vector<NodoBM*> hojas;
+    vector<NodoBM*> hojas;
 
     while (!cola.empty()) {
         NodoBM* actual = cola.front();
@@ -326,13 +403,13 @@ void ArbolBM::generarDotBM(std::string nombreArchivo) {
         for (int i = 0; i < actual->cuenta; i++) {
             archivo << "<f" << i << "> | " << actual->claves[i] << " | ";
         }
-        archivo << "<f" << actual->cuenta << ">\"];" << std::endl;
+        archivo << "<f" << actual->cuenta << ">\"];" << endl;
 
         if (!actual->esHoja) {
             // 2. Conexiones a hijos
             for (int i = 0; i <= actual->cuenta; i++) {
                 if (actual->hijos[i] != nullptr) {
-                    archivo << "  \"node" << actual << "\":f" << i << " -> \"node" << actual->hijos[i] << "\";" << std::endl;
+                    archivo << "  \"node" << actual << "\":f" << i << " -> \"node" << actual->hijos[i] << "\";" << endl;
                     cola.push(actual->hijos[i]);
                 }
             }
@@ -340,7 +417,7 @@ void ArbolBM::generarDotBM(std::string nombreArchivo) {
             hojas.push_back(actual);
             // 3. Enlace horizontal (next) - Se mantiene con constraint=false
             if (actual->siguiente != nullptr) {
-                archivo << "  \"node" << actual << "\" -> \"node" << actual->siguiente << "\" [style=dashed, color=red, constraint=false, label=\"next\"];" << std::endl;
+                archivo << "  \"node" << actual << "\" -> \"node" << actual->siguiente << "\" [style=dashed, color=red, constraint=false, label=\"next\"];" << endl;
             }
         }
     }
@@ -351,14 +428,14 @@ void ArbolBM::generarDotBM(std::string nombreArchivo) {
         for (NodoBM* h : hojas) {
             archivo << "\"node" << h << "\"; ";
         }
-        archivo << "}" << std::endl;
+        archivo << "}" << endl;
     }
 
-    archivo << "}" << std::endl;
+    archivo << "}" << endl;
     archivo.close();
 }
 
-void ArbolBM::mostrarProductosPorCategoria(std::string categoria) {
+void ArbolBM::mostrarProductosPorCategoria(string categoria) {
     if (raiz == nullptr) {
         std::cout << "El arbol esta vacio." << std::endl;
         return;
@@ -377,14 +454,14 @@ void ArbolBM::mostrarProductosPorCategoria(std::string categoria) {
     for (int i = 0; i < cursor->cuenta; i++) {
         if (cursor->claves[i] == categoria) {
             encontrada = true;
-            std::cout << "\n--- CATEGORIA: " << categoria << " ---" << std::endl;
+            cout << "\n--- CATEGORIA: " << categoria << " ---" << endl;
 
             // 3. Recorrer la lista enlazada interna de productos
             NodoBM::ListaProductos* actual = cursor->productos[i];
             int contador = 1;
             while (actual != nullptr) {
-                std::cout << contador << ". " << actual->dato->name
-                        << " [Precio: Q" << actual->dato->price << "]" << std::endl;
+                cout << contador << ". " << actual->dato->name
+                        << " [Precio: Q" << actual->dato->price << "]" << endl;
                 actual = actual->siguiente;
                 contador++;
             }
@@ -393,6 +470,28 @@ void ArbolBM::mostrarProductosPorCategoria(std::string categoria) {
     }
 
     if (!encontrada) {
-        std::cout << "La categoria '" << categoria << "' no tiene productos registrados." << std::endl;
+        cout << "La categoria '" << categoria << "' no tiene productos registrados." << endl;
     }
+}
+
+vector<Producto*> ArbolBM::buscarCoincidenciasCategoria(string subcadena) {
+    vector<Producto*> resultados;
+    NodoBM* cursor = raiz;
+    if (!cursor) return resultados;
+
+    while (!cursor->esHoja) cursor = cursor->hijos[0];
+
+    while (cursor != nullptr) {
+        for (int i = 0; i < cursor->cuenta; i++) {
+            if (cursor->claves[i].rfind(subcadena, 0) == 0) {
+                NodoBM::ListaProductos* actual = cursor->productos[i];
+                while (actual) {
+                    resultados.push_back(actual->dato);
+                    actual = actual->siguiente;
+                }
+            }
+        }
+        cursor = cursor->siguiente;
+    }
+    return resultados;
 }

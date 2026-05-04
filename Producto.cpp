@@ -6,8 +6,8 @@ Producto::Producto()
 {
 }
 
-Producto::Producto(std::string name, std::string barcode, std::string category,
-                   std::string expiry_date, std::string brand, double price, int stock) {
+Producto::Producto(string name, string barcode, string category,
+                   string expiry_date, string brand, double price, int stock) {
     this->name = name;
     this->barcode = barcode;
     this->category = category;

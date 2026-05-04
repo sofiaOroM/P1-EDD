@@ -1,9 +1,8 @@
 #include "ArbolAVL.h"
 
 #include "../Producto.h"
-#include "../ListasEnlazada/Nodo.h"
 #include <fstream>
-
+#include <algorithm>
 
 ArbolAVL::ArbolAVL() : inicio(nullptr)
 {
@@ -77,7 +76,7 @@ NodoAVL* ArbolAVL::insertarRecursivo(NodoAVL* nodo, Producto* producto)
     {
         nodo->izquierdo = insertarRecursivo(nodo->izquierdo, producto);
     }
-    // Si es mayor O IGUAL, va a la derecha (Permitiendo duplicados)
+    // Si es mayor o igual, va a la derecha (Permitiendo duplicados)
     else
     {
         nodo->derecho = insertarRecursivo(nodo->derecho, producto);
@@ -99,7 +98,7 @@ NodoAVL* ArbolAVL::insertarRecursivo(NodoAVL* nodo, Producto* producto)
     return nodo;
 }
 
-Producto* ArbolAVL::buscarPorNombre(std::string nombre)
+Producto* ArbolAVL::buscarPorNombre(string nombre)
 {
     NodoAVL* actual = this->inicio;
     while (actual != nullptr)
@@ -118,30 +117,6 @@ Producto* ArbolAVL::buscarPorNombre(std::string nombre)
         }
     }
     return nullptr;
-}
-
-void ArbolAVL::mostrarCatalogoAlfabetico()
-{
-    if (this->inicio == nullptr)
-    {
-        std::cout << "El catalogo esta vacio." << std::endl;
-    }
-    else
-    {
-        std::cout << "\n--- CATALOGO ALFABETICO ---" << std::endl;
-        ListarInorden(this->inicio);
-        std::cout << "---------------------------" << std::endl;
-    }
-}
-
-void ArbolAVL::ListarInorden(NodoAVL* nodo)
-{
-    if (nodo != nullptr)
-    {
-        ListarInorden(nodo->izquierdo);
-        cout << "-> " << nodo->producto->name << " [ID: " << nodo->producto->barcode << "]" << std::endl;
-        ListarInorden(nodo->derecho);
-    }
 }
 
 NodoAVL* ArbolAVL::rotarII(NodoAVL* nodo)
@@ -225,7 +200,7 @@ void ArbolAVL::escribirDot(NodoAVL* nodo, std::ofstream& archivo)
 {
     if (nodo == nullptr) return;
 
-    // Usamos la dirección de memoria como ID único para evitar confusiones con nombres iguales
+    // Dirección de memoria como ID único para evitar confusiones con nombres iguales
     archivo << "    \"node" << nodo << "\" [label=\"{Nombre: " << nodo->producto->name
         << " | FE: " << obtenerFE(nodo) << "}\"];" << std::endl;
 
@@ -308,4 +283,48 @@ NodoAVL* ArbolAVL::eliminarRecursivo(NodoAVL* nodo, Producto* p)
     if (fe < -1 && obtenerFE(nodo->derecho) > 0) return rotarDI(nodo);
 
     return nodo;
+}
+
+ListaNoOrdenada ArbolAVL::buscarCoincidencias(string subcadena) {
+    ListaNoOrdenada resultados;
+    if (subcadena.empty()) return resultados;
+
+    string busqueda = subcadena;
+    transform(busqueda.begin(), busqueda.end(), busqueda.begin(), ::tolower);
+
+    buscarCoincidenciasRec(this->inicio, busqueda, resultados);
+    return resultados;
+}
+
+void ArbolAVL::buscarCoincidenciasRec(NodoAVL* nodo, string subcadena, ListaNoOrdenada& resultados) {
+    if (nodo == nullptr) return;
+
+    string nombreProd = nodo->producto->name;
+    transform(nombreProd.begin(), nombreProd.end(), nombreProd.begin(), ::tolower);
+
+    if (nodo->izquierdo != nullptr) {
+        buscarCoincidenciasRec(nodo->izquierdo, subcadena, resultados);
+    }
+
+    if (nombreProd.rfind(subcadena, 0) == 0) {
+        resultados.insertar(nodo->producto);
+    }
+
+    if (nodo->derecho != nullptr) {
+        buscarCoincidenciasRec(nodo->derecho, subcadena, resultados);
+    }
+}
+
+vector<Producto*> ArbolAVL::obtenerTodoOrdenado() {
+    vector<Producto*> lista;
+    recorridoInorden(inicio, lista);
+    return lista;
+}
+
+void ArbolAVL::recorridoInorden(NodoAVL* nodo, vector<Producto*>& lista) {
+    if (nodo != nullptr) {
+        recorridoInorden(nodo->izquierdo, lista);
+        lista.push_back(nodo->producto);
+        recorridoInorden(nodo->derecho, lista);
+    }
 }

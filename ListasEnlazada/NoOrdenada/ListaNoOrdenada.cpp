@@ -1,5 +1,5 @@
 #include "ListaNoOrdenada.h"
-#include "../../Producto.h" // Asumiendo que tu struct se llama así
+#include "../../Producto.h"
 
 ListaNoOrdenada::ListaNoOrdenada() : inicio(nullptr) {}
 
@@ -9,6 +9,11 @@ ListaNoOrdenada::~ListaNoOrdenada() {
 
 bool ListaNoOrdenada::estaVacia() const {
     return inicio == nullptr;
+}
+
+Nodo* ListaNoOrdenada::obtenerPrimero() const
+{
+    return inicio;
 }
 
 // Inserción al frente: O(1)
@@ -21,7 +26,7 @@ bool ListaNoOrdenada::insertar(Producto* producto) {
     return true;
 }
 
-// Búsqueda secuencial: O(n) [cite: 72]
+// Búsqueda secuencial: O(n)
 Producto* ListaNoOrdenada::buscarPorNombre(std::string nombre) {
     Nodo* actual = inicio;
     while (actual != nullptr) {

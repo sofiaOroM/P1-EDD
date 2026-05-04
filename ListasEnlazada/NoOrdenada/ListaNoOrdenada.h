@@ -14,10 +14,12 @@ public:
     ~ListaNoOrdenada();
 
     bool insertar(Producto* producto);
-    Producto* buscarPorNombre(string nombre); // Para comparación de tiempos
+    Producto* buscarPorNombre(string nombre);
     bool eliminar(string barcode);
     void vaciar();
     bool estaVacia() const;
+    Nodo* obtenerPrimero() const;
+
 };
 
 

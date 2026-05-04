@@ -1,6 +1,5 @@
 #include "ArbolB.h"
 #include <fstream>
-#include <sstream>
 #include <iostream>
 
 ArbolB::ArbolB() {
@@ -22,7 +21,6 @@ void ArbolB::vaciar(NodoB* nodo) {
         delete nodo;
     }
 }
-// Cambia void por bool
 bool ArbolB::insertar(Producto* producto) {
     if (producto == nullptr) return false;
 
@@ -86,7 +84,6 @@ void ArbolB::insertarNoLleno(NodoB* nodo, Producto* producto) {
     int i = nodo->cuenta - 1;
 
     if (nodo->hoja) {
-        // Insertar en la posición correcta manteniendo el orden
         while (i >= 0 && producto->expiry_date < nodo->claves[i]->expiry_date) {
             nodo->claves[i + 1] = nodo->claves[i];
             i--;
@@ -109,13 +106,13 @@ void ArbolB::insertarNoLleno(NodoB* nodo, Producto* producto) {
 }
 
 // BUSQUEDA POR FECHA
-vector<Producto*> ArbolB::buscarPorRangoFechas(std::string inicio, std::string fin) {
+vector<Producto*> ArbolB::buscarPorRangoFechas(string inicio, string fin) {
     vector<Producto*> resultados;
     buscarRangoRecursivo(raiz, inicio, fin, resultados);
     return resultados;
 }
 
-void ArbolB::buscarRangoRecursivo(NodoB* nodo, std::string inicio, std::string fin, std::vector<Producto*>& res) {
+void ArbolB::buscarRangoRecursivo(NodoB* nodo, string inicio, string fin, vector<Producto*>& res) {
     if (nodo == nullptr) return;
 
     int i = 0;
@@ -138,42 +135,39 @@ void ArbolB::buscarRangoRecursivo(NodoB* nodo, std::string inicio, std::string f
     buscarRangoRecursivo(nodo->hijos[i], inicio, fin, res);
 }
 
-void ArbolB::generarDotB(std::string nombreArchivo) {
-    std::ofstream archivo(nombreArchivo);
+void ArbolB::generarDotB(string nombreArchivo) {
+    ofstream archivo(nombreArchivo);
     if (!archivo.is_open()) return;
 
-    archivo << "digraph G {" << std::endl;
-    // Configuración para que el árbol se vea mejor
-    archivo << "  node [shape=record, height=.1, style=filled, fillcolor=lemonchiffon];" << std::endl;
-    archivo << "  label=\"Estructura Arbol B (Orden 5) - Filtro por Fecha\";" << std::endl;
+    archivo << "digraph G {" << endl;
+    archivo << "  node [shape=record, height=.1, style=filled, fillcolor=lemonchiffon];" << endl;
+    archivo << "  label=\"Estructura Arbol B (Orden 5) - Filtro por Fecha\";" << endl;
 
     if (raiz != nullptr) {
         int contador = 0;
         escribirDotB(raiz, archivo, contador);
     }
 
-    archivo << "}" << std::endl;
+    archivo << "}" << endl;
     archivo.close();
-    std::cout << "Reporte Arbol B generado: " << nombreArchivo << std::endl;
+    cout << "Reporte Arbol B generado: " << nombreArchivo << endl;
 }
 
-void ArbolB::escribirDotB(NodoB* nodo, std::ofstream& archivo, int& contador) {
-    // Usamos la dirección de memoria como ID para que Graphviz no se confunda
-    // pero en el 'label' mostramos las fechas.
+void ArbolB::escribirDotB(NodoB* nodo, ofstream& archivo, int& contador) {
+    // Dirección de memoria como ID para que Graphviz no se confunda
     archivo << "  \"node" << nodo << "\" [label=\"";
 
     for (int i = 0; i < nodo->cuenta; i++) {
         // Mostramos la fecha del producto en cada celda del nodo
         archivo << "<f" << i << "> | " << nodo->claves[i]->expiry_date << " | ";
     }
-    archivo << "<f" << nodo->cuenta << ">\"];" << std::endl;
+    archivo << "<f" << nodo->cuenta << ">\"];" << endl;
 
     if (!nodo->hoja) {
         for (int i = 0; i <= nodo->cuenta; i++) {
             if (nodo->hijos[i] != nullptr) {
                 // Conectamos el puerto <fi> del padre al nodo hijo
-                archivo << "  \"node" << nodo << "\":f" << i << " -> \"node" << nodo->hijos[i] << "\";" << std::endl;
-                // Llamada recursiva
+                archivo << "  \"node" << nodo << "\":f" << i << " -> \"node" << nodo->hijos[i] << "\";" << endl;
                 escribirDotB(nodo->hijos[i], archivo, contador);
             }
         }
@@ -201,10 +195,9 @@ void ArbolB::eliminarRecursivo(NodoB* nodo, Producto* p) {
         idx++;
     }
 
-    // Si encontramos la fecha...
+    // Si se encuentra la fecha
     if (idx < nodo->cuenta && nodo->claves[idx]->expiry_date == p->expiry_date) {
 
-        // VALIDACIÓN DE IDENTIDAD:
         // Si el producto en esta clave no es el que queremos (porque hay fechas repetidas)
         // y el nodo no es hoja, se sigue buscando en los hijos.
         if (nodo->claves[idx] != p) {

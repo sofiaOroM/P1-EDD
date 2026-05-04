@@ -3,6 +3,9 @@
 
 #include "../ListasEnlazada/Nodo.h"
 #include <string>
+#include <vector>
+#include <fstream>
+using namespace std;
 
 class TablaHash
 {
@@ -13,18 +16,21 @@ private:
     int cantidadElementos;
 
     // Función Hash: Transforma el string del barcode en un índice
-    int funcionHash(std::string llave);
+    int funcionHash(string llave);
 
 public:
     TablaHash(int tamaño = TAMANIO_INICIAL);
     ~TablaHash();
 
     bool insertar(Producto* producto);
-    Producto* buscar(std::string barcode);
-    bool eliminar(std::string barcode);
+    Producto* buscar(string barcode);
+    vector<Producto*> buscarCoincidenciasBarcode(string subcadena);
+    bool eliminar(string barcode);
 
     void vaciar();
     double obtenerFactorCarga();
+    int contarColisiones();
+    void generarDot(std::string ruta);
 };
 
 
